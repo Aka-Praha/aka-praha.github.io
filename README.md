@@ -1,6 +1,6 @@
 # AKA Praha
 
-Webové stránky Akademie klinické anatomie Praha
+Webové stránky Akademického klubu alpinistů Praha
 
 ## Lokální vývoj
 

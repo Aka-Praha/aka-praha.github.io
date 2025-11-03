@@ -1,6 +1,6 @@
 # Site settings
 title: AKA Praha
-description: Akademie klinické anatomie Praha
+description: Akademický klub alpinistů Praha
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://aka-praha.github.io" # the base hostname & protocol for your site
 

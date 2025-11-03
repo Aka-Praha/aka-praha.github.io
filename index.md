@@ -5,8 +5,8 @@ title: Domů
 
 # Vítejte na stránkách AKA Praha
 
-Akademie klinické anatomie Praha
+Akademický klub alpinistů Praha
 
 ## O nás
 
-Zde bude informace o Akademii klinické anatomie Praha.
+Zde bude informace o Akademickém klubu alpinistů Praha.
