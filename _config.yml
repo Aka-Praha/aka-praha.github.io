@@ -9,7 +9,7 @@ markdown: kramdown
 
 # Collections
 collections:
-  akce:
+  events:
     output: true
     permalink: /akce/:name/
 
@@ -17,7 +17,7 @@ collections:
 defaults:
   - scope:
       path: ""
-      type: "akce"
+      type: "events"
     values:
       layout: "page"
 
