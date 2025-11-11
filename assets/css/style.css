@@ -449,3 +449,72 @@ section h2 {
     );
     margin: 3rem 0;
 }
+
+/* ===== Akce (Events) ===== */
+.akce-intro {
+    font-size: 1.1rem;
+    color: var(--text-light);
+    margin-bottom: 2.5rem;
+}
+
+.akce-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.akce-card {
+    background: var(--snow-white);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: var(--border-radius-lg);
+    overflow: hidden;
+    transition: var(--transition);
+    box-shadow: var(--shadow);
+    cursor: pointer;
+}
+
+.akce-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+.akce-image {
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: center;
+    background-color: var(--light-color);
+}
+
+.akce-content {
+    padding: 1.5rem;
+}
+
+.akce-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: 0.75rem;
+}
+
+.akce-date {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--text-light);
+    font-size: 0.95rem;
+    margin: 0;
+}
+
+.akce-icon {
+    flex-shrink: 0;
+    opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+    .akce-grid {
+        grid-template-columns: 1fr;
+    }
+}
