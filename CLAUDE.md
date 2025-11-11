@@ -1,111 +1,89 @@
-# CLAUDE.md - AKA Praha GitHub Pages
+# CLAUDE.md - Context Memory
 
-Dokumentace pro budoucí kontext. Tento projekt je GitHub Pages web pro Akademický klub alpinistů Praha.
+Memory pro budoucí Claude sessions. Tohle je reálný projekt pro Akademický klub alpinistů Praha.
 
-## O projektu
+## Základní info
 
 - **URL:** https://aka-praha.github.io/
-- **Technologie:** Jekyll 3.9 (statický generátor)
-- **Design:** Černobílý moderní konzervativní design podle loga AKA
-- **Deployment:** Automatický přes GitHub Actions při push do větve `master`
-- **Původní web:** Drupal na http://localhost:8081/ (300+ článků, 150+ akcí k migraci)
+- **Repo:** https://github.com/Aka-Praha/aka-praha.github.io
+- **Tech:** Jekyll 3.9, GitHub Pages, automatický deploy z `master` větve
+- **Uživatel:** Ondra (ondra-pazi na GitHubu)
+- **Původní web:** Drupal na http://localhost:8081/ (300+ článků, 150+ akcí čeká na migraci)
 
-## Aktuální stav projektu
+## Aktuální stav (November 2025)
 
-✅ **Hotovo:**
-- Základní struktura a design
-- Hero sekce s fotkou Alp na pozadí
+**✅ Hotovo:**
+- Základní struktura webu + design
+- Černobílý konzervativní design podle loga AKA (hexagon s horami)
+- Hero sekce s fotkou Alp na pozadí (assets/images/bg.webp)
 - Responzivní layout
 - Jekyll Collections pro akce (_events/)
-- Detail stránky akcí s prokliky
-- Logo AKA v navigaci
+- Event listing page (/akce/) s gridem karet
+- Event detail pages (/akce/nazev-akce/) s prokliky
+- Logo v navigaci
+- 6 demo akcí jako příklady
 
-🚧 **TODO:**
+**🚧 Ještě není:**
 - Migrace 300+ článků z Drupalu
 - Migrace 150+ akcí z Drupalu
 - Fotogalerie
-- Filtry pro akce (podle roku/člena)
-- Stránky: O nás, Kontakt
+- Filtry pro akce (rok/člen)
+- Stránky: O nás, Kontakt (jen dummy v menu)
+
+## Důležité konvence (MUSÍŠ DODRŽET)
+
+1. **Kód anglicky, URL česky**
+   - Složky: `_events/` ne `_akce/`
+   - CSS třídy: `.event-card` ne `.akce-card`
+   - Ale URL: `/akce/` pomocí `permalink: /akce/`
+
+2. **Větev: master** (ne main - organizace je old school)
+
+3. **Commity česky** (Ondra je Čech)
+
+4. **No emoji v commitech** (Ondra nechce 🚫)
+
+5. **Konzervativní design**
+   - Ne příliš brutalist/moderní
+   - Zaoblené rohy, jemné stíny
+   - Font-weight: 700 (ne 900)
+   - Letter-spacing: 0.5px (ne 2px)
+
+6. **Žádný lokální development**
+   - Vše přes git push
+   - GitHub Actions buildne a nasadí
+   - Čeká se 2-3 minuty na deploy
 
 ## Struktura projektu
 
 ```
-aka-praha/
-├── _config.yml              # Jekyll konfigurace + collections
-├── _layouts/                # HTML šablony
-│   ├── default.html         # Základní layout
-│   ├── home.html            # Homepage s hero
-│   ├── page.html            # Běžné stránky
-│   └── event.html           # Detail akce
-├── _includes/               # Komponenty
-│   ├── header.html          # Navigace + logo
-│   └── footer.html          # Patička
-├── _events/                 # ⭐ Akce jako .md soubory
-│   ├── vysocina-2025.md
-│   ├── adrspach-2025.md
-│   └── ...
-├── assets/
-│   ├── css/style.css        # Veškerý CSS
-│   ├── js/main.js           # JavaScript
-│   └── images/
-│       └── bg.webp          # Hero pozadí (Alpy)
-├── logo.png                 # AKA logo (hexagon)
-├── index.md                 # Homepage
-├── events.md                # Seznam akcí (permalink: /akce/)
-├── Gemfile                  # Ruby závislosti
-└── .github/workflows/
-    └── jekyll.yml           # CI/CD
+_config.yml              # Jekyll config + collections definice
+_layouts/
+  ├── default.html       # Base layout
+  ├── home.html          # Homepage s hero
+  ├── page.html          # Běžné stránky
+  └── event.html         # Detail akce
+_includes/
+  ├── header.html        # Nav + logo
+  └── footer.html        # Footer
+_events/                 # ⭐ Collection - akce jako .md soubory
+  ├── vysocina-2025.md
+  ├── adrspach-2025.md
+  └── ... (6 demo akcí)
+assets/
+  ├── css/style.css      # Veškerý CSS (450+ řádků)
+  ├── js/main.js         # JS pro nav toggle, smooth scroll
+  └── images/
+      └── bg.webp        # Hero background (Alpy)
+logo.png                 # AKA hexagon logo
+index.md                 # Homepage
+events.md                # Event listing (permalink: /akce/)
+Gemfile                  # Jekyll 3.9, kramdown-parser-gfm
 ```
 
-## Jekyll Collections - Akce
+## Jekyll Collections - jak to funguje
 
-Akce jsou organizované jako Jekyll collection v `_events/`.
-
-### Struktura akce (.md soubor):
-
-```yaml
----
-title: Název akce
-date_start: 2025-01-10
-date_end: 2025-01-12
-image: https://url-k-obrazku.jpg
----
-
-Popis akce v Markdown...
-```
-
-### URLs:
-
-- Seznam akcí: `/akce/` (soubor: `events.md`)
-- Detail akce: `/akce/vysocina-2025/` (automaticky z `_events/vysocina-2025.md`)
-
-### Jak přidat novou akci:
-
-```bash
-# 1. Vytvoř nový soubor
-cat > _events/nova-akce.md << 'EOF'
----
-title: Nová horolezecká akce
-date_start: 2025-12-01
-date_end: 2025-12-03
-image: https://images.unsplash.com/photo-xxx
----
-
-Popis akce, program, co si vzít s sebou...
-EOF
-
-# 2. Commit a push
-git add _events/nova-akce.md
-git commit -m "Přidána akce: Nová horolezecká akce"
-git push origin master
-
-# 3. GitHub Actions automaticky buildne a nasadí
-# Za 2-3 minuty je akce živá na webu
-```
-
-### Jak akce fungují:
-
-1. **`_config.yml`** definuje collection:
+**_config.yml:**
 ```yaml
 collections:
   events:
@@ -113,243 +91,112 @@ collections:
     permalink: /akce/:name/
 ```
 
-2. **`events.md`** loopuje přes všechny akce:
-```liquid
-{% for event in site.events %}
-  <a href="{{ event.url }}">
-    {{ event.title }}
-    {{ event.date_start | date: "%d.%m.%Y" }}
-  </a>
-{% endfor %}
+**Event file (_events/akce.md):**
+```yaml
+---
+title: Název akce
+date_start: 2025-01-10
+date_end: 2025-01-12
+image: https://url-obrazku.jpg
+---
+Popis v markdown...
 ```
 
-3. **`_layouts/event.html`** renderuje detail akce
+**Výsledek:**
+- Jekyll vytvoří stránku: `/akce/akce/`
+- `events.md` loopuje přes `site.events`
+- Každá karta má odkaz na detail pomocí `event.url`
+- Layout `event.html` renderuje detail
 
 ## Design systém
 
-### Barvy
+**Barvy:**
+- Primary: #1a1a1a (černá)
+- Secondary: #333333
+- Accent: #ffffff
+- Light: #f5f5f5
 
-```css
---primary-color: #1a1a1a      /* Černá */
---secondary-color: #333333    /* Tmavě šedá */
---accent-color: #ffffff       /* Bílá */
---dark-color: #000000         /* Úplně černá */
---light-color: #f5f5f5        /* Světle šedá */
-```
+**Fonts:**
+- Headings: Montserrat, weight 700
+- Body: Roboto
+- Letter-spacing: 0.5px
 
-### Typography
+**Styl:**
+- Konzervativní, ne příliš moderní
+- Zaoblené rohy (border-radius: 8px, 12px)
+- Jemné stíny
+- Smooth transitions
 
-- **Nadpisy:** Montserrat, font-weight: 700
-- **Text:** Roboto
-- **Styl:** Konzervativní, zaoblené rohy, jemné stíny
-- **Letter-spacing:** 0.5px (ne moc)
+**Komponenty:**
+- `.btn.btn-primary` - button
+- `.event-card` - event karta
+- `.event-grid` - grid pro events (3 sloupce)
+- `.card` / `.cards` - obecné karty
 
-### Komponenty
-
-**Button:**
-```html
-<a href="#" class="btn btn-primary">Text</a>
-```
-
-**Event Card:**
-```html
-<div class="event-card">
-  <div class="event-image" style="background-image: url(...)"></div>
-  <div class="event-content">
-    <h3 class="event-title">Název</h3>
-    <p class="event-date">Datum</p>
-  </div>
-</div>
-```
-
-**Cards (obecné):**
-```html
-<div class="cards">
-  <div class="card">
-    <h3>Nadpis</h3>
-    <p>Text</p>
-  </div>
-</div>
-```
-
-## Git Workflow
+## Git workflow reminder
 
 ```bash
-# 1. Změny v souborech
-vim events.md
-# nebo vytvoř novou akci v _events/
-
-# 2. Commit
 git add .
-git commit -m "Popis změny"
-
-# 3. Push (spustí GitHub Actions)
+git commit -m "České zprávy bez emoji"
 git push origin master
-
-# 4. Zkontroluj build:
-# https://github.com/Aka-Praha/aka-praha.github.io/actions
-
-# 5. Za 2-3 min je změna živá na:
-# https://aka-praha.github.io/
+# Pak čekat 2-3 min na GitHub Actions
+# Kontrola: https://github.com/Aka-Praha/aka-praha.github.io/actions
 ```
 
-## Časté úkoly
+## Časté problémy
 
-### Přidat novou stránku
+**Build fails:**
+- Kontroluj GitHub Actions log
+- Častá chyba: chybějící gem, syntax error v YAML
+- Jekyll 3.9 potřebuje kramdown-parser-gfm
 
-```bash
-cat > nova-stranka.md << 'EOF'
----
-layout: page
-title: Nová stránka
----
+**Stránky se neaktualizují:**
+- Zkontroluj že build prošel (zelený ✓)
+- Počkej 2-3 minuty
+- Hard refresh (Ctrl+Shift+R)
 
-# Obsah
-EOF
+**Event se nezobrazuje:**
+- Musí být v `_events/`
+- YAML front matter musí být validní
+- Soubor musí být commitnutý a pushnutý
 
-# Přidej do navigace v _includes/header.html:
-<li><a href="/nova-stranka/" class="nav-link">Nová stránka</a></li
+## Co si pamatovat o Ondrovi
 
-git add nova-stranka.md _includes/header.html
-git commit -m "Přidána stránka: Nová stránka"
-git push origin master
-```
+- Akademický klub alpinistů (horolezci, ne anatomové!)
+- Chce konzervativní design
+- Není fan emoji
+- Používá master větev
+- Má přístup jako ondra-pazi na GitHubu
+- SSH klíč sdílený mezi více účty
+- Pracujeme přes git push, ne lokálně
 
-### Změnit logo
+## Budoucí práce (až Ondra řekne)
 
-```bash
-cp /cesta/k/novemu-logu.png logo.png
-git add logo.png
-git commit -m "Aktualizace loga"
-git push origin master
-```
+- Migrace dat z Drupalu (300+ článků, 150+ akcí)
+- Vytvořit collection pro články (_posts/ nebo _articles/)
+- Fotogalerie (možná external service?)
+- Filtry JS pro akce (rok, člen)
+- Stránky: O nás, Kontakt
+- Možná blog/novinky
 
-### Upravit CSS/design
+## Reference (když budeš potřebovat)
 
-Všechny styly jsou v `assets/css/style.css`:
-
-```bash
-vim assets/css/style.css
-
-# Změň barvy v CSS proměnných (řádky 1-23)
-# Nebo uprav konkrétní komponenty
-
-git add assets/css/style.css
-git commit -m "Úprava designu"
-git push origin master
-```
-
-### Změnit hero pozadí
-
-```bash
-# Nahraď obrázek
-cp /cesta/k/novy-background.webp assets/images/bg.webp
-
-git add assets/images/bg.webp
-git commit -m "Nové hero pozadí"
-git push origin master
-```
-
-## Troubleshooting
-
-### Build fails na GitHubu
-
-1. Jdi na: https://github.com/Aka-Praha/aka-praha.github.io/actions
-2. Klikni na failed build
-3. Přečti error log
-4. Časté problémy:
-   - Chybějící gem → přidej do `Gemfile`
-   - Syntax error v YAML front matter
-   - Chybný Liquid tag
-   - Chybějící layout
-
-### Stránky se neaktualizují
-
-1. Zkontroluj, že build prošel (zelený ✓)
-2. Počkej 2-3 minuty
-3. Hard refresh (Ctrl+Shift+R)
-4. Zkontroluj URL (je správně?)
-
-### Akce se nezobrazuje
-
-1. Zkontroluj YAML front matter:
-   ```yaml
-   ---
-   title: Musí být
-   date_start: 2025-01-01
-   date_end: 2025-01-03
-   image: https://...
-   ---
-   ```
-2. Soubor musí být v `_events/`
-3. Zkontroluj Jekyll build log
-
-## Důležité příkazy
-
-```bash
-# Git status
-git status
-
-# Přidání všech změn
-git add .
-# nebo konkrétní soubor:
-git add _events/nova-akce.md
-
-# Commit
-git commit -m "Zpráva"
-
-# Push
-git push origin master
-
-# Pull (stáhni změny z GitHubu)
-git pull origin master
-
-# Zobrazení historie
-git log --oneline
-
-# Kontrola diff před commitem
-git diff
-```
-
-## Reference
-
-- Jekyll docs: https://jekyllrb.com/docs/
-- Liquid template: https://shopify.github.io/liquid/
-- Markdown guide: https://www.markdownguide.org/
-- GitHub Pages: https://docs.github.com/en/pages
 - Jekyll Collections: https://jekyllrb.com/docs/collections/
+- Liquid syntax: https://shopify.github.io/liquid/
+- Jekyll na GitHub Pages: https://docs.github.com/en/pages
 
-## Budoucí migrace z Drupalu
+## Klíčové věci pro debugging
 
-Drupal běží na `http://localhost:8081/`
+**Když něco nefunguje, zkontroluj:**
+1. Je to v masteru? (ne main)
+2. YAML front matter validní?
+3. Collection správně v _config.yml?
+4. CSS třídy anglicky?
+5. Permalink nastavený správně pro české URL?
+6. Build prošel na GitHubu?
+7. Čekal jsi 2-3 minuty?
 
-**Co migrovat:**
-- 300+ článků
-- 150+ akcí (už máme strukturu)
-- Fotogalerie/obrázky
-- Uživatelské účty? (nejspíš ne)
+---
 
-**Postup:**
-1. Export dat z Drupalu (Views export nebo SQL)
-2. Konverze do Jekyll formátu (Python/Ruby script)
-3. Vytvoření collections pro články
-4. Upload fotek na CDN nebo do assets/
-5. Nastavení redirectů ze starých URL
-
-## Klíčové konvence
-
-- **Kód v angličtině** (proměnné, CSS třídy, soubory)
-- **URL česky** (`/akce/`, ne `/events/`) - použij `permalink:`
-- **Commity česky** (pro lepší komunikaci s Ondrou)
-- **Větev:** `master` (ne main)
-- **No emoji** v commitech (Ondra to nechce)
-- **Konzervativní design** (ne příliš moderní/brutalist)
-
-## Poznámky pro Claude
-
-- Tohle je reálný projekt, ne demo
-- Ondra chce konzervativní design, ne moc experimentální
-- URL musí být česky i když kód je anglicky
-- Používáme `master` větev (organizace je old school)
-- Nedělej lokální development, vše přes git push
-- Vždy aktualizuj tento CLAUDE.md když se něco podstatného změní
+**Poslední update:** 11.11.2025
+**Status:** Fungující základní web s event collections, čeká se na další instrukce od Ondry.
