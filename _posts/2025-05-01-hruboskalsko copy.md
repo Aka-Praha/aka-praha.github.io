@@ -1,5 +1,5 @@
 ---
-category: events
+categories: [events]
 permalink: /akce/:title/
 title: Hruboskalsko
 date: 2025-05-01

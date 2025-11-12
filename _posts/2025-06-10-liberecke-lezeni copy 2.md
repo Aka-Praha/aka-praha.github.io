@@ -1,5 +1,5 @@
 ---
-category: events
+categories: [events]
 permalink: /akce/:title/
 title: Liberecké lezení
 date: 2025-06-10

@@ -1,5 +1,5 @@
 ---
-category: events
+categories: [events]
 title: Liberecké lezení
 date: 2025-06-10
 date_end: 2025-06-12

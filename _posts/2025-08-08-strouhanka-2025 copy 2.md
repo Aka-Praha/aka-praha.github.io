@@ -1,5 +1,5 @@
 ---
-category: events
+categories: [events]
 title: Strouhanka ve Skalaku 2025
 date: 2025-08-08
 date_end: 2025-08-10

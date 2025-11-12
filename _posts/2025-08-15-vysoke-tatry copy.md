@@ -1,5 +1,5 @@
 ---
-category: events
+categories: [events]
 title: Vysoké Tatry
 date: 2025-08-15
 date_end: 2025-08-22
