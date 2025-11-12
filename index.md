@@ -11,17 +11,17 @@ Akademický klub alpinistů Praha (AKA Praha) je společenství nadšenců pro h
 
 <div class="cards">
   <div class="card">
-    <h3>🧗 Lezení</h3>
+    <h3>Lezení</h3>
     <p>Pravidelné lezecké akce, tréninky a výlety na skály i do horolezeckých oblastí.</p>
   </div>
 
   <div class="card">
-    <h3>⛰️ Hory</h3>
+    <h3>Hory</h3>
     <p>Expedice do vysokých pohoří, skialpinismus a zimní horolezectví.</p>
   </div>
 
   <div class="card">
-    <h3>🎒 Komunita</h3>
+    <h3>Komunita</h3>
     <p>Přátelská atmosféra, sdílení zkušeností a společné zážitky v horách.</p>
   </div>
 </div>
