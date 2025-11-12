@@ -2,24 +2,24 @@
 layout: default
 ---
 
-<div class="event-detail-header">
-    <h1>{{ page.title }}</h1>
-    <p class="event-detail-date">
-        <svg class="event-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
-          <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
-        </svg>
-        {{ page.date_start | date: "%d.%m.%Y" }}{% if page.date_end %} - {{ page.date_end | date: "%d.%m.%Y" }}{% endif %}
-    </p>
-</div>
+<div class="content-wrapper article-content">
+    <article class="article">
+        <header class="article-header">
+            <h1 class="article-title">{{ page.title }}</h1>
+            <div class="article-meta">
+                <svg class="article-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                  <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+                </svg>
+                <span class="article-date">{{ page.date_start | date: "%d.%m.%Y" }}{% if page.date_end %} - {{ page.date_end | date: "%d.%m.%Y" }}{% endif %}</span>
+            </div>
+        </header>
 
-{% if page.image %}
-<div class="event-detail-image" style="background-image: url('{{ page.image }}');"></div>
-{% endif %}
+        <div class="article-body">
+            {{ content }}
+        </div>
 
-<div class="content-wrapper event-detail-content">
-    {{ content }}
-
-    <div class="event-detail-back">
-        <a href="/akce/" class="btn btn-primary">← Zpět na seznam akcí</a>
-    </div>
+        <footer class="article-footer">
+            <a href="/akce/" class="btn btn-primary">← Zpět na seznam akcí</a>
+        </footer>
+    </article>
 </div>
