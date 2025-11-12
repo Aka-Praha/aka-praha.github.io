@@ -22,6 +22,19 @@ pagination:
   sort_field: 'date'
   sort_reverse: true
 
+# Auto-generate pages for categories
+autopages:
+  enabled: true
+  categories:
+    enabled: true
+    layouts:
+      - 'autopage_category.html'
+    title: 'Akce'
+    permalink: '/akce/'
+    slugify:
+      mode: 'ascii'
+      cased: true
+
 # Defaults
 defaults:
   - scope:
