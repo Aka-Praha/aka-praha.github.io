@@ -38,6 +38,10 @@ body {
     color: var(--text-color);
     line-height: 1.6;
     overflow-x: hidden;
+    background-image: url(/assets/images/bg.webp);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -535,7 +539,7 @@ section h2 {
 /* Article content (event detail) */
 .article-content {
     margin-top: 80px;
-    background-color: var(--light-color);
+    background-color: rgb(245 245 245 / 90%);
     padding: 3rem 0;
 }
 
