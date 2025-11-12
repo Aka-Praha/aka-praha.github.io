@@ -240,22 +240,17 @@ a {
     background-color: rgb(245 245 245 / 90%);
 }
 
-.page-header {
-    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
-    color: var(--snow-white);
-    padding: 8rem 2rem 4rem;
-    text-align: center;
-    margin-top: 80px;
-}
-
-.page-header h1 {
-    font-size: 3.5rem;
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-}
-
 .page-content {
-    background: var(--snow-white);
-    padding: 4rem 2rem;
+    margin-top: 80px;
+    padding: 3rem 2rem;
+}
+
+.page-content h1 {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
 }
 
 /* Section Styling */
@@ -375,8 +370,8 @@ section h2 {
     h2 { font-size: 1.8rem; }
     h3 { font-size: 1.5rem; }
 
-    .page-header h1 {
-        font-size: 2.5rem;
+    .page-content h1 {
+        font-size: 1.75rem;
     }
 
     .cards {
