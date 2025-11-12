@@ -1,6 +1,7 @@
 ---
+category: events
 title: Liberecké lezení
-date_start: 2025-06-10
+date: 2025-06-10
 date_end: 2025-06-12
 image: https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?w=600
 ---

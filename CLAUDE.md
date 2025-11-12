@@ -57,45 +57,39 @@ Memory pro budoucí Claude sessions. Tohle je reálný projekt pro Akademický k
 ## Struktura projektu
 
 ```
-_config.yml              # Jekyll config + collections definice
+_config.yml              # Jekyll config
 _layouts/
   ├── default.html       # Base layout
-  ├── home.html          # Homepage s hero
+  ├── home.html          # Homepage s jednoduchým headerem
   ├── page.html          # Běžné stránky
-  └── event.html         # Detail akce
+  └── post.html          # Detail akce/článku
 _includes/
   ├── header.html        # Nav + logo
   └── footer.html        # Footer
-_events/                 # ⭐ Collection - akce jako .md soubory
-  ├── vysocina-2025.md
-  ├── adrspach-2025.md
-  └── ... (6 demo akcí)
+_posts/                  # ⭐ Posts - akce (events) a články (diaries)
+  ├── 2025-01-10-vysocina-2025.md
+  ├── 2025-07-07-adrspach-2025.md
+  └── ... (18 eventů)
 assets/
-  ├── css/style.css      # Veškerý CSS (450+ řádků)
+  ├── css/style.css      # Veškerý CSS (600+ řádků)
   ├── js/main.js         # JS pro nav toggle, smooth scroll
   └── images/
-      └── bg.webp        # Hero background (Alpy)
+      └── bg.webp        # Hero background (Alpy) - použito na celém body
 logo.png                 # AKA hexagon logo
 index.md                 # Homepage
-events.md                # Event listing (permalink: /akce/)
+events.md                # Event listing (permalink: /akce/) s pagination
 Gemfile                  # Jekyll 3.9, kramdown-parser-gfm
 ```
 
-## Jekyll Collections - jak to funguje
+## Jekyll Posts s kategoriemi - jak to funguje
 
-**_config.yml:**
-```yaml
-collections:
-  events:
-    output: true
-    permalink: /akce/:name/
-```
-
-**Event file (_events/akce.md):**
+**Post file (_posts/2025-01-10-vysocina-2025.md):**
 ```yaml
 ---
-title: Název akce
-date_start: 2025-01-10
+category: events
+permalink: /akce/:title/
+title: Vysočina 2025
+date: 2025-01-10
 date_end: 2025-01-12
 image: https://url-obrazku.jpg
 ---
@@ -103,10 +97,10 @@ Popis v markdown...
 ```
 
 **Výsledek:**
-- Jekyll vytvoří stránku: `/akce/akce/`
-- `events.md` loopuje přes `site.events`
-- Každá karta má odkaz na detail pomocí `event.url`
-- Layout `event.html` renderuje detail
+- Jekyll vytvoří stránku: `/akce/vysocina-2025/`
+- `events.md` loopuje přes `site.categories.events`
+- JavaScript pagination - 9 eventů na stránku
+- Layout `post.html` renderuje detail (article styl)
 
 ## Design systém
 
