@@ -7,6 +7,12 @@ url: "https://aka-praha.github.io" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate-v2
+
 # Pagination
 pagination:
   enabled: true

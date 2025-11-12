@@ -11,7 +11,7 @@ pagination:
 <p class="event-intro">Novou akci můžete vložit zde.</p>
 
 <div class="event-grid">
-{% for event in paginator.posts %}
+{% for event in paginator.documents %}
   <a href="{{ event.url | relative_url }}" class="event-card-link">
     <div class="event-card">
       <div class="event-image" style="background-image: url('{{ event.image }}');"></div>
