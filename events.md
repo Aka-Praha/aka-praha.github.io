@@ -2,14 +2,17 @@
 layout: page
 title: Akce
 permalink: /akce/
+pagination:
+  enabled: true
+  category: events
+  permalink: /strana/:num/
 ---
 
 <p class="event-intro">Novou akci můžete vložit zde.</p>
 
-<div class="event-grid" id="eventGrid">
-{% assign sorted_events = site.categories.events | sort: 'date' | reverse %}
-{% for event in sorted_events %}
-  <a href="{{ event.url | relative_url }}" class="event-card-link" data-event-item>
+<div class="event-grid">
+{% for event in paginator.posts %}
+  <a href="{{ event.url | relative_url }}" class="event-card-link">
     <div class="event-card">
       <div class="event-image" style="background-image: url('{{ event.image }}');"></div>
       <div class="event-content">
@@ -26,76 +29,34 @@ permalink: /akce/
 {% endfor %}
 </div>
 
-<div class="pagination" id="pagination"></div>
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+  <div class="pagination-container">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | relative_url }}" class="pagination-btn">← Předchozí</a>
+    {% endif %}
 
-<script>
-(function() {
-    const itemsPerPage = 9;
-    let currentPage = 1;
+    <div class="pagination-numbers">
+      {% for page in (1..paginator.total_pages) %}
+        {% if page == 1 or page == paginator.total_pages or page == paginator.page or page == paginator.page | minus: 1 or page == paginator.page | plus: 1 %}
+          {% if page == paginator.page %}
+            <span class="pagination-number active">{{ page }}</span>
+          {% else %}
+            {% if page == 1 %}
+              <a href="{{ '/akce/' | relative_url }}" class="pagination-number">{{ page }}</a>
+            {% else %}
+              <a href="{{ site.baseurl }}/akce/strana/{{ page }}/" class="pagination-number">{{ page }}</a>
+            {% endif %}
+          {% endif %}
+        {% elsif page == paginator.page | minus: 2 or page == paginator.page | plus: 2 %}
+          <span class="pagination-dots">...</span>
+        {% endif %}
+      {% endfor %}
+    </div>
 
-    const eventItems = document.querySelectorAll('[data-event-item]');
-    const pagination = document.getElementById('pagination');
-    const totalPages = Math.ceil(eventItems.length / itemsPerPage);
-
-    function showPage(page) {
-        currentPage = page;
-
-        // Hide all items
-        eventItems.forEach((item, index) => {
-            const startIndex = (page - 1) * itemsPerPage;
-            const endIndex = startIndex + itemsPerPage;
-
-            if (index >= startIndex && index < endIndex) {
-                item.style.display = 'block';
-            } else {
-                item.style.display = 'none';
-            }
-        });
-
-        renderPagination();
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-    }
-
-    function renderPagination() {
-        if (totalPages <= 1) {
-            pagination.innerHTML = '';
-            return;
-        }
-
-        let html = '<div class="pagination-container">';
-
-        // Previous button
-        if (currentPage > 1) {
-            html += `<button class="pagination-btn" onclick="eventPagination.goToPage(${currentPage - 1})">← Předchozí</button>`;
-        }
-
-        // Page numbers
-        html += '<div class="pagination-numbers">';
-        for (let i = 1; i <= totalPages; i++) {
-            if (i === 1 || i === totalPages || (i >= currentPage - 1 && i <= currentPage + 1)) {
-                const activeClass = i === currentPage ? 'active' : '';
-                html += `<button class="pagination-number ${activeClass}" onclick="eventPagination.goToPage(${i})">${i}</button>`;
-            } else if (i === currentPage - 2 || i === currentPage + 2) {
-                html += '<span class="pagination-dots">...</span>';
-            }
-        }
-        html += '</div>';
-
-        // Next button
-        if (currentPage < totalPages) {
-            html += `<button class="pagination-btn" onclick="eventPagination.goToPage(${currentPage + 1})">Další →</button>`;
-        }
-
-        html += '</div>';
-        pagination.innerHTML = html;
-    }
-
-    // Expose functions globally
-    window.eventPagination = {
-        goToPage: showPage
-    };
-
-    // Initialize
-    showPage(1);
-})();
-</script>
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | relative_url }}" class="pagination-btn">Další →</a>
+    {% endif %}
+  </div>
+</div>
+{% endif %}

@@ -7,6 +7,15 @@ url: "https://aka-praha.github.io" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 
+# Pagination
+pagination:
+  enabled: true
+  per_page: 9
+  permalink: '/strana/:num/'
+  title: ':title - strana :num'
+  sort_field: 'date'
+  sort_reverse: true
+
 # Defaults
 defaults:
   - scope:
