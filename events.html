@@ -14,6 +14,14 @@ pagination:
 
 <p class="event-intro">Novou akci můžete vložit zde.</p>
 
+<!-- DEBUG -->
+<p style="background: #ffeb3b; padding: 10px; margin: 10px 0;">
+  DEBUG: paginator exists? {{ paginator }} |
+  total_pages: {{ paginator.total_pages }} |
+  documents count: {{ paginator.documents.size }} |
+  site.categories.events count: {{ site.categories.events.size }}
+</p>
+
 <div class="event-grid">
 {% if paginator.documents %}
   {% for event in paginator.documents %}
