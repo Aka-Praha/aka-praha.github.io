@@ -1,0 +1,8 @@
+---
+title: Adršpach 2025
+date_start: 2025-07-07
+date_end: 2025-07-20
+image: https://images.unsplash.com/photo-1551632811-561732d1e306?w=600
+---
+
+Dvoutýdenní pobyt v Adršpachu s lezením v nejkrásnějších skalních městech.
