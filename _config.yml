@@ -12,16 +12,6 @@ future: true
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-paginate-v2
-
-# Pagination
-pagination:
-  enabled: true
-  per_page: 9
-  permalink: '/strana/:num/'
-  title: ':title - strana :num'
-  sort_field: 'date'
-  sort_reverse: true
 
 # Defaults
 defaults:
