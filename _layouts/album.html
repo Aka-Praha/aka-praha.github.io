@@ -1,0 +1,87 @@
+---
+layout: default
+---
+
+<div class="content-wrapper page-content">
+    <h1>{{ page.title }}</h1>
+
+    {% if page.date %}
+    <p class="album-date">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16" style="vertical-align: middle; margin-right: 5px;">
+            <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+        </svg>
+        {{ page.date | date: "%d.%m.%Y" }}
+    </p>
+    {% endif %}
+
+    <div class="album-description">
+        {{ content }}
+    </div>
+
+    {% if page.photos %}
+    <div class="photo-gallery">
+        {% for photo in page.photos %}
+        <a href="{{ photo.url }}" class="photo-item" target="_blank">
+            <img src="{{ photo.url }}" alt="{{ photo.caption | default: page.title }}" loading="lazy">
+            {% if photo.caption %}
+            <p class="photo-caption">{{ photo.caption }}</p>
+            {% endif %}
+        </a>
+        {% endfor %}
+    </div>
+    {% endif %}
+
+    <p style="margin-top: 2rem;">
+        <a href="/galerie/" class="btn btn-primary">← Zpět na galerii</a>
+    </p>
+</div>
+
+<style>
+.album-date {
+    color: #666;
+    margin-bottom: 1.5rem;
+}
+
+.album-description {
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+.photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.photo-item {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none;
+    color: inherit;
+}
+
+.photo-item:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+}
+
+.photo-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+}
+
+.photo-caption {
+    padding: 0.75rem;
+    background: white;
+    margin: 0;
+    font-size: 0.9rem;
+    color: #333;
+}
+</style>

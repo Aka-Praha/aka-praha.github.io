@@ -1,0 +1,22 @@
+---
+title: Vysoké Tatry 2024
+date: 2024-08-15
+cover: https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600
+photos:
+  - url: https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800
+    caption: Východ slunce nad Tatrami
+  - url: https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800
+    caption: Zimní výstup
+  - url: https://images.unsplash.com/photo-1519904981063-b0cf448d479e?w=800
+    caption: Pohled z vrcholu
+  - url: https://images.unsplash.com/photo-1551632811-561732d1e306?w=800
+    caption: Skalní útvary
+  - url: https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?w=800
+    caption: Táborový život
+  - url: https://images.unsplash.com/photo-1522163182402-834f871fd851?w=800
+    caption: Lezení na skále
+---
+
+Týdenní výprava do Vysokých Tater s krásnými výstupy a perfektní partou.
+
+Lezli jsme několik klasických tras, včetně Malého Kežmarského štítu a Východní Železné brány. Počasí nám přálo a výhledy byly nádherné.

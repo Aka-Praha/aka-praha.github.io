@@ -1,0 +1,14 @@
+---
+title: Tréninky na stěně 2024
+date: 2024-09-01
+cover: https://images.unsplash.com/photo-1522163182402-834f871fd851?w=600
+photos:
+  - url: https://images.unsplash.com/photo-1522163182402-834f871fd851?w=800
+    caption: Trénink na umělé stěně
+  - url: https://images.unsplash.com/photo-1564769625905-50e93615e769?w=800
+    caption: Bouldering
+  - url: https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800
+    caption: Technika přelézu
+---
+
+Pravidelné večerní tréninky na lezecké stěně. Pracujeme na technice, síle i vytrvalosti.
