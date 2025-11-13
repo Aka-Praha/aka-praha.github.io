@@ -9,22 +9,31 @@ title: Domů
 
 Akademický klub alpinistů Praha (AKA Praha) je společenství nadšenců pro horolezectví, skalní lezení a outdoorové aktivity. Spojujeme studenty a absolventy vysokých škol, kteří sdílejí lásku k horám a přírodě.
 
-<div class="cards">
-  <div class="card">
-    <h3>Lezení</h3>
-    <p>Pravidelné lezecké akce, tréninky a výlety na skály i do horolezeckých oblastí.</p>
-  </div>
+## Nejbližší akce
 
-  <div class="card">
-    <h3>Hory</h3>
-    <p>Expedice do vysokých pohoří, skialpinismus a zimní horolezectví.</p>
-  </div>
-
-  <div class="card">
-    <h3>Komunita</h3>
-    <p>Přátelská atmosféra, sdílení zkušeností a společné zážitky v horách.</p>
-  </div>
+<div class="event-grid">
+{% assign sorted_events = site.categories.events | sort: 'date' | reverse %}
+{% for event in sorted_events limit:3 %}
+  <a href="{{ event.url | relative_url }}" class="event-card-link">
+    <div class="event-card">
+      <div class="event-image" style="background-image: url('{{ event.image }}');"></div>
+      <div class="event-content">
+        <h3 class="event-title">{{ event.title }}</h3>
+        <p class="event-date">
+          <svg class="event-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+          </svg>
+          {{ event.date | date: "%d.%m.%Y" }}{% if event.date_end %} - {{ event.date_end | date: "%d.%m.%Y" }}{% endif %}
+        </p>
+      </div>
+    </div>
+  </a>
+{% endfor %}
 </div>
+
+<p style="text-align: center; margin-top: 2rem;">
+  <a href="/akce/" class="btn btn-primary">Všechny akce →</a>
+</p>
 
 </section>
 
