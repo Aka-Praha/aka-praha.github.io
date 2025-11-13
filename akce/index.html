@@ -39,7 +39,7 @@ title: Akce
           {% if page == paginator.page %}
             <span class="pagination-number active">{{ page }}</span>
           {% else %}
-            <a href="{% if page == 1 %}/akce/{% else %}/akce/page{{ page }}/{% endif %}" class="pagination-number">{{ page }}</a>
+            <a href="{% if page == 1 %}/akce/{% else %}/akce/{{ page }}/{% endif %}" class="pagination-number">{{ page }}</a>
           {% endif %}
         {% elsif page == paginator.page | minus: 2 or page == paginator.page | plus: 2 %}
           <span class="pagination-dots">...</span>

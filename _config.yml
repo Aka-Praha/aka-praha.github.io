@@ -16,7 +16,7 @@ plugins:
 
 # Pagination
 paginate: 9
-paginate_path: "/akce/page:num/"
+paginate_path: "/akce/:num/"
 
 # Defaults
 defaults:
