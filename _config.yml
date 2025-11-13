@@ -12,6 +12,11 @@ future: true
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-paginate
+
+# Pagination
+paginate: 9
+paginate_path: "/akce/page:num/"
 
 # Defaults
 defaults:
