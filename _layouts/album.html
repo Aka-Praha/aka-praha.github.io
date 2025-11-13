@@ -21,12 +21,12 @@ layout: default
     {% if page.photos %}
     <div class="photo-gallery">
         {% for photo in page.photos %}
-        <a href="{{ photo.url }}" class="photo-item" target="_blank">
+        <div class="photo-item" data-index="{{ forloop.index0 }}" data-url="{{ photo.url }}" data-caption="{{ photo.caption | default: page.title }}">
             <img src="{{ photo.url }}" alt="{{ photo.caption | default: page.title }}" loading="lazy">
             {% if photo.caption %}
             <p class="photo-caption">{{ photo.caption }}</p>
             {% endif %}
-        </a>
+        </div>
         {% endfor %}
     </div>
     {% endif %}
@@ -34,6 +34,17 @@ layout: default
     <p style="margin-top: 2rem;">
         <a href="/galerie/" class="btn btn-primary">← Zpět na galerii</a>
     </p>
+</div>
+
+<!-- Modal -->
+<div id="photoModal" class="photo-modal">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="Předchozí">‹</button>
+    <button class="modal-nav modal-next" aria-label="Další">›</button>
+    <div class="modal-content">
+        <img id="modalImage" src="" alt="">
+        <p id="modalCaption" class="modal-caption"></p>
+    </div>
 </div>
 
 <style>
@@ -55,14 +66,12 @@ layout: default
 }
 
 .photo-item {
-    display: block;
     position: relative;
     overflow: hidden;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    text-decoration: none;
-    color: inherit;
+    cursor: pointer;
 }
 
 .photo-item:hover {
@@ -84,4 +93,173 @@ layout: default
     font-size: 0.9rem;
     color: #333;
 }
+
+/* Modal styles */
+.photo-modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.95);
+    overflow: auto;
+}
+
+.photo-modal.active {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    max-width: 90%;
+    max-height: 90%;
+    text-align: center;
+}
+
+.modal-content img {
+    max-width: 100%;
+    max-height: 85vh;
+    object-fit: contain;
+    border-radius: 4px;
+}
+
+.modal-caption {
+    color: white;
+    padding: 1rem;
+    margin: 0;
+    font-size: 1rem;
+}
+
+.modal-close {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    color: white;
+    font-size: 50px;
+    font-weight: 300;
+    cursor: pointer;
+    transition: color 0.3s;
+    line-height: 1;
+}
+
+.modal-close:hover {
+    color: #ccc;
+}
+
+.modal-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    border: none;
+    font-size: 60px;
+    padding: 20px 30px;
+    cursor: pointer;
+    transition: background 0.3s;
+    border-radius: 4px;
+    line-height: 1;
+}
+
+.modal-nav:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.modal-prev {
+    left: 20px;
+}
+
+.modal-next {
+    right: 20px;
+}
+
+@media (max-width: 768px) {
+    .modal-close {
+        top: 10px;
+        right: 15px;
+        font-size: 35px;
+    }
+
+    .modal-nav {
+        font-size: 40px;
+        padding: 10px 20px;
+    }
+
+    .modal-prev {
+        left: 10px;
+    }
+
+    .modal-next {
+        right: 10px;
+    }
+}
 </style>
+
+<script>
+(function() {
+    const modal = document.getElementById('photoModal');
+    const modalImage = document.getElementById('modalImage');
+    const modalCaption = document.getElementById('modalCaption');
+    const closeBtn = document.querySelector('.modal-close');
+    const prevBtn = document.querySelector('.modal-prev');
+    const nextBtn = document.querySelector('.modal-next');
+    const photoItems = document.querySelectorAll('.photo-item');
+
+    let currentIndex = 0;
+    const photos = Array.from(photoItems).map(item => ({
+        url: item.dataset.url,
+        caption: item.dataset.caption
+    }));
+
+    function showPhoto(index) {
+        currentIndex = index;
+        modalImage.src = photos[index].url;
+        modalCaption.textContent = photos[index].caption;
+        modal.classList.add('active');
+        document.body.style.overflow = 'hidden';
+    }
+
+    function closeModal() {
+        modal.classList.remove('active');
+        document.body.style.overflow = '';
+    }
+
+    function showNext() {
+        currentIndex = (currentIndex + 1) % photos.length;
+        showPhoto(currentIndex);
+    }
+
+    function showPrev() {
+        currentIndex = (currentIndex - 1 + photos.length) % photos.length;
+        showPhoto(currentIndex);
+    }
+
+    // Event listeners
+    photoItems.forEach((item, index) => {
+        item.addEventListener('click', () => showPhoto(index));
+    });
+
+    closeBtn.addEventListener('click', closeModal);
+    nextBtn.addEventListener('click', showNext);
+    prevBtn.addEventListener('click', showPrev);
+
+    // Close modal on background click
+    modal.addEventListener('click', (e) => {
+        if (e.target === modal) {
+            closeModal();
+        }
+    });
+
+    // Keyboard navigation
+    document.addEventListener('keydown', (e) => {
+        if (!modal.classList.contains('active')) return;
+
+        if (e.key === 'Escape') closeModal();
+        if (e.key === 'ArrowRight') showNext();
+        if (e.key === 'ArrowLeft') showPrev();
+    });
+})();
+</script>
