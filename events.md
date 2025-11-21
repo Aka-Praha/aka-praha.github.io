@@ -10,7 +10,7 @@ permalink: /akce/
   {% if post.categories contains 'events' %}
   <a href="{{ post.url | relative_url }}" class="event-card-link" data-event-item>
     <div class="event-card">
-      <div class="event-image" style="background-image: url('{{ post.image }}');"></div>
+      <img src="{% if post.image %}{{ post.image }}{% else %}/assets/images/placeholder.svg{% endif %}" alt="{{ post.title }}" class="event-image">
       <div class="event-content">
         <h3 class="event-title">{{ post.title }}</h3>
         <p class="event-date">

@@ -4,9 +4,7 @@ layout: default
 
 <div class="content-wrapper article-content">
     <article class="article">
-        {% if page.image %}
-        <div class="article-featured-image" style="background-image: url('{{ page.image }}');"></div>
-        {% endif %}
+        <img src="{% if page.image %}{{ page.image }}{% else %}/assets/images/placeholder.svg{% endif %}" alt="{{ page.title }}" class="article-featured-image">
 
         <header class="article-header">
             <h1 class="article-title">{{ page.title }}</h1>
