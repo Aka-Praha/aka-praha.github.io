@@ -15,27 +15,29 @@ Memory pro budoucí Claude sessions. Tohle je reálný projekt pro Akademický k
 **✅ Hotovo:**
 - Základní struktura webu + design
 - Černobílý konzervativní design podle loga AKA (hexagon s horami)
-- Hero sekce s fotkou Alp na pozadí (assets/images/bg.webp)
+- Background image (assets/images/bg.webp) použito na celém body
 - Responzivní layout
-- Jekyll Collections pro akce (_events/)
-- Event listing page (/akce/) s gridem karet
-- Event detail pages (/akce/nazev-akce/) s prokliky
+- **Posts s kategoriemi** místo collections (`_posts/` + `categories: [events]` nebo `[articles]`)
+- Event listing page (/akce/) s **JavaScript pagination** (9 eventů/stránka)
+- Event detail pages (/akce/nazev-akce/)
+- Articles listing page (/clanky/)
+- Fotogalerie (/galerie/) s albums collection
+- Stránky: O nás, Kontakt
 - Logo v navigaci
-- 6 demo akcí jako příklady
+- 18 demo akcí, 1 demo článek, 3 demo alba
 
 **🚧 Ještě není:**
 - Migrace 300+ článků z Drupalu
 - Migrace 150+ akcí z Drupalu
-- Fotogalerie
 - Filtry pro akce (rok/člen)
-- Stránky: O nás, Kontakt (jen dummy v menu)
+- Fulltext search
 
 ## Důležité konvence (MUSÍŠ DODRŽET)
 
 1. **Kód anglicky, URL česky**
-   - Složky: `_events/` ne `_akce/`
+   - Složky: `_posts/`, `_albums/` (ne `_akce/`, `_clanky/`)
    - CSS třídy: `.event-card` ne `.akce-card`
-   - Ale URL: `/akce/` pomocí `permalink: /akce/`
+   - Ale URL: `/akce/`, `/clanky/`, `/galerie/` pomocí `permalink:`
 
 2. **Větev: master** (ne main - organizace je old school)
 
@@ -57,36 +59,49 @@ Memory pro budoucí Claude sessions. Tohle je reálný projekt pro Akademický k
 ## Struktura projektu
 
 ```
-_config.yml              # Jekyll config
+_config.yml              # Jekyll config (paginate: 9, collections: albums)
 _layouts/
   ├── default.html       # Base layout
-  ├── home.html          # Homepage s jednoduchým headerem
+  ├── home.html          # Homepage
   ├── page.html          # Běžné stránky
-  └── post.html          # Detail akce/článku
+  ├── post.html          # Detail akce/článku
+  └── album.html         # Detail alba (fotogalerie)
 _includes/
   ├── header.html        # Nav + logo
   └── footer.html        # Footer
-_posts/                  # ⭐ Posts - akce (events) a články (diaries)
-  ├── 2025-01-10-vysocina-2025.md
-  ├── 2025-07-07-adrspach-2025.md
-  └── ... (18 eventů)
+_posts/                  # ⭐ Posts s kategoriemi
+  ├── 2025-01-10-vysocina-2025.md          # categories: [events]
+  ├── 2025-07-07-adrspach-2025.md          # categories: [events]
+  ├── 2024-01-15-zakladni-lezecka-...md    # categories: [articles]
+  └── ... (18 eventů, 1 článek)
+_albums/                 # 🖼️ Fotogalerie alba
+  ├── adrspach-2024.md
+  ├── tatry-2024.md
+  └── treninky-2024.md
 assets/
   ├── css/style.css      # Veškerý CSS (600+ řádků)
   ├── js/main.js         # JS pro nav toggle, smooth scroll
   └── images/
-      └── bg.webp        # Hero background (Alpy) - použito na celém body
+      └── bg.webp        # Body background (Alpy)
 logo.png                 # AKA hexagon logo
 index.md                 # Homepage
-events.md                # Event listing (permalink: /akce/) s pagination
-Gemfile                  # Jekyll 3.9, kramdown-parser-gfm
+events.md                # Event listing (permalink: /akce/) - JavaScript pagination
+articles/index.html      # Articles listing (permalink: /clanky/)
+gallery/index.html       # Gallery listing (permalink: /galerie/)
+kontakt.md               # Kontakt stránka
+o-nas.md                 # O nás stránka
+robots.txt               # SEO
+Gemfile                  # Jekyll 3.9, jekyll-paginate (nepoužívá se)
 ```
 
 ## Jekyll Posts s kategoriemi - jak to funguje
 
+**DŮLEŽITÉ: Použití categories (množné číslo) je NUTNÉ!**
+
 **Post file (_posts/2025-01-10-vysocina-2025.md):**
 ```yaml
 ---
-category: events
+categories: [events]     # ⭐ MNOŽNÉ číslo! Ne "category:"
 permalink: /akce/:title/
 title: Vysočina 2025
 date: 2025-01-10
@@ -98,9 +113,34 @@ Popis v markdown...
 
 **Výsledek:**
 - Jekyll vytvoří stránku: `/akce/vysocina-2025/`
-- `events.md` loopuje přes `site.categories.events`
-- JavaScript pagination - 9 eventů na stránku
+- `events.md` loopuje přes `site.posts` s filtrem `post.categories contains 'events'`
+- **JavaScript pagination** - 9 eventů na stránku (ne jekyll-paginate!)
 - Layout `post.html` renderuje detail (article styl)
+
+**Proč JavaScript pagination?**
+- `jekyll-paginate` v1.1 (GitHub Pages) funguje POUZE na `index.html` v root
+- Nepodporuje pagination v podadresářích (např. `akce/index.html`)
+- JavaScript řešení je spolehlivější a flexibilnější
+
+## Jekyll Albums collection - fotogalerie
+
+**Album file (_albums/tatry-2024.md):**
+```yaml
+---
+title: Vysoké Tatry 2024
+date: 2024-08-15
+cover_image: URL
+images:
+  - url: URL
+    caption: Popis fotky
+---
+Popis alba...
+```
+
+**Výsledek:**
+- Layout `album.html` s lightbox funkčností
+- Gallery listing na `/galerie/`
+- Permalink: `/galerie/tatry-2024/`
 
 ## Design systém
 
@@ -126,6 +166,7 @@ Popis v markdown...
 - `.event-card` - event karta
 - `.event-grid` - grid pro events (3 sloupce)
 - `.card` / `.cards` - obecné karty
+- `.album-card` - album karta pro galerii
 
 ## Git workflow reminder
 
@@ -149,10 +190,18 @@ git push origin master
 - Počkej 2-3 minuty
 - Hard refresh (Ctrl+Shift+R)
 
-**Event se nezobrazuje:**
-- Musí být v `_events/`
+**Event se nezobrazuje na /akce/:**
+- ⭐ Musí být v `_posts/` (ne `_events/`!)
+- ⭐ Musí mít `categories: [events]` (množné číslo!)
+- Musí mít `permalink: /akce/:title/`
 - YAML front matter musí být validní
 - Soubor musí být commitnutý a pushnutý
+- JavaScript v `events.md` filtruje podle kategorie
+
+**Pagination nefunguje:**
+- Aktuálně se používá **JavaScript pagination**, ne jekyll-paginate
+- Pokud děláš změny v pagination logikou, uprav JavaScript v `events.md`
+- Jekyll-paginate v1.1 má omezení a NEpoužívá se
 
 ## Co si pamatovat o Ondrovi
 
@@ -167,14 +216,14 @@ git push origin master
 ## Budoucí práce (až Ondra řekne)
 
 - Migrace dat z Drupalu (300+ článků, 150+ akcí)
-- Vytvořit collection pro články (_posts/ nebo _articles/)
-- Fotogalerie (možná external service?)
 - Filtry JS pro akce (rok, člen)
-- Stránky: O nás, Kontakt
-- Možná blog/novinky
+- Fulltext search
+- Rozšíření fotogalerie (více alb)
+- Možná RSS feed pro články
 
 ## Reference (když budeš potřebovat)
 
+- Jekyll Posts: https://jekyllrb.com/docs/posts/
 - Jekyll Collections: https://jekyllrb.com/docs/collections/
 - Liquid syntax: https://shopify.github.io/liquid/
 - Jekyll na GitHub Pages: https://docs.github.com/en/pages
@@ -184,13 +233,31 @@ git push origin master
 **Když něco nefunguje, zkontroluj:**
 1. Je to v masteru? (ne main)
 2. YAML front matter validní?
-3. Collection správně v _config.yml?
-4. CSS třídy anglicky?
-5. Permalink nastavený správně pro české URL?
+3. Post má `categories: [events]` (množné číslo)?
+4. Post má `permalink: /akce/:title/`?
+5. CSS třídy anglicky?
 6. Build prošel na GitHubu?
 7. Čekal jsi 2-3 minuty?
+8. JavaScript v events.md správně filtruje podle kategorie?
+
+## Technické detaily
+
+**Jekyll paginate:**
+- Plugin `jekyll-paginate` je v Gemfile, ale NEpoužívá se
+- Důvod: Nefunguje v podadresářích, pouze na root index.html
+- Místo toho: JavaScript pagination v events.md
+
+**Categories vs Category:**
+- ⭐ **Vždy používej `categories:` (množné číslo)!**
+- Jekyll podporuje obojí, ale `categories:` je standard
+- Filtrování: `post.categories contains 'events'`
+
+**Posts s více kategoriemi:**
+```yaml
+categories: [events, featured]  # Možné, ale zatím nepoužíváme
+```
 
 ---
 
-**Poslední update:** 11.11.2025
-**Status:** Fungující základní web s event collections, čeká se na další instrukce od Ondry.
+**Poslední update:** 21.11.2025
+**Status:** Fungující web s posts (events/articles), fotogalerií, kontaktem. Používá JavaScript pagination. Čeká se na migraci dat z Drupalu.
