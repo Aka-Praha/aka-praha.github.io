@@ -4,8 +4,6 @@ title: Akce
 permalink: /akce/
 ---
 
-<p class="event-intro">Novou akci můžete vložit zde.</p>
-
 <div class="event-grid" id="eventGrid">
 {% assign all_posts = site.posts | sort: 'date' | reverse %}
 {% for post in all_posts %}
