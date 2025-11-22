@@ -26,3 +26,10 @@ article:
     color: "#f39c12"
     icon: "📰"
     permalink: /clanky/zpravy/
+
+  archive:
+    title: "Archiv"
+    description: "Archivní články z původního webu"
+    color: "#95a5a6"
+    icon: "📦"
+    permalink: /clanky/archiv/

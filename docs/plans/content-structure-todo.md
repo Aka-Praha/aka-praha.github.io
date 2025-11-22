@@ -10,6 +10,7 @@ Elementární kroky pro implementaci nové struktury obsahu.
 - [x] Vytvořit adresář `_posts/article/diary/`
 - [x] Vytvořit adresář `_posts/article/club/`
 - [x] Vytvořit adresář `_posts/article/news/`
+- [x] Vytvořit adresář `_posts/article/archive/`
 - [x] Vytvořit adresář `_data/` (pokud neexistuje)
 
 ## 2. Vytvoření metadata - _data/categories.yml
@@ -20,6 +21,7 @@ Elementární kroky pro implementaci nové struktury obsahu.
 - [x] Přidat metadata pro `diary`
 - [x] Přidat metadata pro `club`
 - [x] Přidat metadata pro `news`
+- [x] Přidat metadata pro `archive`
 
 ## 3. Migrace stávajících postů - Events
 
@@ -33,14 +35,16 @@ Elementární kroky pro implementaci nové struktury obsahu.
 ## 4. Migrace stávajících postů - Articles
 
 - [ ] Najít všechny stávající article posty
-- [ ] Rozhodnout kategorii pro každý článek (methodology/diary/club/news)
+- [ ] Rozhodnout kategorii pro každý článek (methodology/diary/club/news/archive)
 - [ ] Přesunout články do příslušných adresářů v `_posts/article/{subcategory}/`
 - [ ] Aktualizovat front matter: přidat `categories: [content, article, {subcategory}]`
+- [ ] Pro archivní články: přidat `old_category` (např. 'Akce', 'Obecný článek')
 - [ ] Aktualizovat permalink podle podkategorie:
   - [ ] methodology: `permalink: /clanky/metodika/:title/`
   - [ ] diary: `permalink: /clanky/denicek/:title/`
   - [ ] club: `permalink: /clanky/klub/:title/`
   - [ ] news: `permalink: /clanky/zpravy/:title/`
+  - [ ] archive: `permalink: /clanky/archiv/:title/`
 
 ## 5. Vytvoření listing stránek - Struktura
 
@@ -48,6 +52,7 @@ Elementární kroky pro implementaci nové struktury obsahu.
 - [ ] Vytvořit adresář `clanky/denicek/`
 - [ ] Vytvořit adresář `clanky/klub/`
 - [ ] Vytvořit adresář `clanky/zpravy/`
+- [ ] Vytvořit adresář `clanky/archiv/`
 
 ## 6. Vytvoření listing stránky - Methodology
 
@@ -86,24 +91,33 @@ Elementární kroky pro implementaci nové struktury obsahu.
 - [ ] Přidat CSS styling
 - [ ] Přidat breadcrumb navigaci
 
-## 10. Aktualizace hlavní stránky článků - /clanky/
+## 10. Vytvoření listing stránky - Archive
+
+- [ ] Vytvořit soubor `clanky/archiv/index.html`
+- [ ] Nastavit front matter
+- [ ] Přidat Liquid filtr pro `article` AND `archive`
+- [ ] Přidat zobrazení článků s `old_category` (původní kategorie)
+- [ ] Přidat CSS styling
+- [ ] Přidat breadcrumb navigaci
+
+## 11. Aktualizace hlavní stránky článků - /clanky/
 
 - [ ] Otevřít `articles/index.html`
 - [ ] Změnit filtr z `categories contains 'events'` na `categories contains 'article'`
-- [ ] Přidat sekci s přehledem podkategorií (4 karty: methodology, diary, club, news)
+- [ ] Přidat sekci s přehledem podkategorií (5 karet: methodology, diary, club, news, archive)
 - [ ] Použít data z `_data/categories.yml` (title, description, icon, color)
 - [ ] Přidat CSS pro category cards
 - [ ] Přidat hover efekty
 - [ ] Přidat odkazy na jednotlivé podkategorie
 
-## 11. Aktualizace stránky akcí - /akce/
+## 12. Aktualizace stránky akcí - /akce/
 
 - [ ] Otevřít `events.md`
 - [ ] Změnit filtr z `post.categories contains 'events'` na `post.categories contains 'event'`
 - [ ] Otestovat, že pagination funguje
 - [ ] Otestovat, že JavaScript filtry fungují (pokud jsou)
 
-## 12. Homepage feed - Přidání 3 nejnovějších z content
+## 13. Homepage feed - Přidání 3 nejnovějších z content
 
 - [ ] Otevřít `index.md`
 - [ ] Přidat sekci "Nejnovější aktuality"
@@ -116,7 +130,7 @@ Elementární kroky pro implementaci nové struktury obsahu.
 - [ ] Přidat CSS styling pro homepage feed
 - [ ] Přidat responzivní layout
 
-## 13. CSS - Nové styly
+## 14. CSS - Nové styly
 
 - [ ] Přidat CSS pro `.category-cards` (přehled podkategorií)
 - [ ] Přidat CSS pro `.category-card` (jednotlivá karta)
@@ -126,7 +140,7 @@ Elementární kroky pro implementaci nové struktury obsahu.
 - [ ] Přidat responzivní media queries pro nové komponenty
 - [ ] Otestovat na mobilních zařízeních
 
-## 14. Testování - Lokální kontrola
+## 15. Testování - Lokální kontrola
 
 - [ ] Zkontrolovat všechny URL:
   - [ ] `/` - homepage s feedem
@@ -137,27 +151,29 @@ Elementární kroky pro implementaci nové struktury obsahu.
   - [ ] `/clanky/denicek/` - listing diary
   - [ ] `/clanky/klub/` - listing club
   - [ ] `/clanky/zpravy/` - listing news
+  - [ ] `/clanky/archiv/` - listing archive
   - [ ] `/clanky/{category}/{article-name}/` - detail článku
 - [ ] Zkontrolovat kategorizaci všech postů
 - [ ] Zkontrolovat, že homepage feed obsahuje mix eventů a článků
 - [ ] Zkontrolovat responzivitu na mobilu
 
-## 15. Testování - Validace dat
+## 16. Testování - Validace dat
 
 - [ ] Ověřit, že všechny posty mají `categories: [content, ...]`
 - [ ] Ověřit, že všechny eventy mají `categories: [content, event]`
 - [ ] Ověřit, že všechny články mají `categories: [content, article, {subcategory}]`
+- [ ] Ověřit, že archivní články mají `old_category` property
 - [ ] Ověřit, že všechny permalinky jsou správně nastavené
 - [ ] Ověřit, že fyzická složka odpovídá kategorii v front matter
 
-## 16. Dokumentace
+## 17. Dokumentace
 
 - [ ] Aktualizovat `CLAUDE.md` s novou strukturou kategorií
 - [ ] Přidat příklady front matter pro každou podkategorii
 - [ ] Zdokumentovat, jak přidat nový článek do konkrétní podkategorie
 - [ ] Aktualizovat sekci "Struktura projektu" v CLAUDE.md
 
-## 17. Git - Commit a push
+## 18. Git - Commit a push
 
 - [ ] Přidat všechny nové soubory do stage
 - [ ] Přidat všechny změněné soubory do stage
@@ -166,7 +182,7 @@ Elementární kroky pro implementaci nové struktury obsahu.
 - [ ] Počkat 2-3 minuty na GitHub Actions build
 - [ ] Zkontrolovat build log (zelený ✓)
 
-## 18. Testování - Produkce
+## 19. Testování - Produkce
 
 - [ ] Otevřít https://aka-praha.github.io/
 - [ ] Zkontrolovat homepage feed
@@ -177,14 +193,14 @@ Elementární kroky pro implementaci nové struktury obsahu.
 - [ ] Zkontrolovat responzivitu
 - [ ] Zkontrolovat v různých prohlížečích
 
-## 19. Cleanup (volitelné)
+## 20. Cleanup (volitelné)
 
 - [ ] Smazat staré prázdné adresáře (pokud existují)
 - [ ] Zkontrolovat, že nejsou žádné duplicitní soubory
 - [ ] Zkontrolovat console errors v prohlížeči
 - [ ] Optimalizovat CSS (odstranit nepoužívané styly)
 
-## 20. Budoucí vylepšení (backlog)
+## 21. Budoucí vylepšení (backlog)
 
 - [ ] Přidat filtry na /clanky/ (filtrovat podle podkategorie)
 - [ ] Přidat tagy kromě kategorií

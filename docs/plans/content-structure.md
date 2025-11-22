@@ -4,9 +4,10 @@ Plán pro reorganizaci obsahu webu AKA Praha s třístupňovou hierarchií kateg
 
 ## Konvence
 
-- **Kód**: Anglicky (jednotné číslo: `methodology`, `diary`, `club`, `news`)
-- **URL**: Česky (`/clanky/metodika/`, `/clanky/denicek/`)
+- **Kód**: Anglicky (jednotné číslo: `methodology`, `diary`, `club`, `news`, `archive`)
+- **URL**: Česky (`/clanky/metodika/`, `/clanky/denicek/`, `/clanky/archiv/`)
 - **Categories**: Anglicky, malá písmena, bez diakritiky, jednotné číslo
+- **Archiv**: Staré články z původního webu mají navíc `old_category` (např. 'Akce', 'Obecný článek')
 
 ## Struktura adresářů
 
@@ -22,8 +23,11 @@ _posts/
     │   └── 2024-08-20-tatry.md               → categories: [content, article, diary]
     ├── club/
     │   └── 2024-12-01-valna-hromada.md       → categories: [content, article, club]
-    └── news/
-        └── 2024-11-15-nova-stena.md          → categories: [content, article, news]
+    ├── news/
+    │   └── 2024-11-15-nova-stena.md          → categories: [content, article, news]
+    └── archive/
+        └── 2010-03-20-stary-clanek.md        → categories: [content, article, archive]
+                                                 old_category: 'Obecný článek'
 ```
 
 ## Kategorie metadata
@@ -59,6 +63,13 @@ article:
     color: "#f39c12"
     icon: "📰"
     permalink: /clanky/zpravy/
+
+  archive:
+    title: "Archiv"
+    description: "Archivní články z původního webu"
+    color: "#95a5a6"
+    icon: "📦"
+    permalink: /clanky/archiv/
 ```
 
 ## Front Matter příklady
@@ -122,6 +133,20 @@ date: 2024-11-15
 ---
 ```
 
+### Article - Archive (archiv)
+
+```yaml
+---
+categories: [content, article, archive]
+permalink: /clanky/archiv/:title/
+title: Starý článek z původního webu
+date: 2010-03-20
+old_category: 'Obecný článek'
+---
+```
+
+**Poznámka**: Archivní články mají navíc property `old_category`, která obsahuje původní kategorii z Drupalu. Může to být např. 'Akce', 'Obecný článek', 'Novinky', nebo jakákoliv jiná kategorie, která se nemigruje do současné struktury.
+
 ## URL struktura
 
 ```
@@ -134,7 +159,9 @@ date: 2024-11-15
 /clanky/denicek/                           → deníčky (diary)
 /clanky/klub/                              → zprávy o klubu (club)
 /clanky/zpravy/                            → různé zprávy (news)
+/clanky/archiv/                            → archivní články (archive)
 /clanky/metodika/zakladni-technika/        → detail článku
+/clanky/archiv/stary-clanek/               → detail archivního článku
 ```
 
 ## Fyzická struktura stránek
@@ -150,6 +177,8 @@ clanky/
     index.html                → /clanky/klub/ (listing club)
   zpravy/
     index.html                → /clanky/zpravy/ (listing news)
+  archiv/
+    index.html                → /clanky/archiv/ (listing archive)
 ```
 
 ## Filtrování v šablonách
@@ -186,6 +215,16 @@ clanky/
 {% endfor %}
 ```
 
+### /clanky/archiv/ - jen archive
+```liquid
+{% for post in site.posts %}
+  {% if post.categories contains 'article' and post.categories contains 'archive' %}
+    <!-- zobraz archivní článek -->
+    <!-- old_category: {{ post.old_category }} - zobrazit původní kategorii -->
+  {% endif %}
+{% endfor %}
+```
+
 ## Hierarchie kategorií
 
 ```
@@ -196,17 +235,20 @@ content (pro homepage feed)
     ├── methodology → /clanky/metodika/
     ├── diary → /clanky/denicek/
     ├── club → /clanky/klub/
-    └── news → /clanky/zpravy/
+    ├── news → /clanky/zpravy/
+    └── archive → /clanky/archiv/
+        └── + old_category property (původní kategorie z Drupalu)
 ```
 
 ## Best Practices (podle Codex)
 
 1. **Konzistence** - fyzická složka musí odpovídat kategorii v front matter
-2. **Malá písmena bez diakritiky** v categories (methodology, diary, club, news)
+2. **Malá písmena bez diakritiky** v categories (methodology, diary, club, news, archive)
 3. **Jednotné číslo** - používáme singular form (event, article, methodology)
 4. **Jeden zdroj pravdy** - kategorie v front matter, ne z cesty
 5. **Metadata v _data/categories.yml** - barvy, ikony, titulky pro UI
 6. **Content kategorie** - používáme jen pro homepage feed
+7. **Archivní články** - mají navíc `old_category` s původní kategorií z Drupalu (informativní účel)
 
 ## Layout strategie
 
