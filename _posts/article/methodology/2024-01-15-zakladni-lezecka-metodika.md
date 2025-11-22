@@ -1,6 +1,6 @@
 ---
-categories: [clanky]
-permalink: /clanky/:title/
+categories: [content, article, methodology]
+permalink: /clanky/metodika/:title/
 title: Základní lezecká metodika
 date: 2024-01-15
 image: https://images.unsplash.com/photo-1522163182402-834f871fd851?w=600

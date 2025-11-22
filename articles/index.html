@@ -8,7 +8,7 @@ permalink: /clanky/
 
 <div class="event-grid">
 {% for post in paginator.posts %}
-  {% if post.categories contains 'clanky' %}
+  {% if post.categories contains 'article' %}
   <a href="{{ post.url | relative_url }}" class="event-card-link">
     <div class="event-card">
       <div class="event-image" style="background-image: url('{{ post.image }}');"></div>
