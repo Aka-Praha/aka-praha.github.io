@@ -34,17 +34,18 @@ Elementární kroky pro implementaci nové struktury obsahu.
 
 ## 4. Migrace stávajících postů - Articles
 
-- [ ] Najít všechny stávající article posty
-- [ ] Rozhodnout kategorii pro každý článek (methodology/diary/club/news/archive)
-- [ ] Přesunout články do příslušných adresářů v `_posts/article/{subcategory}/`
-- [ ] Aktualizovat front matter: přidat `categories: [content, article, {subcategory}]`
-- [ ] Pro archivní články: přidat `old_category` (např. 'Akce', 'Obecný článek')
-- [ ] Aktualizovat permalink podle podkategorie:
-  - [ ] methodology: `permalink: /clanky/metodika/:title/`
+- [x] Najít všechny stávající article posty
+- [x] Rozhodnout kategorii pro každý článek (methodology/diary/club/news/archive)
+- [x] Přesunout články do příslušných adresářů v `_posts/article/{subcategory}/`
+- [x] Aktualizovat front matter: přidat `categories: [content, article, {subcategory}]`
+- [x] Pro archivní články: přidat `old_category` (např. 'Akce', 'Obecný článek')
+- [x] Aktualizovat permalink podle podkategorie:
+  - [x] methodology: `permalink: /clanky/metodika/:title/`
   - [ ] diary: `permalink: /clanky/denicek/:title/`
   - [ ] club: `permalink: /clanky/klub/:title/`
   - [ ] news: `permalink: /clanky/zpravy/:title/`
   - [ ] archive: `permalink: /clanky/archiv/:title/`
+- [x] Aktualizovat filtr v `articles/index.html` z 'clanky' na 'article'
 
 ## 5. Vytvoření listing stránek - Struktura
 
