@@ -7,7 +7,7 @@ permalink: /akce/
 <div class="event-grid" id="eventGrid">
 {% assign all_posts = site.posts | sort: 'date' | reverse %}
 {% for post in all_posts %}
-  {% if post.categories contains 'events' %}
+  {% if post.categories contains 'event' %}
   <a href="{{ post.url | relative_url }}" class="event-card-link" data-event-item>
     <div class="event-card">
       <img src="{% if post.image %}{{ post.image }}{% else %}/assets/images/placeholder.svg{% endif %}" alt="{{ post.title }}" class="event-image">

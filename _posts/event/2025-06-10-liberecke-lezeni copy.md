@@ -1,6 +1,5 @@
 ---
-categories: [events]
-permalink: /akce/:title/
+categories: [content, event]
 title: Liberecké lezení
 date: 2025-06-10
 date_end: 2025-06-12
