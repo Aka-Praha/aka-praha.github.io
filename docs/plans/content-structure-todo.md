@@ -4,31 +4,31 @@ Elementární kroky pro implementaci nové struktury obsahu.
 
 ## 1. Příprava - Vytvoření adresářové struktury
 
-- [ ] Vytvořit adresář `_posts/event/`
-- [ ] Vytvořit adresář `_posts/article/`
-- [ ] Vytvořit adresář `_posts/article/methodology/`
-- [ ] Vytvořit adresář `_posts/article/diary/`
-- [ ] Vytvořit adresář `_posts/article/club/`
-- [ ] Vytvořit adresář `_posts/article/news/`
-- [ ] Vytvořit adresář `_data/` (pokud neexistuje)
+- [x] Vytvořit adresář `_posts/event/`
+- [x] Vytvořit adresář `_posts/article/`
+- [x] Vytvořit adresář `_posts/article/methodology/`
+- [x] Vytvořit adresář `_posts/article/diary/`
+- [x] Vytvořit adresář `_posts/article/club/`
+- [x] Vytvořit adresář `_posts/article/news/`
+- [x] Vytvořit adresář `_data/` (pokud neexistuje)
 
 ## 2. Vytvoření metadata - _data/categories.yml
 
-- [ ] Vytvořit soubor `_data/categories.yml`
-- [ ] Přidat sekci `article:` do categories.yml
-- [ ] Přidat metadata pro `methodology` (title, description, color, icon, permalink)
-- [ ] Přidat metadata pro `diary`
-- [ ] Přidat metadata pro `club`
-- [ ] Přidat metadata pro `news`
+- [x] Vytvořit soubor `_data/categories.yml`
+- [x] Přidat sekci `article:` do categories.yml
+- [x] Přidat metadata pro `methodology` (title, description, color, icon, permalink)
+- [x] Přidat metadata pro `diary`
+- [x] Přidat metadata pro `club`
+- [x] Přidat metadata pro `news`
 
 ## 3. Migrace stávajících postů - Events
 
-- [ ] Najít všechny stávající event posty (grep/glob)
-- [ ] Přesunout první event post do `_posts/event/`
-- [ ] Aktualizovat front matter: přidat `categories: [content, event]`
-- [ ] Zkontrolovat permalink: `permalink: /akce/:title/`
-- [ ] Opakovat pro všechny zbývající event posty (18 eventů)
-- [ ] Otestovat, že eventy se zobrazují na /akce/
+- [x] Najít všechny stávající event posty (grep/glob)
+- [x] Přesunout první event post do `_posts/event/`
+- [x] Aktualizovat front matter: přidat `categories: [content, event]`
+- [x] Zkontrolovat permalink: `permalink: /akce/:title/`
+- [x] Opakovat pro všechny zbývající event posty (18 eventů)
+- [x] Otestovat, že eventy se zobrazují na /akce/
 
 ## 4. Migrace stávajících postů - Articles
 
