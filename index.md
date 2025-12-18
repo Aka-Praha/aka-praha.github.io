@@ -6,8 +6,11 @@ title: Domů
 ## Nejbližší akce
 
 <div class="event-grid">
-{% assign sorted_events = site.categories.events | sort: 'date' | reverse %}
-{% for event in sorted_events limit:3 %}
+{% assign all_posts = site.posts | sort: 'date' | reverse %}
+{% assign event_count = 0 %}
+{% for event in all_posts %}
+{% if event.categories contains 'event' and event_count < 3 %}
+{% assign event_count = event_count | plus: 1 %}
   <a href="{{ event.url | relative_url }}" class="event-card-link">
     <div class="event-card">
       <div class="event-image" style="background-image: url('{{ event.image }}');"></div>
@@ -22,6 +25,7 @@ title: Domů
       </div>
     </div>
   </a>
+{% endif %}
 {% endfor %}
 </div>
 
