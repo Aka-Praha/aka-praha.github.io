@@ -475,14 +475,28 @@ section h2 {
     border-color: var(--primary-color);
 }
 
+/* Page header with pagination */
+.page-header-with-pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.page-header-with-pagination h1 {
+    margin: 0;
+}
+
+.page-header-with-pagination .pagination {
+    margin: 0;
+}
+
 /* Pagination */
 .pagination {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
-}
-
-.pagination:first-child {
-    margin-top: 0;
 }
 
 .pagination-container {

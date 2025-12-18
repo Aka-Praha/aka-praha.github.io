@@ -1,10 +1,13 @@
 ---
-layout: page
-title: Akce
+layout: default
 permalink: /akce/
 ---
 
-<div class="pagination" id="paginationTop"></div>
+<div class="content-wrapper page-content">
+<div class="page-header-with-pagination">
+  <h1>Akce</h1>
+  <div class="pagination" id="paginationTop"></div>
+</div>
 
 <div class="event-grid" id="eventGrid">
 {% assign all_posts = site.posts | sort: 'date' | reverse %}
@@ -106,3 +109,4 @@ permalink: /akce/
     showPage(1, false);
 })();
 </script>
+</div>
