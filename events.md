@@ -4,13 +4,15 @@ title: Akce
 permalink: /akce/
 ---
 
+<div class="pagination" id="paginationTop"></div>
+
 <div class="event-grid" id="eventGrid">
 {% assign all_posts = site.posts | sort: 'date' | reverse %}
 {% for post in all_posts %}
   {% if post.categories contains 'event' %}
   <a href="{{ post.url | relative_url }}" class="event-card-link" data-event-item>
     <div class="event-card">
-      <img src="{% if post.image %}{{ post.image }}{% else %}/assets/images/placeholder.svg{% endif %}" alt="{{ post.title }}" class="event-image">
+      <img src="{% if post.image %}{{ post.image }}{% else %}/assets/images/placeholder.svg{% endif %}" alt="{{ post.title }}" class="event-image" loading="lazy">
       <div class="event-content">
         <h3 class="event-title">{{ post.title }}</h3>
         <p class="event-date">
@@ -34,10 +36,11 @@ permalink: /akce/
     let currentPage = 1;
 
     const eventItems = document.querySelectorAll('[data-event-item]');
-    const pagination = document.getElementById('pagination');
+    const paginationTop = document.getElementById('paginationTop');
+    const paginationBottom = document.getElementById('pagination');
     const totalPages = Math.ceil(eventItems.length / itemsPerPage);
 
-    function showPage(page) {
+    function showPage(page, scrollToTop = true) {
         currentPage = page;
 
         // Hide all items
@@ -53,12 +56,15 @@ permalink: /akce/
         });
 
         renderPagination();
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+        if (scrollToTop) {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
     }
 
     function renderPagination() {
         if (totalPages <= 1) {
-            pagination.innerHTML = '';
+            paginationTop.innerHTML = '';
+            paginationBottom.innerHTML = '';
             return;
         }
 
@@ -87,7 +93,8 @@ permalink: /akce/
         }
 
         html += '</div>';
-        pagination.innerHTML = html;
+        paginationTop.innerHTML = html;
+        paginationBottom.innerHTML = html;
     }
 
     // Expose functions globally
@@ -95,7 +102,7 @@ permalink: /akce/
         goToPage: showPage
     };
 
-    // Initialize
-    showPage(1);
+    // Initialize (don't scroll on first load)
+    showPage(1, false);
 })();
 </script>

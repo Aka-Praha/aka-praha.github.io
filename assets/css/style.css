@@ -477,14 +477,18 @@ section h2 {
 
 /* Pagination */
 .pagination {
-    margin-top: 3rem;
-    margin-bottom: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.pagination:first-child {
+    margin-top: 0;
 }
 
 .pagination-container {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     gap: 1rem;
     flex-wrap: wrap;
 }
