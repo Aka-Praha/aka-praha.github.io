@@ -10,14 +10,15 @@ Memory pro budoucí Claude sessions. Tohle je reálný projekt pro Akademický k
 - **Uživatel:** Ondra (ondra-pazi na GitHubu)
 - **Původní web:** Drupal na http://localhost:8081/ (300+ článků, 150+ akcí čeká na migraci)
 
-## Aktuální stav (November 2025)
+## Aktuální stav (Prosinec 2025)
 
 **✅ Hotovo:**
 - Základní struktura webu + design
 - Černobílý konzervativní design podle loga AKA (hexagon s horami)
 - Background image (assets/images/bg.webp) použito na celém body
 - Responzivní layout
-- **Posts s kategoriemi** místo collections (`_posts/` + `categories: [events]` nebo `[articles]`)
+- **Posts s kategoriemi** v podadresářích (`_posts/event/` a `_posts/article/`)
+- **Podkategorie článků** definované v `_data/categories.yml` (methodology, diary, club, news, archive)
 - Event listing page (/akce/) s **JavaScript pagination** (9 eventů/stránka)
 - Event detail pages (/akce/nazev-akce/)
 - Articles listing page (/clanky/)
@@ -60,6 +61,8 @@ Memory pro budoucí Claude sessions. Tohle je reálný projekt pro Akademický k
 
 ```
 _config.yml              # Jekyll config (paginate: 9, collections: albums)
+_data/
+  └── categories.yml     # Definice podkategorií článků
 _layouts/
   ├── default.html       # Base layout
   ├── home.html          # Homepage
@@ -69,11 +72,18 @@ _layouts/
 _includes/
   ├── header.html        # Nav + logo
   └── footer.html        # Footer
-_posts/                  # ⭐ Posts s kategoriemi
-  ├── 2025-01-10-vysocina-2025.md          # categories: [events]
-  ├── 2025-07-07-adrspach-2025.md          # categories: [events]
-  ├── 2024-01-15-zakladni-lezecka-...md    # categories: [articles]
-  └── ... (18 eventů, 1 článek)
+_posts/                  # ⭐ Posts v podadresářích podle typu
+  ├── event/             # Akce (categories: [event])
+  │   ├── 2025-01-10-vysocina-2025.md
+  │   ├── 2025-07-07-adrspach-2025.md
+  │   └── ... (18 eventů)
+  └── article/           # Články s podkategoriemi
+      ├── archive/       # Archivní články
+      ├── club/          # Klubové zprávy
+      ├── diary/         # Deníčky z výprav
+      ├── methodology/   # Metodiky a návody
+      │   └── 2024-01-15-zakladni-lezecka-metodika.md
+      └── news/          # Různé zprávy
 _albums/                 # 🖼️ Fotogalerie alba
   ├── adrspach-2024.md
   ├── tatry-2024.md
@@ -82,7 +92,10 @@ assets/
   ├── css/style.css      # Veškerý CSS (600+ řádků)
   ├── js/main.js         # JS pro nav toggle, smooth scroll
   └── images/
-      └── bg.webp        # Body background (Alpy)
+      ├── bg.webp        # Body background (Alpy)
+      └── placeholder.svg # Placeholder pro obrázky
+docs/
+  └── plans/             # Plány migrace a dokumentace
 logo.png                 # AKA hexagon logo
 index.md                 # Homepage
 events.md                # Event listing (permalink: /akce/) - JavaScript pagination
@@ -96,12 +109,12 @@ Gemfile                  # Jekyll 3.9, jekyll-paginate (nepoužívá se)
 
 ## Jekyll Posts s kategoriemi - jak to funguje
 
-**DŮLEŽITÉ: Použití categories (množné číslo) je NUTNÉ!**
+**DŮLEŽITÉ:** Posts jsou organizované v podadresářích podle typu!
 
-**Post file (_posts/2025-01-10-vysocina-2025.md):**
+**Event file (_posts/event/2025-01-10-vysocina-2025.md):**
 ```yaml
 ---
-categories: [events]     # ⭐ MNOŽNÉ číslo! Ne "category:"
+categories: [event]      # ⭐ Jednotné číslo "event"!
 permalink: /akce/:title/
 title: Vysočina 2025
 date: 2025-01-10
@@ -111,9 +124,21 @@ image: https://url-obrazku.jpg
 Popis v markdown...
 ```
 
+**Article file (_posts/article/methodology/2024-01-15-zakladni-lezecka-metodika.md):**
+```yaml
+---
+categories: [article, methodology]  # Hlavní + podkategorie
+permalink: /clanky/:title/
+title: Základní lezecká metodika
+date: 2024-01-15
+image: https://url-obrazku.jpg
+---
+Popis v markdown...
+```
+
 **Výsledek:**
-- Jekyll vytvoří stránku: `/akce/vysocina-2025/`
-- `events.md` loopuje přes `site.posts` s filtrem `post.categories contains 'events'`
+- Jekyll vytvoří stránku: `/akce/vysocina-2025/` nebo `/clanky/zakladni-lezecka-metodika/`
+- `events.md` loopuje přes `site.posts` s filtrem `post.categories contains 'event'`
 - **JavaScript pagination** - 9 eventů na stránku (ne jekyll-paginate!)
 - Layout `post.html` renderuje detail (article styl)
 
@@ -121,6 +146,21 @@ Popis v markdown...
 - `jekyll-paginate` v1.1 (GitHub Pages) funguje POUZE na `index.html` v root
 - Nepodporuje pagination v podadresářích (např. `akce/index.html`)
 - JavaScript řešení je spolehlivější a flexibilnější
+
+## Podkategorie článků (_data/categories.yml)
+
+Články mají podkategorie definované v `_data/categories.yml`:
+
+| Podkategorie | Popis | Permalink |
+|--------------|-------|-----------|
+| `methodology` | Metodiky a návody | `/clanky/metodika/` |
+| `diary` | Deníčky z výprav | `/clanky/denicek/` |
+| `club` | Klubové zprávy | `/clanky/klub/` |
+| `news` | Různé zprávy | `/clanky/zpravy/` |
+| `archive` | Archivní články | `/clanky/archiv/` |
+
+Soubory článků jsou uloženy v odpovídajících podadresářích:
+`_posts/article/{podkategorie}/YYYY-MM-DD-nazev.md`
 
 ## Jekyll Albums collection - fotogalerie
 
@@ -191,12 +231,12 @@ git push origin master
 - Hard refresh (Ctrl+Shift+R)
 
 **Event se nezobrazuje na /akce/:**
-- ⭐ Musí být v `_posts/` (ne `_events/`!)
-- ⭐ Musí mít `categories: [events]` (množné číslo!)
+- ⭐ Musí být v `_posts/event/` podadresáři!
+- ⭐ Musí mít `categories: [event]` (jednotné číslo!)
 - Musí mít `permalink: /akce/:title/`
 - YAML front matter musí být validní
 - Soubor musí být commitnutý a pushnutý
-- JavaScript v `events.md` filtruje podle kategorie
+- JavaScript v `events.md` filtruje podle `post.categories contains 'event'`
 
 **Pagination nefunguje:**
 - Aktuálně se používá **JavaScript pagination**, ne jekyll-paginate
@@ -233,12 +273,13 @@ git push origin master
 **Když něco nefunguje, zkontroluj:**
 1. Je to v masteru? (ne main)
 2. YAML front matter validní?
-3. Post má `categories: [events]` (množné číslo)?
-4. Post má `permalink: /akce/:title/`?
-5. CSS třídy anglicky?
-6. Build prošel na GitHubu?
-7. Čekal jsi 2-3 minuty?
-8. JavaScript v events.md správně filtruje podle kategorie?
+3. Event má `categories: [event]` a je v `_posts/event/`?
+4. Article má `categories: [article, podkategorie]` a je v `_posts/article/{podkategorie}/`?
+5. Post má správný `permalink:`?
+6. CSS třídy anglicky?
+7. Build prošel na GitHubu?
+8. Čekal jsi 2-3 minuty?
+9. JavaScript v events.md správně filtruje podle kategorie?
 
 ## Technické detaily
 
@@ -250,14 +291,16 @@ git push origin master
 **Categories vs Category:**
 - ⭐ **Vždy používej `categories:` (množné číslo)!**
 - Jekyll podporuje obojí, ale `categories:` je standard
-- Filtrování: `post.categories contains 'events'`
+- Filtrování eventů: `post.categories contains 'event'`
+- Filtrování článků: `post.categories contains 'article'`
 
 **Posts s více kategoriemi:**
 ```yaml
-categories: [events, featured]  # Možné, ale zatím nepoužíváme
+categories: [article, methodology]  # Článek + podkategorie
+categories: [event, featured]       # Event + featured (možné do budoucna)
 ```
 
 ---
 
-**Poslední update:** 21.11.2025
-**Status:** Fungující web s posts (events/articles), fotogalerií, kontaktem. Používá JavaScript pagination. Čeká se na migraci dat z Drupalu.
+**Poslední update:** 18.12.2025
+**Status:** Fungující web s posts v podadresářích (event/article), fotogalerií, kontaktem. Články mají podkategorie (methodology, diary, club, news, archive). Používá JavaScript pagination. Čeká se na migraci dat z Drupalu.
