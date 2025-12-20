@@ -2,8 +2,9 @@
 categories: [content, event]
 permalink: /akce/:title/
 title: Liberecké lezení
-date: 2025-06-10
+date_begin: 2025-06-10
 date_end: 2025-06-12
+author: "John Doe"
 image: https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?w=600
 ---
 

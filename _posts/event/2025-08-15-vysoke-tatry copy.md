@@ -2,8 +2,9 @@
 categories: [content, event]
 permalink: /akce/:title/
 title: Vysoké Tatry
-date: 2025-08-15
+date_begin: 2025-08-15
 date_end: 2025-08-22
+author: "John Doe"
 image: https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600
 ---
 

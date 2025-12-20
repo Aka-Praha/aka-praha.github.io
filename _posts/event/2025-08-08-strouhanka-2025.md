@@ -2,8 +2,9 @@
 categories: [content, event]
 permalink: /akce/:title/
 title: Strouhanka ve Skalaku 2025
-date: 2025-08-08
+date_begin: 2025-08-08
 date_end: 2025-08-10
+author: "John Doe"
 image: https://images.unsplash.com/photo-1522163182402-834f871fd851?w=600
 ---
 
