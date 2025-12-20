@@ -131,13 +131,13 @@ Popis v markdown...
 categories: [article, methodology]  # Hlavní + podkategorie
 permalink: /clanky/:title/
 title: Základní lezecká metodika
-date: 2024-01-15         # Pro Jekyll řazení
 date_created: 2024-01-15 # Datum vytvoření článku
 author: "John Doe"       # Autor článku
 image: https://url-obrazku.jpg
 ---
 Popis v markdown...
 ```
+*Poznámka: Jekyll bere datum pro řazení z názvu souboru (YYYY-MM-DD-nazev.md)*
 
 **Výsledek:**
 - Jekyll vytvoří stránku: `/akce/vysocina-2025/` nebo `/clanky/zakladni-lezecka-metodika/`
