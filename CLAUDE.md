@@ -117,8 +117,9 @@ Gemfile                  # Jekyll 3.9, jekyll-paginate (nepoužívá se)
 categories: [event]      # ⭐ Jednotné číslo "event"!
 permalink: /akce/:title/
 title: Vysočina 2025
-date: 2025-01-10
-date_end: 2025-01-12
+date_begin: 2025-01-10   # ⭐ Začátek akce (ne "date"!)
+date_end: 2025-01-12     # Konec akce (volitelné)
+author: "John Doe"       # Autor/organizátor
 image: https://url-obrazku.jpg
 ---
 Popis v markdown...
@@ -130,7 +131,9 @@ Popis v markdown...
 categories: [article, methodology]  # Hlavní + podkategorie
 permalink: /clanky/:title/
 title: Základní lezecká metodika
-date: 2024-01-15
+date: 2024-01-15         # Pro Jekyll řazení
+date_created: 2024-01-15 # Datum vytvoření článku
+author: "John Doe"       # Autor článku
 image: https://url-obrazku.jpg
 ---
 Popis v markdown...
@@ -302,5 +305,5 @@ categories: [event, featured]       # Event + featured (možné do budoucna)
 
 ---
 
-**Poslední update:** 18.12.2025
-**Status:** Fungující web s posts v podadresářích (event/article), fotogalerií, kontaktem. Články mají podkategorie (methodology, diary, club, news, archive). Používá JavaScript pagination. Čeká se na migraci dat z Drupalu.
+**Poslední update:** 20.12.2025
+**Status:** Fungující web s posts v podadresářích (event/article), fotogalerií, kontaktem. Články mají podkategorie (methodology, diary, club, news, archive). Eventy používají date_begin/date_end/author, články date_created/author. Používá JavaScript pagination. Čeká se na migraci dat z Drupalu.
