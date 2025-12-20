@@ -5,7 +5,7 @@ title: "Horolezecká chata Sedmihorky 2021"
 date_begin: 2021-05-07
 date_end: 2021-05-09
 author: "Zuzana Kluková"
-image: /images/2021-11/2021-05-08_suche-skaly_001.jpg
+image: /images/2021-11/2021-05-08_suche-skaly_001.webp
 ---
 
 Po velmi dlouhé odmlce od všech větších a v těch nejkritičtějších dobách i menších akcích konečně svitla naděje setkat se o víkendu u našeho oblíbeného sportu. Greefovi se podařilo zamluvit velmi vytíženou [lezeckou chatu v Sedmihorách](http://www.hruboskalsko.cz/tj-cesky-raj/horolezecka-chata-turnovska) a pak už nic nebránilo tomu, aby se mohla akce uskutečnit.

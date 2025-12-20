@@ -5,7 +5,7 @@ title: "Víkend s čekateli - Ostrov (podzim 2021)"
 date_begin: 2021-10-08
 date_end: 2021-10-10
 author: "Zuzana Kluková"
-image: /images/2021-11/2021_10_09-AKA-Ostrov-DW-039.jpg
+image: /images/2021-11/2021_10_09-AKA-Ostrov-DW-039.webp
 ---
 
 Tento víkend byl naplánovaný jako takový zvací (nebo odrazovací?) víkend pro zájemnce o členství v AKA (tzv. čekatele), kteří zatím neměli tu možnost se do AKA přidat, když už druhý rok chyběla horoškola. Cílem bylo ukázat jim, jak vypadají takové AKA akce, aby dokázali lépe zhodnotit, jestli je pro ně náš oddíl ten pravý.

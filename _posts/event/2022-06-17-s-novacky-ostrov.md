@@ -5,7 +5,7 @@ title: "S nováčky - Ostrov"
 date_begin: 2022-06-17
 date_end: 2022-06-19
 author: "Zuzana Kluková"
-image: /images/2022-06/2021_06_19-AKA-Ostrov-DW-017.jpg
+image: /images/2022-06/2021_06_19-AKA-Ostrov-DW-017.webp
 ---
 
 O víkendu **17. - 19. 6.** se můžete těšit na pískovcové lezení v Ostrově a okolí.

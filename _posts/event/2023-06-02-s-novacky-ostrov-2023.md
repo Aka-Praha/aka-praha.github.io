@@ -5,7 +5,7 @@ title: "S nováčky - Ostrov 2023"
 date_begin: 2023-06-02
 date_end: 2023-06-04
 author: "Zuzana Kluková"
-image: /images/2023-05/2022_06_19-AKA-Tisa-DW-005.jpg
+image: /images/2023-05/2022_06_19-AKA-Tisa-DW-005.webp
 ---
 
 O víkendu **2. - 4. 6.** si opět společně zalezeme v Ostrově, kde si na své přijdou i ti, kteří nemají s pískem mnoho zkušeností.

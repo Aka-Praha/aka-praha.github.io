@@ -5,7 +5,7 @@ title: "Machovíkend Jizerky"
 date_begin: 2017-08-18
 date_end: 2017-08-20
 author: "Jan Škarohlíd"
-image: /images/2020-01/jizerky.jpg
+image: /images/2020-01/jizerky.webp
 ---
 
 Však vy víte....

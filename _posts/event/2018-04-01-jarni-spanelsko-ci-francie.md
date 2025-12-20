@@ -5,7 +5,7 @@ title: "Jarní Španělsko či Francie"
 date_begin: 2018-04-01
 date_end: 2018-04-10
 author: "Lenka Matějová"
-image: /images/2020-01/received_10156191576842768 (1).jpeg
+image: /images/2020-01/received_10156191576842768 (1).webp
 ---
 
 Pojeďme vyrazit na aspoň 10 dní směr jih - za lezeckými zážitky.

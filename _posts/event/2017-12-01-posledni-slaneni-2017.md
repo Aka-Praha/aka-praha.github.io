@@ -5,7 +5,7 @@ title: "Poslední slanění 2017"
 date_begin: 2017-12-01
 date_end: 2017-12-03
 author: "Pepa Líba"
-image: /images/2020-01/slaneni18_0.jpg
+image: /images/2020-01/slaneni18_0.webp
 ---
 
 Stejně jako loni máme zamluven statek (www.penzionkaceri.cz) v Lachově u Teplic nad Metují.   

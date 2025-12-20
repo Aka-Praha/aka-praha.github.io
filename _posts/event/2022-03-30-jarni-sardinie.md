@@ -5,7 +5,7 @@ title: "Jarní Sardinie"
 date_begin: 2022-03-30
 date_end: 2022-04-13
 author: "Pepa Líba"
-image: /images/2022-02/Pedra-Longa-Baunei.jpg
+image: /images/2022-02/Pedra-Longa-Baunei.webp
 ---
 
 **3x a dost...**

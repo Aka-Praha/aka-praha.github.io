@@ -5,7 +5,7 @@ title: "S nováčky - Ostrov 2025"
 date_begin: 2025-06-06
 date_end: 2025-06-08
 author: "Zuzana Kluková"
-image: /images/2025-05/ostrov_2022_2.jpg
+image: /images/2025-05/ostrov_2022_2.webp
 ---
 
 O víkendu **6. - 8. 6. 2025** lezeme v Ostrově. V případě nepřízně počasí se akce přesouvá na pozdější termín.

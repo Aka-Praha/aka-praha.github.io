@@ -5,7 +5,7 @@ title: "Finale Ligure"
 date_begin: 2023-04-29
 date_end: 2023-05-08
 author: "Pepa Líba"
-image: /images/2023-03/finale.jpg
+image: /images/2023-03/finale.webp
 ---
 
 Letos v květnu zkusíme vápenec v italské Ligurii. 

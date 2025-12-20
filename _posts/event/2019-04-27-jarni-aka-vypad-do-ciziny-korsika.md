@@ -5,7 +5,7 @@ title: "Jarní AKA výpad do ciziny - Korsika"
 date_begin: 2019-04-27
 date_end: 2019-05-05
 author: "Lenka Matějová"
-image: /images/2019-12/kors.jpg
+image: /images/2019-12/kors.webp
 ---
 
 Ahoj AKAmačky a AKAmani,

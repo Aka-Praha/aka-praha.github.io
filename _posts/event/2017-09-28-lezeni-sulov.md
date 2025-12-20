@@ -5,7 +5,7 @@ title: "Lezení Súlov"
 date_begin: 2017-09-28
 date_end: 2017-10-12
 author: "Pepa Líba"
-image: /images/2020-01/IMG_9690.jpeg
+image: /images/2020-01/IMG_9690.webp
 ---
 
 Pojeďte oslavit Den české státnosti do slovenského Súlova. Je to skoro stejně daleko jako do Jury :-)

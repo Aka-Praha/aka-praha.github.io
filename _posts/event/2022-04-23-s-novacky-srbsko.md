@@ -5,7 +5,7 @@ title: "S nováčky - Srbsko"
 date_begin: 2022-04-23
 date_end: 2022-04-24
 author: "Zuzana Kluková"
-image: /images/2022-04/2019_04_13-AKA_Alkazar-DW-014.jpg
+image: /images/2022-04/2019_04_13-AKA_Alkazar-DW-014.webp
 ---
 
 O víkendu **23. - 24. 4. 2022** proběhne lezení v Srbsku s horoškoláky.

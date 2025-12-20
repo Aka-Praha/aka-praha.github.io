@@ -5,7 +5,7 @@ title: "AKA 100 - Bořeň vlakem"
 date_begin: 2024-05-17
 date_end: 2024-05-19
 author: "Jan Pěkný"
-image: /images/2024-05/P1090116.JPG
+image: /images/2024-05/P1090116.webp
 ---
 
 **Termín: 17.5. - 19.5.2024**

@@ -5,7 +5,7 @@ title: "S nováčky - Bořeň 2025"
 date_begin: 2025-05-16
 date_end: 2025-05-18
 author: "Zuzana Kluková"
-image: /images/2025-05/boren_2023_zmensene.jpg
+image: /images/2025-05/boren_2023_zmensene.webp
 ---
 
 O víkendu **16. - 18. 5. 2025** se jako každý rok leze na Bořni.
@@ -22,4 +22,4 @@ O víkendu **16. - 18. 5. 2025** se jako každý rok leze na Bořni.
 
 Více informací v e-mailu.
 
-![Food truck festival](/sites/default/files/inline-images/2023_sushi_zmensene.jpg)
+![Food truck festival](/sites/default/files/inline-images/2023_sushi_zmensene.webp)

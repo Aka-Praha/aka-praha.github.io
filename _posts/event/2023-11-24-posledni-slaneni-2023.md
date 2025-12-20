@@ -5,7 +5,7 @@ title: "Poslední slanění 2023"
 date_begin: 2023-11-24
 date_end: 2023-11-26
 author: "Zuzana Kluková"
-image: /images/2023-11/2022_11_26-AKA-Posledni_slaneni-DW-058.jpg
+image: /images/2023-11/2022_11_26-AKA-Posledni_slaneni-DW-058.webp
 ---
 
 Čeká nás oficální završení lezecké sezóny!

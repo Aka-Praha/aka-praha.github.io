@@ -5,7 +5,7 @@ title: "S nováčky - Srbsko 2025"
 date_begin: 2025-04-12
 date_end: 2025-04-13
 author: "Zuzana Kluková"
-image: /images/2025-04/2023_04_22-AKA-Srbsko-DW-030.jpg
+image: /images/2025-04/2023_04_22-AKA-Srbsko-DW-030.webp
 ---
 
 O víkendu **12. - 13. 4. 2025** lezeme v Srbsku s nováčky.

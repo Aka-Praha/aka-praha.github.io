@@ -5,7 +5,7 @@ title: "Poslední Slanění 2019"
 date_begin: 2019-11-22
 date_end: 2019-12-24
 author: "Pepa Líba"
-image: /images/2019-12/2018_11_23-Posledni_slaneni-DW-006_0.jpg
+image: /images/2019-12/2018_11_23-Posledni_slaneni-DW-006_0.webp
 ---
 
 Další lezeckou sezónu máme zdárně za sebou (téměř) a je třeba to patřičně oslavit.

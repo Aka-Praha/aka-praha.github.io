@@ -5,7 +5,7 @@ title: "Poslední slanění 2017 - Fotosoutež"
 date_begin: 2017-12-01
 date_end: 2017-12-03
 author: "David Kofroň"
-image: /images/2020-01/soutez_0.jpg
+image: /images/2020-01/soutez_0.webp
 ---
 
 Je to tady! Vedle výstupů roku, které tradičně zaštiťuje Béda, mám tu čest, vyhlásit soutěž na poli kulturně uměleckém.

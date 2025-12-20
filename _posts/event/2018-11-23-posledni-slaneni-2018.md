@@ -5,7 +5,7 @@ title: "Poslední slanění 2018"
 date_begin: 2018-11-23
 date_end: 2018-11-25
 author: "Lenka Matějová"
-image: /images/2019-12/slano.jpg
+image: /images/2019-12/slano.webp
 ---
 
 Stejně jako loni máme zamluven statek ([www.penzionkaceri.cz](http://www.penzionkaceri.cz/)) v Lachově u Teplic nad Metují.   

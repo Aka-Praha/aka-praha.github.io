@@ -5,7 +5,7 @@ title: "S nováčky - Bořeň"
 date_begin: 2022-05-20
 date_end: 2022-05-22
 author: "Zuzana Kluková"
-image: /images/2022-05/2019_05_25-AKA-Boren-DW-015.jpg
+image: /images/2022-05/2019_05_25-AKA-Boren-DW-015.webp
 ---
 
 O víkendu **20. - 22. 5.** nás čeká tradiční lezení na Bořni spojené se zaškolováním letošních horoškoláků v lezení po vlastním.

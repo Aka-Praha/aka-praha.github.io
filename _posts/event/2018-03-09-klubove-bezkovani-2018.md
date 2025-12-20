@@ -5,7 +5,7 @@ title: "Klubové běžkování 2018"
 date_begin: 2018-03-09
 date_end: 2018-03-11
 author: "Jan Pěkný"
-image: /images/2020-01/bezky2.jpg
+image: /images/2020-01/bezky2.webp
 ---
 
 **Kde: **[Krušné hory - Abertamy](https://mapy.cz/zimni?vlastni-body&x=12.8212624&y=50.3710816&z=16&l=0&ut=Chata%20Milka&uc=9dZSBxZcVS&ud=ulice%20Rooseweltova%20356%2C%20Abertamy%2C%20362%2035%2C%20okres%20Karlovy%20Vary), [Chata Milka](http://www.milka-cz.cz/)

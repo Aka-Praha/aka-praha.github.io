@@ -5,7 +5,7 @@ title: "S nováčky - Srbsko 2023"
 date_begin: 2023-04-22
 date_end: 2023-04-23
 author: "Zuzana Kluková"
-image: /images/2023-04/2022-04-23_alkazar_014.jpg
+image: /images/2023-04/2022-04-23_alkazar_014.webp
 ---
 
 O víkendu **22. - 23. 4. 2022** proběhne lezení v Srbsku s adepty do oddílu.
