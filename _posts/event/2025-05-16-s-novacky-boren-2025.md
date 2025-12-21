@@ -22,4 +22,4 @@ O víkendu **16. - 18. 5. 2025** se jako každý rok leze na Bořni.
 
 Více informací v e-mailu.
 
-![Food truck festival](/sites/default/files/inline-images/2023_sushi_zmensene.webp)
+![Food truck festival](/images/inline-images/2023_sushi_zmensene.webp)

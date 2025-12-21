@@ -20,6 +20,13 @@ article:
     icon: "🏔️"
     permalink: /clanky/klub/
 
+  areas:
+    title: "Popisy oblastí"
+    description: "Popisy lezeckých oblastí"
+    color: "#3498db"
+    icon: "🗺️"
+    permalink: /clanky/oblasti/
+
   news:
     title: "Různé zprávy"
     description: "Novinky a aktuality"

@@ -5,14 +5,14 @@ title: "Poslední slanění 2021"
 date_begin: 2021-11-26
 date_end: 2021-11-28
 author: "Pepa Líba"
-image: /images/2021-11/640x426-20191122-235738-PEP09827.webp.webp
+image: /images/2021-11/640x426-20191122-235738-PEP09827.jpg.webp
 ---
 
 Oslava a hodnocení uplynulé lezecké sezóny.
 
 Letos opět v Teplicích nad Metují resp. [http://www.penzionkaceri.cz/](http://www.penzionkaceri.cz/)
 
-![Penzion Kačeří](/sites/default/files/inline-images/unnamed.webp)
+![Penzion Kačeří](/images/inline-images/unnamed.webp)
 
 Účast je podmíněna negativním PCR testem (platí i pro děti školkou povinné).
 

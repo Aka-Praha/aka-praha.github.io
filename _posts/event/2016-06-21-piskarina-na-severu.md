@@ -10,7 +10,7 @@ author: "Tomáš Janků"
 **Kdo: **Zip, Káťa, Radka, Špejlík, Zuzka, Eda?
 
 Aktuální plán: V sobotu 6:57 z Prahy hl.n. vlakem na sever, lezeni v Tisé. Odpoledne má na 50% přijít přeháňka, dle intenzity se rozhodneme, jestli tam zůstáváme do neděle. V opačném případě asi otočka na Prahu a v neděli Vltaská žula (Velká/Roviště).
-[![](https://www.akapraha.eu/sites/default/files/images/tiskesteny_0.webp)](https://www.akapraha.eu/sites/default/files/images/tiskesteny_0.webp)
+[![](/images/tiskesteny_0.webp)](/images/tiskesteny_0.webp)
 
 Po krásném a vysloveně "letním" víkendu v Tisé/Ostrově jsme se nadšení horoškoláci domluvili na pokračování a vítáme každého, kdo se k nám přidá. Samozřejmě počasí je hlavním elementem, takže ve čtvrtek bude aktualizace stavu a plánu.
 

@@ -5,7 +5,7 @@ title: "Tatry na otočku"
 author: "Matěj Morava"
 ---
 
-[![](https://www.akapraha.eu/sites/default/files/images/020.portret.webp)](https://www.akapraha.eu/sites/default/files/images/020.portret.webp)
+[![](/images/020.portret.webp)](/images/020.portret.webp)
 
 Nezbytným počinem bude výstup na Gerlach (2654 m).
 

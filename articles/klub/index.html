@@ -1,0 +1,32 @@
+---
+layout: default
+title: Z klubu
+permalink: /clanky/klub/
+---
+
+<div class="content-wrapper page-content">
+  <h1>Z klubu</h1>
+  <p class="event-intro">Zprávy a novinky z klubu AKA Praha.</p>
+
+  {% assign articles = site.posts | where_exp: "post", "post.categories contains 'club'" | sort: 'date' | reverse %}
+
+  {% if articles.size > 0 %}
+  <div class="event-grid">
+    {% for post in articles %}
+    <a href="{{ post.url | relative_url }}" class="event-card-link">
+      <div class="event-card">
+        <div class="event-image" style="background-image: url('{{ post.image }}');" loading="lazy"></div>
+        <div class="event-content">
+          <h3 class="event-title">{{ post.title }}</h3>
+          <p class="event-date">{{ post.date_created | date: "%d.%m.%Y" }}</p>
+        </div>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+  {% else %}
+  <p>Zatím zde nejsou žádné zprávy z klubu.</p>
+  {% endif %}
+
+  <p style="margin-top: 2rem;"><a href="/clanky/" class="btn btn-primary">← Všechny články</a></p>
+</div>

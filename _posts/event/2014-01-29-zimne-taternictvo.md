@@ -5,7 +5,7 @@ title: "Zimné taternictvo"
 author: "Matěj Morava"
 ---
 
-[![](https://www.akapraha.eu/sites/default/files/images/031.portret.webp)](https://www.akapraha.eu/sites/default/files/images/031.portret.webp)
+[![](/images/031.portret.webp)](/images/031.portret.webp)
 
 Kdy: odjezd 31.1. kolem půlnoci, návrat 5.2. někdy k ránu
 
