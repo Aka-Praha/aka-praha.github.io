@@ -1,7 +1,7 @@
 ---
 layout: page
-title: O nás
-permalink: /o-nas/
+title: Historie
+permalink: /historie/
 ---
 
 ## Kdo jsme

@@ -574,6 +574,11 @@ section h2 {
     background-color: var(--light-color);
 }
 
+.event-image.fallback-image {
+    object-fit: contain;
+    padding: 1.5rem;
+}
+
 .event-content {
     padding: 1.5rem;
 }

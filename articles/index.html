@@ -15,7 +15,7 @@ permalink: /clanky/
 {% for post in articles %}
   <a href="{{ post.url | relative_url }}" class="event-card-link" data-article-item>
     <div class="event-card">
-      <img src="{% if post.image %}{{ post.image }}{% else %}/logo.png{% endif %}" alt="{{ post.title }}" class="event-image" loading="lazy">
+      <img src="{% if post.image %}{{ post.image }}{% else %}/logo.png{% endif %}" alt="{{ post.title }}" class="event-image{% unless post.image %} fallback-image{% endunless %}" loading="lazy">
       <div class="event-content">
         <h3 class="event-title">{{ post.title }}</h3>
         <p class="event-date">{{ post.date_created | date: "%d.%m.%Y" }}</p>
