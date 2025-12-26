@@ -154,12 +154,6 @@ a {
     position: relative;
 }
 
-.dropdown-toggle {
-    display: flex;
-    align-items: center;
-    gap: 0.3rem;
-}
-
 .dropdown-arrow {
     font-size: 0.7rem;
     transition: transform 0.2s ease;
@@ -548,12 +542,6 @@ section h2 {
 }
 
 /* ===== Events ===== */
-.event-intro {
-    font-size: 1.1rem;
-    color: var(--text-light);
-    margin-bottom: 2.5rem;
-}
-
 .event-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
