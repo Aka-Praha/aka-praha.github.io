@@ -11,7 +11,7 @@ permalink: /clanky/oblasti/
 </div>
 
 <div class="event-grid" id="articleGrid">
-{% assign articles = site.posts | where_exp: "post", "post.categories contains 'areas'" | sort: 'date' | reverse %}
+{% assign articles = site.posts | where_exp: "post", "post.categories contains 'area'" | sort: 'date' | reverse %}
 {% for post in articles %}
   <a href="{{ post.url | relative_url }}" class="event-card-link" data-article-item>
     <div class="event-card">
