@@ -4,6 +4,7 @@ permalink: /clanky/metodika/nauci-me-gen-ai-lezt/
 title: "Naučí mě gen-AI lézt?"
 date_created: 2024-11-18
 author: "David Wagenknecht"
+image: /images/inline-images/vudcak.webp
 ---
 
 *Poznámka autora 1: Následující text berte se značným nadhledem. Rámec je reálný a negenerovaný AI, zbytek vás může poslat do věčných lovišť!*
@@ -49,7 +50,7 @@ Vzpomněl jsem si tedy na rady, které jsem před pár hodinami udílel učitel�
 Zde je nákres ukazující postup vázání vůdcovského uzlu krok za krokem. Doufám, že vám pomůže! Pokud budete potřebovat další informace, dejte vědět.
 
 Obrázek předčil má veškerá očekávání, jen se podívejte …
-![Vůdcák generovaný AI](/sites/default/files/inline-images/vudcak.jpg)
+![Vůdcák generovaný AI](/images/inline-images/vudcak.webp)
 Přiznám se, že sám nevím, jak podle tohoto mám vůdcák uvázat. Jsem zmatený …
 
 *Poznámka autora 3: Původně jsem měl ambice řešit složitější témata a čekal jsem, že vůdcákem bude problém jen kvůli hovorovému názvu. Ten sice nevadil, ale v další lezecké konverzaci pokračovat se strojem nebudu.*
