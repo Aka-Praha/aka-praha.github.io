@@ -1,0 +1,48 @@
+---
+categories: [content, article, diary]
+permalink: /clanky/denicek/vanocni-vylet-za-pomeranci-finale-ligure-vanoce-2017/
+title: "Vánoční výlet za pomeranči - Finále Ligure Vánoce 2017"
+date_created: 2019-01-10
+author: "Lenka Matějová"
+image: /images/2020-01/obr.webp
+---
+
+*Lízt a hrát prší, to je jediné, co chceš!*
+
+Těsně před Vánoci se mi ozývá Jirka, že prý Pakloška a co já na to. Zvažuju kličky, rodina, nefunkční koleno, práce, povinnosti… lezení vítězí 4:0. Jsme čtyři, Dan, Silvie, která půl roku ležela a srůstala, Jirka a já. Co se mění, je počasí. Hledáme alternativy. Jisté je, že se prvního musíme vrátit. Průvodce máme na Paklošku, Oltrefinale i jižní Francii.
+
+V pátek Dan na stěně ukecává Tomáše, Silvie nemůže jistit, polezou tedy ve trojko. Počasí se mění každým dnem, začíná to být opravdové drama, ale Dan říká, ať se hodím do klidu. Prostě se jede. Na Štěpána začíná krystalizovat, že to bude Finále. 
+
+*Poznámka Silvie: Ona Toma ukecala spíš Silvie :) A jet se někam muselo, protože Silvie byla půl roku zavřená doma a už to nemohla vydržet.*
+
+Ráno dáváme sraz tradičně, na Budějárně, nahážem cajky do auta a vyjedeme. Obrovská radost, konečně zase lezení, skalky a lezecký lesní svět. Ve Finále jsem byla akorát já, tak se autoritativně ujímám vedení. Udávám souřadnice. Cesta má trvat 10,5 hodiny, Alpy nám to trochu zkomplikují sněhovou kalamitou. Uprostřed závějí, kterými projíždíme v koloně krokem, sníme o tom, že za dalším tunelem už přece sakra musí být ty pomeranče. Kolem deváté večer přijíždíme na parkovací plácek s pitnou vodou 44°11'51.0"N 8°18'35.1"E. Posledních sto kilometrů jsme po levé straně tušili moře. Nad námi se tyčí obrovská masa skály Rocca di Perti. Kolem stojí tři obytňáky s německými poznávacími značkami. Opodál je kašna s pitnou vodou. Jsme uprostřed ničeho. Nohy nám čvachtají v bahně, vypadá to, že docela pršelo. Stavíme stany, děláme večeři a unavení usínáme. Vypadá to tady stejně jako loni, když jsem tady byla naposledy. Mám radost.
+
+![image](https://66.media.tumblr.com/284c93bb55d3517a31b30d72f7e7e201/tumblr_inline_p2934p97Jn1vwgdjh_500.webp)
+
+Ráno se mrcasíme ze stanů a docela nám trvá, než se nasnídáme. Pak se vyrážíme „seznámit se šutrem“ do nedaleké oblasti Paretina Di Pian Marino. Skála nám připomíná Súlov. Jirka dává rozcvičku a brzy pomalu již stoupáme po slepenci vzhůru. Dáme si všechny cesty zprava doleva, co to jde. Začínáme koutovou čtyřkou a pokračujeme přes pětky po šest áčka. I to nám jde. Dan, Silvie a Tom se rozlezli na pětce a uvelebují se ve vedlejší vysoké stěně. Dan hned objeví nejlogičtější pěknou linii a pustí se do ní. Postupně tak padají cesty Gandalf i Sophie a hřebínek jim srazí až cesta Zwein albereich 6b začínající převisem. Jako jediný ji vylezl s obtížemi Dan. Silvie se sice pokoušela, ale neměla potřebné síly ke zdolání počátečního převisu a cestu poměrně rychle vzdala. Cesta Spit and Love je v zastaralém průvodci klasifikována jako 5+, po jejím prohlédnutí trojice zjistila, že je ještě víc do kopce než cesta Zwein albereich, proto byla odložena až na příště. Odpoledne na nás svítí sluníčko, jsme spokojení. S Jirkou nás zastavila až cesta La Rovere (6a), kterou už jsem loni taky lezla, ale i tak nás to překvapuje. Cesta je to pěkná, tak nám ji vytáhne Tom. Odpoledne vaříme, a, protože začalo brutálně foukat, zalezli jsme do spacáků a stanů už brzy po sedmé. Chvilku jsme hráli prší. Byla to bžunda. Tu noc jsme každý spali asi 16 hodin. 
+
+![image](https://66.media.tumblr.com/a491539431391cddb3b69ecea034806c/tumblr_inline_p2934tHcHw1vwgdjh_500.webp)
+
+Budíme se kolem desáté s chutí do vícedélek. Po snídani, kolem poledne, stoupáme k Rocca di Perti. Průvodce máme zastaralé, orientujeme se podle letmých nápisů na skále, a tak u první cesty s nápisem Dan prohlašuje: „To se mi líbí, jdeme do toho.“ Pouští se do cesty Il Vecchio ve třech, nejtěžší délka je spodní 6a (ale reálně to prý bylo těžké jako kráva). Dalších 5-7 délek následuje. S Jirkou nastoupáváme do nejlehčí vícedélky v oblasti – La Simonetta. Našli jsme ji v pohodě, ale cestou mě straší staré skoby a zahradničení – jak už to v lehčích cestách bývá. Po přelezu třetí nebo čtvrté délky (asi 4c) se Jirka ztrácí v nějakém 6b, kde jsou jen uvolněné rezavé skoby. Preska letí dolů a my to otáčíme. Poté, co jsme slanili, ještě jsme si dali pár kratších cest v dosahu. Líbily se nám. Na parkáč jsme dorazili ještě relativně brzy, tak jsme si řekli, že se podíváme do nejbližší vesnice, vzdálené asi 10 minut, za dálnicí. Cestou se ale opět ztrácíme v lese, a když nám zbytek osazenstva píše, že už jsou na cestě dolů, vracíme se na parkáč. Silva, Tom a Dan jsou spokojení. První délku sice všichni hákovali, ale zbytek cesty si náramně užili, svítilo jim slunko, nahoře je odměnil výhled a potkali stádo koz. 
+
+*Poznámka Silvie: Ano první délka cesty Il Vecchio byla skutečně těžká a překvapivě taky převislá :D. Dan nadával a vyjádřil názor, že by se délka nemusela stydět za klasifikaci 6b. Nicméně s menší pomocí stromečku ji úspěšně zdolal. Silvie následovala Dana s baťůžkem naplněným všelijakým vybavením, jako jsou friendy, bunda, termoska plná čaje, svačina a samozřejmě její a Danovy boty. Baťůžek táhl k zemi, ale s větší pomocí stromečku (rozuměj jen a pouze za jeho pomoci) se zařadilo i Silvii (nacpat se za ten strom s baťohem byla docela dřina). Následně Silvie předala všechny friendy Danovi, protože se jí to už nechtělo tahat nahoru. Cesta je to pěkná, psaná na tři nebo čtyři délky, reálně jich je ale tak osm, což všechny překvapilo. Silvie přišla během léta o všechny svoje mozoly na rukou, tak některé chyty označila Tomovi svou krví. Někde v půlce Silvie málem Tomovi skopla lezečky dolů :) Asi v šesté délce Dan přehlédl téměř všechny borháky a jistil se pomocí friendů a kořenů stromů, které procvakal preskami. Poté, co se všichni úspěšně vyškrábali na vrchol a posilnili sušeným masem a čokoládou, zamířili ke křížku na vrcholu Rocca di Perti, v tomto záměru jim ale zabránilo stádo hrůzostrašně vypadajících koz. Jeden z kozlů si je nevraživě prohlížel, proto se raději rozhodli pro ústup a vrátili se za Lenkou a Jirkou.*
+
+Po vydatné večeři ukecávám Jirku, že vstaneme v osm ráno a nahoru si vyběhneme. 
+
+Vstáváme v osm ráno a jdeme se podívat ke kříži. Kozy nikde. Tak se rychle vyfotíme, omrknem v dálce moře a běžíme dolů. Zbytek dne válíme na Rocca di Perti další pěkné cesty kousek od Simonetty. Někdo těžší, někdo lehčí, jak se komu chce. Dan se pouští i do slušnejch prásků. Jirka si užívá Il Peppo nad puklinou a Il Ritorno di Jacko. Ostatní začínají na Antonelle a pokračují vpravo od ní do mě neznámých obtížnostních dimenzí. 
+
+![image](https://66.media.tumblr.com/bf4deb77a01d4548f121422961562340/tumblr_inline_p2934kJBYS1vwgdjh_500.webp)
+
+*Poznámka Silvie: Druhé družstvo mělo velice úspěšný den, lezlo veskrze cesty o obtížnosti 6a. Silvie si zakládá deníček cest, které chce při příští návštěvě vytáhnout. Všechno krásné cesty. Dan se pokoušel o cestu Optimistique za 6c, nedolezl a ani nehákoval, aby si ji mohla Silvie vyzkoušet :/ *
+
+![image](https://66.media.tumblr.com/ec996dab63173e315d101b2748e44e99/tumblr_inline_p2934xX5Va1vwgdjh_500.webp)
+
+Večer jedeme do krámu a přesouváme se do kempu v Monte Cucco [čti Monte Čůčo, hahaha] . V lezecké pizzerii Il Rifugio si dáváme pizzu a shodou okolností potkáváme tvůrce cesty Il Vecchio. Ze stěny se na nás směje Adam Ondra s rukou na rameni majitele. Všude kolem jsou lahve a plechovky českých piv. V Monte Cucco ještě loni kemp nefungoval, myslela jsem si, že jedeme squatovat do lesa. Za noc chtěli 7 euro za osobu a 3 za stan. Zůstáváme tedy. Je tu krb, tři stolky, slajklajna, balkny a tak. A taky sprcha. Ráno jsme do ní všichni prchli a kradli si vzájemně vodu. 
+
+Poslední den mrholí a není moc pěkně, tak chvilku bloudíme. Měli jsme v plánu šplhat vícedélku na věžičku la Campanila, ale vypadá to mokré. Pak nás ještě zaujala cesta La Pulce, ale skály kloužou a moc se nám to nelíbí. Recepční nás poslala pod převisy v oblasti Rian Cronei, tak ji jdeme zkusit najít. Je třeba jít kus po cestě, pak do lesa a pak hledat. Pěšinka končí, vracíme se. Potkáváme Italy, fotíme si průvodce na skalku Guru a Italové nám tvrdí, že jsme blbě a že musíme do Orca, které už je docela daleko odsud. My to ale nevzdáváme, máme Mapy.cz. Podle nich najdeme pěšinku do údolí a vyrážíme na Rian Cornei. Cestou vidíme kaluž krve, asi to klouzalo tak moc, že si někdo rozbil hlavu při pádu o šutr (takže bacha). Přecházíme pidiříčku a nacházíme skálu s pěkným krápníkem, který se Danovi hned zalíbí. Ještě chvilku bloudíme mezi jednotlivými skálami, kluci začínají lízt, já nacházím masiv Guru, ale nikdo už tam nechce. Dan nalézá do jednoho 5c, ale je kluzké a ostré do noh a prstů, tak se rozhoduje, že jde zkusit krápníky.
+
+Krápníky – Papacica, jsou fakt těžký a kloužou. Dan chvilku visí, pak bubnuje, potom si dá smyčku na presku a kousek vyhákuje. Dál je to krásný, tak dobírá Silvii. Učíme Silvii prusíkovat nahoru. Převis je silový a fakt těžký.
+
+Protože jsme nakoupili spoustu italské šunky a salámů, dost si debužírujeme. 
+
+Večer je silvestrovská noc. Všichni zkouší ještě slajklajnu, ale je moc tma. Po večeři u krbu otevíráme lahev vína a hrajeme prší. Sasíci, co sedí u vedlejšího stolu, se ptají, co hrajeme, když je u toho taková řachanda. Pěkně nám k tomu hrají na kytaru a zpívají. Před jedenáctou to balíme a jdeme spát. O půlnoci nás budí ohňostroje a potom déšť. Stany balíme mokré a brzy ráno valíme dom. Cesta zpět jde jako po másle, dokud nás neblokne nehoda na dálnici před Norimberkem. Únava je znát, ale radost převažuje. Byl to prima výlet!

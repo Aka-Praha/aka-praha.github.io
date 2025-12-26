@@ -1,0 +1,18 @@
+---
+categories: [content, article, diary]
+permalink: /clanky/denicek/kotzwandem-na-falka/
+title: "Kotzwandem na Falka"
+date_created: 2019-05-27
+author: "Jan Smejkal"
+image: /images/2020-01/P1030648.webp
+---
+
+Jako ranní start se to rozhodně nazvat nedá, takže je poledne a nám se povede urvat poslední pseudomístečko na parkingu uprostřed Zahnsgrundu. Pokračujem pěšmo roklinkou a já už se těším, jak mě na jejím konci zase ohromí ta jedinečná silueta Falkensteinu. Majestátný pískový obr, co si stoupl na plácek hezky bokem od Schrammů, aby byl odevšad vidět a prostě vynikal. Vždycky když pod ním pak stojím, tak s pokorou zírám do stěn, jako bych prosil, aby mě zase pustil nahoru. Je tu jen pár lidí, což mě opravdu překvapuje, žádný davy, žádný fronty a zrovna dnes bych je tu čekal. Tentokrát žádný okukování, co bychom mohli lízt, rovnou to házím pod stěnu, kde je linie Kotzwandu (VIIa). Nebe je spíš zatažený a občas ta barva nevěští nic dobrého, v Čechách už prší, tak honem.
+
+První převísek trochu prověří, ale je tam výborná smyce, pak už hezký lezení až na dobírací polici - kruh. Z ní stěnou nahoru ke druhému, odtud vlevo a soukáním přes spárku na doprava ubíhající balkon. Přelez po něm je lahůdka, nad ním ještě jeden spárosouk a druhý štand - kruh. Po hřebeni vlevo a komínama už snadno nahoru, jen je třeba trefit správný směr, aby se nevylezlo třeba na pravý předvrchol. Cesta se dá víceméně celá hezky odjistit, jen kruh pod spárkou je celkem daleko a balkon má tutovku až na samém konci. Není kam bloudit, jen občas se musí zleva, občas zprava, lezecký cit a popis v průvodci by měl postačit. Jen od druhého štandu je lepší se vypravit po hřebeni vlevo než přímo vzhůru, ale spárokomín co se tam vystavuje, myslím málokoho naláká.    
+
+Když na druhém štandu zahlídnu sluníčko a navíc Barča i přes lehký protest vcelku hbitě vyladí obě spárky, tak začínám věřit, že se dnes povede, co se povést má. Na vrcholu si ještě dáme boulder na vrcholový kámen a oba stojíme na nejvyšším místě Falkensteinu a mě po těle hřeje vlna radosti. Za chvilinku to přichází, hups na balkonek, otevíráme vrcholovou knížku a zvědavě vyhlížím, kolikpak lidí mělo dnes stejný nápad jako my? Jsme čtvrtí (stejně jako budou zítra naši hokejistéJ), kteří mohou hrdě napsat, že 25.5.2019 přelezli Kotzwand. To by nebylo nic až tak neobvyklého, kdyby právě před 100 lety, tedy 25.5.1919, pánové Willy Kotz, Otto Dietrich, Johannes Unger tuto cestu neprostoupili poprvé. Člověk si musí položit otázku, jak to tihle chlapíci tehdy zvládli? Co si mysleli, co zažívali? Žádné lezky, žádný průvodce (natož appky), kus konopného lana, poválečné období, atd. Ač to všehno může znít jako jedna velká náhoda, tak nene, náhoda to nebyla, cíleně jsme si pro tetnto výsup jeli a já si ho, soudě večer dle radaru, u pána deště asi vymodlil. Vždycky jsem si chtěl přelézt nějaké výročí, ale že hned stovku a Kotzwandu na Falk, to je pro mě něco, co se řadí vysoko do žebříčku mého pískomilství... 
+
+[![](https://akapraha.eu/images/public_files//styles/medium/public/files/%5Bfile_field%3Afilename%5D/P1030561.JPG?itok=Eh1EfHrh)](https://akapraha.eu/images/public_files//files/%5Bfile_field%3Afilename%5D/P1030561.webp)[![](https://akapraha.eu/images/public_files//styles/medium/public/files/%5Bfile_field%3Afilename%5D/P1030603.JPG?itok=yzAiqY0Y)](https://akapraha.eu/images/public_files//files/%5Bfile_field%3Afilename%5D/P1030603.webp)[![](https://akapraha.eu/images/public_files//styles/medium/public/files/%5Bfile_field%3Afilename%5D/P1030635.JPG?itok=6lGYYoO-)](https://akapraha.eu/images/public_files//files/%5Bfile_field%3Afilename%5D/P1030635.webp)
+
+Hore Zdar, Honza alias Chcipísek :-)

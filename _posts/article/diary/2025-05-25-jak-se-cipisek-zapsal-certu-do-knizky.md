@@ -1,0 +1,35 @@
+---
+categories: [content, article, diary]
+permalink: /clanky/denicek/jak-se-cipisek-zapsal-certu-do-knizky/
+title: "JAK SE CIPÍSEK ZAPSAL ČERTU DO KNÍŽKY"
+date_created: 2025-05-25
+author: "Jan Pěkný"
+image: /images/2025-05/P1110688-m.webp
+---
+
+To se Cipísek dozvěděl od straky, že v Opičích skalách, v daleké Saxónii, má čert na špičaté skále takovou knížku, že kdo k ní vyleze a do ní se zapíše, tomu čert splní jedno přání. A jen málokomu se to zatím podařilo. I usmyslel si Cipísek, že se do té kouzelné knížky musí ausgerechnet čertu na truc zapsat. A tak chodil po lese Řáholci a přemýšlel, jak by to zaonačil a nemyslil na nic jiného. A i doma v jeskyni myslil jen na tu knížku. Když se už po třetí krát o strop do hlavy břinknul, poznala Manka, že něco není v pořádku. I musel Cipísek s pravdou ven.
+
+            Jak Manka uslyšela o knížce na čertově skále, spráskla ruce a povídá: „Co sis to zase vzal Cipísku do hlavy? Myslela jsem, že když jsi předběhl jelena, přechytračil lišku a povalil medvěda, že už bude pokoj. A teď zase nějaká knížka. Beztak v tom bude kdovíjaká čertovina.“ Ale Rumcajs na to: „Nedá se nic dělat, Manko. Když se synek musí do té čertovské knížky zapsat, tak halt musí. Jinak by neměl do smrti smrťoucí klid.“ Podrbal se ve fousech, až to zahučelo. „Já o té Saxónii a Opičích skalách nic nevím. Musíš do Prachovských skal za skřítkem Pelíškem, ten ví o skalách všecko.“
+
+            A tak se Cipísek vydal za Pelíškem. Rázoval si mezi skalami a natrefil ho zrovna pod Prachovskou jehlou, jak vartuje, aby tam poštolce nikdo nevybral hnízdo. Cipísek mu hned pověděl, co a jak by potřeboval. Pelíšek přemýšlel a přemýšlel. „Ty Opičí skály, to je tuze daleko, až za městem Děčínem, v Německu. Ale o té knížce na Čertově špici, o té mi vyprávěla vrána, co sem na podzim přiletěla. To je durchundurch špičatá skála, zrovna jako ta nad námi. Ale ta není na kopci, ale je pod kopcem schovaná a než se k ní dostaneš, musíš se do díry spustit. Na tu skálu k té knížce je ukrutně těžké se dostat. Musíš k tomu mít dvě lana a k nim dva dobré pomocníky, protože musíš udělat shora švébesicherung. Jinak by ses mohl se zlou potázat. I čert, když tu knížku nahoru dával, tam prý to švébe měl porichtované.“ Cipísek pěkně poděkoval a zamyšleně si to šinul zpátky do lesa Řáholce, protože viděl, že to bude po čertech těžké pořízení. Rumcajs když uslyšel, co je potřeba, upletl Cipískovi dvě lana z vrbového lýka, přidal dvě poctivé ševcovské dratve, kdyby se potřeboval uzlíkem zajistit, a ušil mu botky z nejjemnější kordofánské kůže. Podrážku jim udělal se stonků přítuly, aby na skále dobře držely. Cipísek zatím chodil po Jičíně a sháněl ty dva pomocníky. Jenže nikomu se rajzovat až do Německa kvůli nějaké knížce nechtělo. Inu co, řekl si. Však já cestou určitě nějaké pomocníky najdu. Vzal špagáty, botky a buchty, co mu Manka napekla a vyrazil na cestu. „Počkej ještě!“ houkl za ním Rumcajs. „Po svých bys do té Saxónie nikdy nedošel.“ Zahvízdal mocným loupežnickým hvizdem a hned tu byl jelen Větrník. Cipísek si na něj vyskočil a hop a skok – rozběhli se pro čertovu knížku.
+
+            Než se třetí den slunko schovalo za nejvyšší kopec, byli v Saxónii. A měl Cipísek zrovna štěstí, že tudy vandrovali dva chasníci, Jeník s Martinem. Ti chodili světem a jak viděli špičatou skálu, hned na ní musili vylézt. A měli takový kumšt, že špičatou skálu uměli najít po čuchu. Ale o té kouzelné knížce nevěděli nic. Slovo dalo slovo a přidali se k Cipískovi. Pojedli něco buchet a uložili se k spánku pod košatý dub.
+
+            Jak je ráno sluníčko polechtalo v nose, vyskočili a tradá do Opičích skal. Trmáceli se mezi skalami, košile celé propotili a pořád ne a ne najít tu Čertovu špici. Bylo už po poledni, když si to od severu přihasil čerstvý větřík. Jeník hnedle vystrčil do větru nos, začuchal a povídá: „Čichám čichám špičatou skálu! Tamhle to musí být!“ A ukázal do lesa, přímo proti větru.
+
+            Šli a šli, až došli do údolí, kde stála náramně vysoká a špičatá věž, ukrytá pod ještě vyšším skaliskem. Na tom skalisku rostla suchá borovice a z ní se rozhlížel jako saze černý krkavec. „To musí být ta Čertova špice!“ vykřikli všichni tři najednou. „Teď musíme vyšplhat na to skalisko a tam pořídíme švébesicherung, jak to radil Pelíšek,“ zavelel Cipísek.
+
+            Hrabali se notnou chvíli listím a jehličím do prudkého kopce, prodírali se borůvčím a kapradím, až se konečně dostali k té suché borovici nad Čertovou špicí. Hned zmerčili na vršku piksličku, ve které byla ukrytá čertova knížka. A Cipísek hned začal všechno richtovat, aby na špici vylezli. „Tohle dlouhé lano přivážeme na jednom konci k téhle tlusté bříze a od ní budeš, Jeníku, dělat to švébe. A druhý konec přivážeme k tamté nahnuté bříze a spustíme se s Martinem do průrvy k věži. Tam mě bude Martin jistit druhým lanem odspodu a já polezu nahoru.“
+
+            A tak i udělali. Jeník se přivázal k bříze a Martin s Cipískem zmizeli v tmavé díře. Tam Cipísek zaseknul za uzel ševcovskou dratev a přivázal k ní Martina. I sebe řádně přivázal na obě lana, obul si botky s podrážkou z přítuly a už si to hrne na Čertovu špici. „Mládenci, jistěte!“
+
+            Stěna té skály byla tuze hladká. Jen pár dírek k zachycení v ní bylo a pořádný železný kruh k zajištění. Tam bylo Cipískovi třikrát do ouvej. Ale Jeník s Martinem dobře špagáty drželi a botky se nesmekly. Za chvíli už Cipísek na vršek Čertovi špice vyskočil a piksličkou s knížkou vítězně zamával. I oba pomocníci tam za ním vylezli.
+
+            Jakmile knížku vyndali a do ní se zapsali, v tu ránu to zahřmělo jak z císařského kanónu, sírou to zasmrdělo a objevil se čert. Pazoury má zkřivené, kaťata na kolenou prodřená a na kopytu gumový návlek. „Hohohó, Cipísku!“ zahromoval, „žes na mojí věž vylezl a do knížky se zapsal, musím já ti splnit jedno přání.“ A pořád koulí očima a potutelně se šklebí. Cipísek dumá, dumá, pod kloboukem se škrábe, co by si tak přál. Kouká na čerta, jak se šklebí, a něco mu neštymuje. Kouká na skály okolo i do šluchty pod nimi, zase na čerta, a tu se mu v hlavě rozbřesklo. „Já si přeju,“ povídá, „abysme se všichni tři odsud ve zdraví zpátky dostali." Čertu ztuhnul škleb, pak zahromoval po německu: „Himlhergotkrucigipflbůch!!“ a zmizel, jen ten smrad po něm chvíli zůstal.
+
+            A tak se všichni tři šťastně zpátky dostali, ale ještě se u toho řádně zapotili. Jeník s Martinem se vydali hledat další skály. Cipísek hvízdnul na Větrníka a rozjel se zpátky do lesa Řáholce. Rumcajs s Mankou už tam na něj čekali.
+
+            Jenže tak a tak, Cipískovi pořád něco nejde z hlavy. Jednoho dne proto povídá: „Taková pikslička s knížkou na skále, to je moc pěkná věc. To já i tady u nás na skály polezu a ty knížky tam budu dávat.“ Manka jen spráskla ruce.
+
+ 
+![Obhlížíme špici](/images/inline-images/P1110675-m_2.webp)![V díře](/images/inline-images/P1110679-m.webp)![Botky z přítuly](/images/inline-images/P1110684-m.webp)![Kouzelná knížka](/images/inline-images/P1110688-m.webp)![Cipísek na Čertově špici](/images/inline-images/P1110689-m.webp)
