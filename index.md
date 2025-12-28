@@ -9,7 +9,7 @@ title: Domů
 {% assign all_posts = site.posts | sort: 'date' | reverse %}
 {% assign event_count = 0 %}
 {% for event in all_posts %}
-{% if event.categories contains 'event' and event_count < 6 %}
+{% if event.categories contains 'event' and event_count < 3 %}
 {% assign event_count = event_count | plus: 1 %}
   <a href="{{ event.url | relative_url }}" class="event-card-link">
     <div class="event-card">
@@ -32,3 +32,9 @@ title: Domů
 <p style="text-align: center; margin-top: 2rem;">
   <a href="/akce/" class="btn btn-primary">Všechny akce →</a>
 </p>
+
+## Kalendář
+
+<div class="calendar-wrapper">
+<iframe src="https://calendar.google.com/calendar/embed?height=450&wkst=2&ctz=Europe%2FPrague&showCalendars=0&hl=cs&title=AKA%20Praha&src=M2UyN2JiYzVhMzNjYzYzYzgzMGI2NmY5MmRjY2ViYmYyZjIzMjgzODdjNmMwZmY1M2I2NWFlZGE0OWQ1NDMyMkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23fc6d41" style="border:0" width="100%" height="450" frameborder="0" scrolling="no"></iframe>
+</div>
