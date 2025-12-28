@@ -5,31 +5,24 @@ layout: default
 <div class="content-wrapper page-content">
     <h1>{{ page.title }}</h1>
 
-    {% if page.date_created %}
-    <p class="album-date">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16" style="vertical-align: middle; margin-right: 5px;">
-            <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
-        </svg>
-        {{ page.date_created | date: "%d.%m.%Y" }}
-    </p>
-    {% endif %}
-
+    {% if content != "" %}
     <div class="album-description">
         {{ content }}
     </div>
-
-    {% if page.photos %}
-    <div class="photo-gallery">
-        {% for photo in page.photos %}
-        <div class="photo-item" data-index="{{ forloop.index0 }}" data-url="{{ photo.url }}" data-caption="{{ photo.caption | default: page.title }}">
-            <img src="{{ photo.url }}" alt="{{ photo.caption | default: page.title }}" loading="lazy">
-            {% if photo.caption %}
-            <p class="photo-caption">{{ photo.caption }}</p>
-            {% endif %}
-        </div>
-        {% endfor %}
-    </div>
     {% endif %}
+
+    {% for group in page.groups %}
+    <section class="photo-group">
+        <h2 class="group-title">{{ group.name }}</h2>
+        <div class="photo-gallery">
+            {% for photo in group.photos %}
+            <div class="photo-item" data-url="{{ photo }}">
+                <img src="{{ photo }}" alt="{{ group.name }}" loading="lazy">
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+    {% endfor %}
 
     <p style="margin-top: 2rem;">
         <a href="/galerie/" class="btn btn-primary">← Zpět na galerii</a>
@@ -43,26 +36,30 @@ layout: default
     <button class="modal-nav modal-next" aria-label="Další">›</button>
     <div class="modal-content">
         <img id="modalImage" src="" alt="">
-        <p id="modalCaption" class="modal-caption"></p>
     </div>
 </div>
 
 <style>
-.album-date {
-    color: #666;
-    margin-bottom: 1.5rem;
-}
-
 .album-description {
     margin-bottom: 2rem;
     line-height: 1.6;
 }
 
+.photo-group {
+    margin-bottom: 3rem;
+}
+
+.group-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--light-color);
+}
+
 .photo-gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 1.5rem;
-    margin-top: 2rem;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1rem;
 }
 
 .photo-item {
@@ -81,17 +78,9 @@ layout: default
 
 .photo-item img {
     width: 100%;
-    height: 250px;
+    height: 200px;
     object-fit: cover;
     display: block;
-}
-
-.photo-caption {
-    padding: 0.75rem;
-    background: white;
-    margin: 0;
-    font-size: 0.9rem;
-    color: #333;
 }
 
 /* Modal styles */
@@ -121,16 +110,9 @@ layout: default
 
 .modal-content img {
     max-width: 100%;
-    max-height: 85vh;
+    max-height: 90vh;
     object-fit: contain;
     border-radius: 4px;
-}
-
-.modal-caption {
-    color: white;
-    padding: 1rem;
-    margin: 0;
-    font-size: 1rem;
 }
 
 .modal-close {
@@ -202,22 +184,17 @@ layout: default
 (function() {
     const modal = document.getElementById('photoModal');
     const modalImage = document.getElementById('modalImage');
-    const modalCaption = document.getElementById('modalCaption');
     const closeBtn = document.querySelector('.modal-close');
     const prevBtn = document.querySelector('.modal-prev');
     const nextBtn = document.querySelector('.modal-next');
     const photoItems = document.querySelectorAll('.photo-item');
 
     let currentIndex = 0;
-    const photos = Array.from(photoItems).map(item => ({
-        url: item.dataset.url,
-        caption: item.dataset.caption
-    }));
+    const photos = Array.from(photoItems).map(item => item.dataset.url);
 
     function showPhoto(index) {
         currentIndex = index;
-        modalImage.src = photos[index].url;
-        modalCaption.textContent = photos[index].caption;
+        modalImage.src = photos[index];
         modal.classList.add('active');
         document.body.style.overflow = 'hidden';
     }
@@ -237,7 +214,6 @@ layout: default
         showPhoto(currentIndex);
     }
 
-    // Event listeners
     photoItems.forEach((item, index) => {
         item.addEventListener('click', () => showPhoto(index));
     });
@@ -246,14 +222,12 @@ layout: default
     nextBtn.addEventListener('click', showNext);
     prevBtn.addEventListener('click', showPrev);
 
-    // Close modal on background click
     modal.addEventListener('click', (e) => {
         if (e.target === modal) {
             closeModal();
         }
     });
 
-    // Keyboard navigation
     document.addEventListener('keydown', (e) => {
         if (!modal.classList.contains('active')) return;
 
