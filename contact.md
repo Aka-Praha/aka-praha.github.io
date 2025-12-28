@@ -15,5 +15,4 @@ Pokud máš zájem o vstup do našeho horolezeckého oddílu, ozvi se na mail: a
 ---
 
 **Důležité:**
-
 Spolek Akademický klub alpinistů VŠ-Praha z.s., IČ 00300314 nemá s naší činností nic společného a jeho členové nejsou členy našeho oddílu.
