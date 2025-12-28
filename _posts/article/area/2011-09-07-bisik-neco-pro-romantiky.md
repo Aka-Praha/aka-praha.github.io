@@ -1,5 +1,5 @@
 ---
-categories: [content, article, areas]
+categories: [content, article, area]
 permalink: /clanky/oblasti/bisik-neco-pro-romantiky/
 title: "Bišík - něco pro romantiky"
 date_created: 2011-09-07

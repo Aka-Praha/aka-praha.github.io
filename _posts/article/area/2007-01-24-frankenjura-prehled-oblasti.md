@@ -1,5 +1,5 @@
 ---
-categories: [content, article, areas]
+categories: [content, article, area]
 permalink: /clanky/oblasti/frankenjura-prehled-oblasti/
 title: "Frankenjura - přehled oblastí"
 date_created: 2007-01-24

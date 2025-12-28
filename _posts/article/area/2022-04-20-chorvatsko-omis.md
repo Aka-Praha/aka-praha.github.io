@@ -1,5 +1,5 @@
 ---
-categories: [content, article, areas]
+categories: [content, article, area]
 permalink: /clanky/oblasti/chorvatsko-omis/
 title: "Chorvatsko - Omiš"
 date_created: 2022-04-20

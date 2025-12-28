@@ -1,5 +1,5 @@
 ---
-categories: [content, article, areas]
+categories: [content, article, area]
 permalink: /clanky/oblasti/svaty-jan-pod-skalou/
 title: "Svatý Jan pod Skalou"
 date_created: 2001-12-31

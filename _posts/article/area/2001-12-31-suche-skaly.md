@@ -1,5 +1,5 @@
 ---
-categories: [content, article, areas]
+categories: [content, article, area]
 permalink: /clanky/oblasti/suche-skaly/
 title: "Suché skály"
 date_created: 2001-12-31

@@ -1,5 +1,5 @@
 ---
-categories: [content, article, areas]
+categories: [content, article, area]
 permalink: /clanky/oblasti/jizerky-okoli-oldrichovskeho-sedla/
 title: "Jizerky - okolí Oldřichovského sedla"
 date_created: 2011-10-22

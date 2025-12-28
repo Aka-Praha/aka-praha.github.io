@@ -1,5 +1,5 @@
 ---
-categories: [content, article, areas]
+categories: [content, article, area]
 permalink: /clanky/oblasti/jizerske-hory/
 title: "Jizerské hory"
 date_created: 2001-12-31

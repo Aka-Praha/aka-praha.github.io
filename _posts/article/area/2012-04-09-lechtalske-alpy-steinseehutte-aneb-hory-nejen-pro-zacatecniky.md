@@ -1,5 +1,5 @@
 ---
-categories: [content, article, areas]
+categories: [content, article, area]
 permalink: /clanky/oblasti/lechtalske-alpy-steinseehutte-aneb-hory-nejen-pro-zacatecniky/
 title: "Lechtalské Alpy - Steinseehütte aneb hory (nejen) pro začátečníky"
 date_created: 2012-04-09

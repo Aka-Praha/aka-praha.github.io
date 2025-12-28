@@ -1,5 +1,5 @@
 ---
-categories: [content, article, areas]
+categories: [content, article, area]
 permalink: /clanky/oblasti/ostas-super-lezeni-nedaleko-adru/
 title: "Ostaš - super lezení nedaleko Ádru"
 date_created: 2011-09-07

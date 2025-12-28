@@ -1,5 +1,5 @@
 ---
-categories: [content, article, areas]
+categories: [content, article, area]
 permalink: /clanky/oblasti/vyber-oblasti-pro-zacatek/
 title: "Výběr oblastí pro začátek"
 date_created: 2011-04-01

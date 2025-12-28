@@ -1,5 +1,5 @@
 ---
-categories: [content, article, areas]
+categories: [content, article, area]
 permalink: /clanky/oblasti/skaly-u-velke/
 title: "Skály u Velké"
 date_created: 2001-12-31

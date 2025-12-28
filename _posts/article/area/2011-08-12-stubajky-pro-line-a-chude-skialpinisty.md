@@ -1,5 +1,5 @@
 ---
-categories: [content, article, areas]
+categories: [content, article, area]
 permalink: /clanky/oblasti/stubajky-pro-line-a-chude-skialpinisty/
 title: "Štubajky pro líné a chudé skialpinisty"
 date_created: 2011-08-12

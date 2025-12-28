@@ -1,5 +1,5 @@
 ---
-categories: [content, article, areas]
+categories: [content, article, area]
 permalink: /clanky/oblasti/greiffensteine-tak-chutna-zulovej-chleba/
 title: "Greiffensteine – tak chutná žulovej chleba"
 date_created: 2011-08-24

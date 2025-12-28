@@ -1,5 +1,5 @@
 ---
-categories: [content, article, areas]
+categories: [content, article, area]
 permalink: /clanky/oblasti/zubak-u-radotina-vapencova-vez-se-sportovkami/
 title: "Zubák u Radotína - vápencová věž se sportovkami"
 date_created: 2012-08-17

@@ -1,5 +1,5 @@
 ---
-categories: [content, article, areas]
+categories: [content, article, area]
 permalink: /clanky/oblasti/vysocina-lipnice/
 title: "Vysočina - Lipnice"
 date_created: 2011-10-16

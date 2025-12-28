@@ -1,5 +1,5 @@
 ---
-categories: [content, article, areas]
+categories: [content, article, area]
 permalink: /clanky/oblasti/malorka-dws/
 title: "Malorka - DWS"
 date_created: 2011-12-07

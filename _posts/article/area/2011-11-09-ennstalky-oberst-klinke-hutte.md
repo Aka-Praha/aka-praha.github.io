@@ -1,5 +1,5 @@
 ---
-categories: [content, article, areas]
+categories: [content, article, area]
 permalink: /clanky/oblasti/ennstalky-oberst-klinke-hutte/
 title: "Ennstálky - Oberst-Klinke Hütte"
 date_created: 2011-11-09

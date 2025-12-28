@@ -1,5 +1,5 @@
 ---
-categories: [content, article, areas]
+categories: [content, article, area]
 permalink: /clanky/oblasti/sulovske-skaly/
 title: "Sulovské skály"
 date_created: 2008-03-14

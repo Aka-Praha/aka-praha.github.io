@@ -1,5 +1,5 @@
 ---
-categories: [content, article, areas]
+categories: [content, article, area]
 permalink: /clanky/oblasti/hruboskalsko-cili-skalak/
 title: "Hruboskalsko čili Skalák"
 date_created: 2011-11-06

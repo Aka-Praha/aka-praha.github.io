@@ -1,5 +1,5 @@
 ---
-categories: [content, article, areas]
+categories: [content, article, area]
 permalink: /clanky/oblasti/kotyz-utajena-perla-ceskeho-krasu/
 title: "Kotýz - utajená perla Českého krasu"
 date_created: 2011-10-10

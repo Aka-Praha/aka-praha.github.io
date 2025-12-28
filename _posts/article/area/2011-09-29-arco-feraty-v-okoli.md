@@ -1,5 +1,5 @@
 ---
-categories: [content, article, areas]
+categories: [content, article, area]
 permalink: /clanky/oblasti/arco-feraty-v-okoli/
 title: "Arco - feraty v okolí"
 date_created: 2011-09-29

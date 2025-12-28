@@ -1,5 +1,5 @@
 ---
-categories: [content, article, areas]
+categories: [content, article, area]
 permalink: /clanky/oblasti/malesov-u-kutne-hory-a-udoli-vrchlice/
 title: "Malešov u Kutné Hory a údolí Vrchlice"
 date_created: 2012-09-29
