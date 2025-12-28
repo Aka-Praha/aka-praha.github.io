@@ -3,7 +3,7 @@ layout: home
 title: Domů
 ---
 
-## Nejbližší akce
+<h1>Nejbližší akce</h1>
 
 <div class="event-grid">
 {% assign all_posts = site.posts | sort: 'date' | reverse %}
@@ -33,8 +33,8 @@ title: Domů
   <a href="/akce/" class="btn btn-primary">Všechny akce →</a>
 </p>
 
-## Kalendář
+<h1>Kalendář</h1>
 
 <div class="calendar-wrapper">
-<iframe src="https://calendar.google.com/calendar/embed?height=450&wkst=2&ctz=Europe%2FPrague&showCalendars=0&hl=cs&title=AKA%20Praha&src=M2UyN2JiYzVhMzNjYzYzYzgzMGI2NmY5MmRjY2ViYmYyZjIzMjgzODdjNmMwZmY1M2I2NWFlZGE0OWQ1NDMyMkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23fc6d41" style="border:0" width="100%" height="450" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?height=450&wkst=2&ctz=Europe%2FPrague&showCalendars=0&hl=cs&title=AKA%20Praha&mode=AGENDA&src=M2UyN2JiYzVhMzNjYzYzYzgzMGI2NmY5MmRjY2ViYmYyZjIzMjgzODdjNmMwZmY1M2I2NWFlZGE0OWQ1NDMyMkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23fc6d41" style="border:0" width="100%" height="450" frameborder="0" scrolling="no"></iframe>
 </div>
