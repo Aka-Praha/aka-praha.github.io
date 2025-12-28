@@ -1,10 +1,8 @@
 ---
 layout: page
-title: Historie
+title: Historie Akademického klubu alpinistů
 permalink: /historie/
 ---
-
-# Historie Akademického klubu alpinistů
 
 Vznik AKA
 
