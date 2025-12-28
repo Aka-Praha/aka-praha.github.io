@@ -55,6 +55,10 @@ h1 { font-size: 3rem; }
 h2 { font-size: 2.5rem; }
 h3 { font-size: 2rem; }
 
+p {
+    margin-bottom: 1rem;
+}
+
 a {
     text-decoration: none;
     color: inherit;
