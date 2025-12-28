@@ -7,7 +7,6 @@ Memory pro budoucí Claude sessions. Tohle je reálný projekt pro Akademický k
 - **URL:** https://aka-praha.github.io/
 - **Repo:** https://github.com/Aka-Praha/aka-praha.github.io
 - **Tech:** Jekyll 3.9, GitHub Pages, automatický deploy z `master` větve
-- **Uživatel:** Ondra (ondra-pazi na GitHubu)
 
 ## Aktuální stav (Prosinec 2025)
 
@@ -33,14 +32,15 @@ Memory pro budoucí Claude sessions. Tohle je reálný projekt pro Akademický k
 ## Důležité konvence (MUSÍŠ DODRŽET)
 
 1. **Kód/soubory anglicky, URL česky**
-   - Složky: `_posts/`, `events/`, `articles/`, `gallery/`
+   - Složky: `_posts/`, `pages/events/`, `pages/articles/`, `pages/gallery/`
    - Soubory: `history.md`, `contact.md` (ne `historie.md`, `kontakt.md`)
    - CSS třídy: `.event-card` ne `.akce-card`
    - Ale URL: `/akce/`, `/clanky/`, `/galerie/`, `/historie/`, `/kontakt/`
 
 2. **Kategorie vždy SINGULAR**
-   - `event`, `article`, `gallery`
-   - Podkategorie: `methodology`, `diary`, `club`, `area` (ne `areas`!)
+   - `content` - **povinná** pro všechny event a article posty
+   - `event`, `article`, `gallery` - hlavní kategorie
+   - Podkategorie (pouze pro article): `methodology`, `diary`, `club`, `area` (ne `areas`!)
 
 3. **Větev: master** (ne main)
 
@@ -63,8 +63,6 @@ Memory pro budoucí Claude sessions. Tohle je reálný projekt pro Akademický k
 
 ```
 _config.yml              # Jekyll config (paginate: 9)
-_data/
-  └── categories.yml     # Definice podkategorií článků
 _layouts/
   ├── default.html       # Base layout
   ├── home.html          # Homepage
@@ -75,7 +73,7 @@ _includes/
   ├── header.html        # Nav + logo + dropdown menu
   └── footer.html        # Footer
 _posts/                  # ⭐ Všechny posts v podadresářích
-  ├── event/             # Akce (categories: [event])
+  ├── event/             # Akce (categories: [content, event])
   ├── article/           # Články s podkategoriemi
   │   ├── methodology/   # Metodiky a návody
   │   ├── diary/         # Deníčky z výprav
@@ -87,16 +85,17 @@ assets/
   ├── js/main.js         # JS pro nav toggle
   └── images/
       └── bg.webp        # Body background
-events/index.html        # Event listing (permalink: /akce/)
-articles/                # Articles s podkategoriemi
-  ├── index.html         # Hlavní listing (permalink: /clanky/)
-  ├── metodika/index.html
-  ├── denicek/index.html
-  ├── oblasti/index.html
-  └── klub/index.html
-gallery/index.html       # Gallery listing (permalink: /galerie/)
-history.md               # Historie klubu (permalink: /historie/)
-contact.md               # Kontakt (permalink: /kontakt/)
+pages/                   # ⭐ Všechny stránky
+  ├── events/index.html  # Event listing (permalink: /akce/)
+  ├── articles/          # Articles s podkategoriemi
+  │   ├── index.html     # Hlavní listing (permalink: /clanky/)
+  │   ├── metodika/index.html
+  │   ├── denicek/index.html
+  │   ├── oblasti/index.html
+  │   └── klub/index.html
+  ├── gallery/index.html # Gallery listing (permalink: /galerie/)
+  ├── history.md         # Historie klubu (permalink: /historie/)
+  └── contact.md         # Kontakt (permalink: /kontakt/)
 index.md                 # Homepage
 logo.png                 # AKA hexagon logo (fallback pro obrázky)
 ```
@@ -120,25 +119,25 @@ Pořadí položek v menu:
 **Event (_posts/event/YYYY-MM-DD-nazev.md):**
 ```yaml
 ---
-categories: [event]
+categories: [content, event]
 permalink: /akce/:title/
 title: Název akce
-date_begin: 2025-01-10
-date_end: 2025-01-12
+date_begin: 2025-01-10    # nepovinné
+date_end: 2025-01-12      # nepovinné
 author: "Jméno"
-image: https://url-obrazku.jpg
+image: https://url-obrazku.jpg  # nepovinné, fallback je logo.png
 ---
 ```
 
 **Article (_posts/article/{podkategorie}/YYYY-MM-DD-nazev.md):**
 ```yaml
 ---
-categories: [article, methodology]  # nebo diary, club, area
+categories: [content, article, methodology]  # nebo diary, club, area
 permalink: /clanky/:title/
 title: Název článku
 date_created: 2024-01-15
 author: "Jméno"
-image: https://url-obrazku.jpg
+image: https://url-obrazku.jpg  # nepovinné, fallback je logo.png
 ---
 ```
 
@@ -149,21 +148,22 @@ layout: album
 categories: [gallery]
 permalink: /galerie/:title/
 title: Název alba
-date_created: 2024-07-10
-cover: https://url-cover.jpg
-photos:
-  - url: https://url-fotky.jpg
-    caption: Popis fotky
+cover: /images/path/cover.webp  # nepovinné, fallback je logo.png
+groups:
+  - name: Název skupiny fotek
+    photos:
+      - /images/path/photo1.webp
+      - /images/path/photo2.webp
 ---
 ```
 
 ## JavaScript pagination
 
 Všechny listing stránky používají JavaScript pagination (9 položek/stránka):
-- `events/index.html` - `eventPagination`
-- `articles/index.html` - `articlePagination`
-- `articles/*/index.html` - `articlePagination`
-- `gallery/index.html` - `galleryPagination`
+- `pages/events/index.html` - `eventPagination`
+- `pages/articles/index.html` - `articlePagination`
+- `pages/articles/*/index.html` - `articlePagination` (podkategorie)
+- `pages/gallery/index.html` - `galleryPagination`
 
 ## Design systém
 
@@ -202,4 +202,4 @@ git push origin master
 ---
 
 **Poslední update:** 28.12.2025
-**Status:** Fungující web s migrovanými články z Drupalu. Posts v podadresářích (event/article/gallery). Dropdown menu pro články. JavaScript pagination všude. Fallback obrázek = logo.png.
+**Status:** Fungující web s migrovanými články z Drupalu. Posts v podadresářích (_posts/event, _posts/article, _posts/gallery) s kategorií "content". Stránky v pages/. Dropdown menu pro články. JavaScript pagination všude (9 položek/stránka). Fallback obrázek = logo.png. Gallery používá groups strukturu.
