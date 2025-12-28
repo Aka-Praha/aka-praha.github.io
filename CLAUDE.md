@@ -8,7 +8,6 @@ Memory pro budoucí Claude sessions. Tohle je reálný projekt pro Akademický k
 - **Repo:** https://github.com/Aka-Praha/aka-praha.github.io
 - **Tech:** Jekyll 3.9, GitHub Pages, automatický deploy z `master` větve
 - **Uživatel:** Ondra (ondra-pazi na GitHubu)
-- **Původní web:** Drupal na http://localhost:8081/ (300+ článků, 150+ akcí čeká na migraci)
 
 ## Aktuální stav (Prosinec 2025)
 
@@ -17,50 +16,53 @@ Memory pro budoucí Claude sessions. Tohle je reálný projekt pro Akademický k
 - Černobílý konzervativní design podle loga AKA (hexagon s horami)
 - Background image (assets/images/bg.webp) použito na celém body
 - Responzivní layout
-- **Posts s kategoriemi** v podadresářích (`_posts/event/` a `_posts/article/`)
-- **Podkategorie článků** definované v `_data/categories.yml` (methodology, diary, club, news, archive)
+- **Posts s kategoriemi** v podadresářích (`_posts/event/`, `_posts/article/`, `_posts/gallery/`)
+- **Podkategorie článků**: methodology, diary, club, area
 - Event listing page (/akce/) s **JavaScript pagination** (9 eventů/stránka)
-- Event detail pages (/akce/nazev-akce/)
-- Articles listing page (/clanky/)
-- Fotogalerie (/galerie/) s albums collection
-- Stránky: O nás, Kontakt
+- Articles listing page (/clanky/) s dropdown menu pro podkategorie
+- Fotogalerie (/galerie/) - přesunuto do `_posts/gallery/`
+- Stránky: Historie, Kontakt
 - Logo v navigaci
-- 18 demo akcí, 1 demo článek, 3 demo alba
+- Dropdown menu pro Články s podkategoriemi
+- **Migrace z Drupalu dokončena** - metodika, deníčky, oblasti, klub
 
 **🚧 Ještě není:**
-- Migrace 300+ článků z Drupalu
-- Migrace 150+ akcí z Drupalu
 - Filtry pro akce (rok/člen)
 - Fulltext search
 
 ## Důležité konvence (MUSÍŠ DODRŽET)
 
-1. **Kód anglicky, URL česky**
-   - Složky: `_posts/`, `_albums/` (ne `_akce/`, `_clanky/`)
+1. **Kód/soubory anglicky, URL česky**
+   - Složky: `_posts/`, `events/`, `articles/`, `gallery/`
+   - Soubory: `history.md`, `contact.md` (ne `historie.md`, `kontakt.md`)
    - CSS třídy: `.event-card` ne `.akce-card`
-   - Ale URL: `/akce/`, `/clanky/`, `/galerie/` pomocí `permalink:`
+   - Ale URL: `/akce/`, `/clanky/`, `/galerie/`, `/historie/`, `/kontakt/`
 
-2. **Větev: master** (ne main - organizace je old school)
+2. **Kategorie vždy SINGULAR**
+   - `event`, `article`, `gallery`
+   - Podkategorie: `methodology`, `diary`, `club`, `area` (ne `areas`!)
 
-3. **Commity česky** (Ondra je Čech)
+3. **Větev: master** (ne main)
 
-4. **No emoji v commitech** (Ondra nechce 🚫)
+4. **Commity česky, bez emoji**
 
 5. **Konzervativní design**
-   - Ne příliš brutalist/moderní
    - Zaoblené rohy, jemné stíny
    - Font-weight: 700 (ne 900)
-   - Letter-spacing: 0.5px (ne 2px)
 
 6. **Žádný lokální development**
    - Vše přes git push
    - GitHub Actions buildne a nasadí
    - Čeká se 2-3 minuty na deploy
 
+7. **Fallback obrázek je logo.png**
+   - Když post nemá `image:`, použije se `/logo.png`
+   - Třída `.fallback-image` přidává `object-fit: contain`
+
 ## Struktura projektu
 
 ```
-_config.yml              # Jekyll config (paginate: 9, collections: albums)
+_config.yml              # Jekyll config (paginate: 9)
 _data/
   └── categories.yml     # Definice podkategorií článků
 _layouts/
@@ -70,240 +72,134 @@ _layouts/
   ├── post.html          # Detail akce/článku
   └── album.html         # Detail alba (fotogalerie)
 _includes/
-  ├── header.html        # Nav + logo
+  ├── header.html        # Nav + logo + dropdown menu
   └── footer.html        # Footer
-_posts/                  # ⭐ Posts v podadresářích podle typu
+_posts/                  # ⭐ Všechny posts v podadresářích
   ├── event/             # Akce (categories: [event])
-  │   ├── 2025-01-10-vysocina-2025.md
-  │   ├── 2025-07-07-adrspach-2025.md
-  │   └── ... (18 eventů)
-  └── article/           # Články s podkategoriemi
-      ├── archive/       # Archivní články
-      ├── club/          # Klubové zprávy
-      ├── diary/         # Deníčky z výprav
-      ├── methodology/   # Metodiky a návody
-      │   └── 2024-01-15-zakladni-lezecka-metodika.md
-      └── news/          # Různé zprávy
-_albums/                 # 🖼️ Fotogalerie alba
-  ├── adrspach-2024.md
-  ├── tatry-2024.md
-  └── treninky-2024.md
+  ├── article/           # Články s podkategoriemi
+  │   ├── methodology/   # Metodiky a návody
+  │   ├── diary/         # Deníčky z výprav
+  │   ├── club/          # Klubové zprávy
+  │   └── area/          # Popisy oblastí
+  └── gallery/           # Fotogalerie (categories: [gallery])
 assets/
-  ├── css/style.css      # Veškerý CSS (600+ řádků)
-  ├── js/main.js         # JS pro nav toggle, smooth scroll
+  ├── css/style.css      # Veškerý CSS
+  ├── js/main.js         # JS pro nav toggle
   └── images/
-      ├── bg.webp        # Body background (Alpy)
-      └── placeholder.svg # Placeholder pro obrázky
-docs/
-  └── plans/             # Plány migrace a dokumentace
-logo.png                 # AKA hexagon logo
-index.md                 # Homepage
-events.md                # Event listing (permalink: /akce/) - JavaScript pagination
-articles/index.html      # Articles listing (permalink: /clanky/)
+      └── bg.webp        # Body background
+events/index.html        # Event listing (permalink: /akce/)
+articles/                # Articles s podkategoriemi
+  ├── index.html         # Hlavní listing (permalink: /clanky/)
+  ├── metodika/index.html
+  ├── denicek/index.html
+  ├── oblasti/index.html
+  └── klub/index.html
 gallery/index.html       # Gallery listing (permalink: /galerie/)
-kontakt.md               # Kontakt stránka
-o-nas.md                 # O nás stránka
-robots.txt               # SEO
-Gemfile                  # Jekyll 3.9, jekyll-paginate (nepoužívá se)
+history.md               # Historie klubu (permalink: /historie/)
+contact.md               # Kontakt (permalink: /kontakt/)
+index.md                 # Homepage
+logo.png                 # AKA hexagon logo (fallback pro obrázky)
 ```
 
-## Jekyll Posts s kategoriemi - jak to funguje
+## Navigace
 
-**DŮLEŽITÉ:** Posts jsou organizované v podadresářích podle typu!
+Pořadí položek v menu:
+1. Domů
+2. Akce
+3. Články (dropdown s podkategoriemi)
+   - Deníčky
+   - Metodika
+   - Popisy oblastí
+   - Z klubu
+4. Galerie
+5. Historie
+6. Kontakt
 
-**Event file (_posts/event/2025-01-10-vysocina-2025.md):**
+## Posts - frontmatter
+
+**Event (_posts/event/YYYY-MM-DD-nazev.md):**
 ```yaml
 ---
-categories: [event]      # ⭐ Jednotné číslo "event"!
+categories: [event]
 permalink: /akce/:title/
-title: Vysočina 2025
-date_begin: 2025-01-10   # ⭐ Začátek akce (ne "date"!)
-date_end: 2025-01-12     # Konec akce (volitelné)
-author: "John Doe"       # Autor/organizátor
+title: Název akce
+date_begin: 2025-01-10
+date_end: 2025-01-12
+author: "Jméno"
 image: https://url-obrazku.jpg
 ---
-Popis v markdown...
 ```
 
-**Article file (_posts/article/methodology/2024-01-15-zakladni-lezecka-metodika.md):**
+**Article (_posts/article/{podkategorie}/YYYY-MM-DD-nazev.md):**
 ```yaml
 ---
-categories: [article, methodology]  # Hlavní + podkategorie
+categories: [article, methodology]  # nebo diary, club, area
 permalink: /clanky/:title/
-title: Základní lezecká metodika
-date_created: 2024-01-15 # Datum vytvoření článku
-author: "John Doe"       # Autor článku
+title: Název článku
+date_created: 2024-01-15
+author: "Jméno"
 image: https://url-obrazku.jpg
 ---
-Popis v markdown...
 ```
-*Poznámka: Jekyll bere datum pro řazení z názvu souboru (YYYY-MM-DD-nazev.md)*
 
-**Výsledek:**
-- Jekyll vytvoří stránku: `/akce/vysocina-2025/` nebo `/clanky/zakladni-lezecka-metodika/`
-- `events.md` loopuje přes `site.posts` s filtrem `post.categories contains 'event'`
-- **JavaScript pagination** - 9 eventů na stránku (ne jekyll-paginate!)
-- Layout `post.html` renderuje detail (article styl)
-
-**Proč JavaScript pagination?**
-- `jekyll-paginate` v1.1 (GitHub Pages) funguje POUZE na `index.html` v root
-- Nepodporuje pagination v podadresářích (např. `akce/index.html`)
-- JavaScript řešení je spolehlivější a flexibilnější
-
-## Podkategorie článků (_data/categories.yml)
-
-Články mají podkategorie definované v `_data/categories.yml`:
-
-| Podkategorie | Popis | Permalink |
-|--------------|-------|-----------|
-| `methodology` | Metodiky a návody | `/clanky/metodika/` |
-| `diary` | Deníčky z výprav | `/clanky/denicek/` |
-| `club` | Klubové zprávy | `/clanky/klub/` |
-| `news` | Různé zprávy | `/clanky/zpravy/` |
-| `archive` | Archivní články | `/clanky/archiv/` |
-
-Soubory článků jsou uloženy v odpovídajících podadresářích:
-`_posts/article/{podkategorie}/YYYY-MM-DD-nazev.md`
-
-## Jekyll Albums collection - fotogalerie
-
-**Album file (_albums/tatry-2024.md):**
+**Gallery (_posts/gallery/YYYY-MM-DD-nazev.md):**
 ```yaml
 ---
-title: Vysoké Tatry 2024
-date: 2024-08-15
-cover_image: URL
-images:
-  - url: URL
+layout: album
+categories: [gallery]
+permalink: /galerie/:title/
+title: Název alba
+date_created: 2024-07-10
+cover: https://url-cover.jpg
+photos:
+  - url: https://url-fotky.jpg
     caption: Popis fotky
 ---
-Popis alba...
 ```
 
-**Výsledek:**
-- Layout `album.html` s lightbox funkčností
-- Gallery listing na `/galerie/`
-- Permalink: `/galerie/tatry-2024/`
+## JavaScript pagination
+
+Všechny listing stránky používají JavaScript pagination (9 položek/stránka):
+- `events/index.html` - `eventPagination`
+- `articles/index.html` - `articlePagination`
+- `articles/*/index.html` - `articlePagination`
+- `gallery/index.html` - `galleryPagination`
 
 ## Design systém
 
 **Barvy:**
-- Primary: #1a1a1a (černá)
+- Primary: #1d1d1b
 - Secondary: #333333
-- Accent: #ffffff
 - Light: #f5f5f5
-
-**Fonts:**
-- Headings: Montserrat, weight 700
-- Body: Roboto
-- Letter-spacing: 0.5px
-
-**Styl:**
-- Konzervativní, ne příliš moderní
-- Zaoblené rohy (border-radius: 8px, 12px)
-- Jemné stíny
-- Smooth transitions
+- Text: #1d1d1b
 
 **Komponenty:**
-- `.btn.btn-primary` - button
-- `.event-card` - event karta
-- `.event-grid` - grid pro events (3 sloupce)
-- `.card` / `.cards` - obecné karty
-- `.album-card` - album karta pro galerii
+- `.event-card` - karta pro event/článek/album
+- `.event-grid` - grid layout (3 sloupce)
+- `.event-image` - obrázek v kartě
+- `.fallback-image` - logo jako placeholder (object-fit: contain)
+- `.dropdown-menu` - dropdown pro Články v navigaci
 
-## Git workflow reminder
+## Git workflow
 
 ```bash
-git add .
-git commit -m "České zprávy bez emoji"
+git add -A
+git commit -m "Popis změny česky bez emoji"
 git push origin master
-# Pak čekat 2-3 min na GitHub Actions
-# Kontrola: https://github.com/Aka-Praha/aka-praha.github.io/actions
+# Čekat 2-3 min na deploy
 ```
 
-## Časté problémy
+## Debugging checklist
 
-**Build fails:**
-- Kontroluj GitHub Actions log
-- Častá chyba: chybějící gem, syntax error v YAML
-- Jekyll 3.9 potřebuje kramdown-parser-gfm
-
-**Stránky se neaktualizují:**
-- Zkontroluj že build prošel (zelený ✓)
-- Počkej 2-3 minuty
-- Hard refresh (Ctrl+Shift+R)
-
-**Event se nezobrazuje na /akce/:**
-- ⭐ Musí být v `_posts/event/` podadresáři!
-- ⭐ Musí mít `categories: [event]` (jednotné číslo!)
-- Musí mít `permalink: /akce/:title/`
-- YAML front matter musí být validní
-- Soubor musí být commitnutý a pushnutý
-- JavaScript v `events.md` filtruje podle `post.categories contains 'event'`
-
-**Pagination nefunguje:**
-- Aktuálně se používá **JavaScript pagination**, ne jekyll-paginate
-- Pokud děláš změny v pagination logikou, uprav JavaScript v `events.md`
-- Jekyll-paginate v1.1 má omezení a NEpoužívá se
-
-## Co si pamatovat o Ondrovi
-
-- Akademický klub alpinistů (horolezci, ne anatomové!)
-- Chce konzervativní design
-- Není fan emoji
-- Používá master větev
-- Má přístup jako ondra-pazi na GitHubu
-- SSH klíč sdílený mezi více účty
-- Pracujeme přes git push, ne lokálně
-
-## Budoucí práce (až Ondra řekne)
-
-- Migrace dat z Drupalu (300+ článků, 150+ akcí)
-- Filtry JS pro akce (rok, člen)
-- Fulltext search
-- Rozšíření fotogalerie (více alb)
-- Možná RSS feed pro články
-
-## Reference (když budeš potřebovat)
-
-- Jekyll Posts: https://jekyllrb.com/docs/posts/
-- Jekyll Collections: https://jekyllrb.com/docs/collections/
-- Liquid syntax: https://shopify.github.io/liquid/
-- Jekyll na GitHub Pages: https://docs.github.com/en/pages
-
-## Klíčové věci pro debugging
-
-**Když něco nefunguje, zkontroluj:**
-1. Je to v masteru? (ne main)
+1. Je to v masteru?
 2. YAML front matter validní?
-3. Event má `categories: [event]` a je v `_posts/event/`?
-4. Article má `categories: [article, podkategorie]` a je v `_posts/article/{podkategorie}/`?
-5. Post má správný `permalink:`?
-6. CSS třídy anglicky?
-7. Build prošel na GitHubu?
-8. Čekal jsi 2-3 minuty?
-9. JavaScript v events.md správně filtruje podle kategorie?
-
-## Technické detaily
-
-**Jekyll paginate:**
-- Plugin `jekyll-paginate` je v Gemfile, ale NEpoužívá se
-- Důvod: Nefunguje v podadresářích, pouze na root index.html
-- Místo toho: JavaScript pagination v events.md
-
-**Categories vs Category:**
-- ⭐ **Vždy používej `categories:` (množné číslo)!**
-- Jekyll podporuje obojí, ale `categories:` je standard
-- Filtrování eventů: `post.categories contains 'event'`
-- Filtrování článků: `post.categories contains 'article'`
-
-**Posts s více kategoriemi:**
-```yaml
-categories: [article, methodology]  # Článek + podkategorie
-categories: [event, featured]       # Event + featured (možné do budoucna)
-```
+3. Správná kategorie (singular)?
+4. Správný adresář v `_posts/`?
+5. Správný `permalink:`?
+6. Build prošel na GitHubu?
+7. Čekal jsi 2-3 minuty?
 
 ---
 
-**Poslední update:** 20.12.2025
-**Status:** Fungující web s posts v podadresářích (event/article), fotogalerií, kontaktem. Články mají podkategorie (methodology, diary, club, news, archive). Eventy používají date_begin/date_end/author, články date_created/author. Používá JavaScript pagination. Čeká se na migraci dat z Drupalu.
+**Poslední update:** 28.12.2025
+**Status:** Fungující web s migrovanými články z Drupalu. Posts v podadresářích (event/article/gallery). Dropdown menu pro články. JavaScript pagination všude. Fallback obrázek = logo.png.
