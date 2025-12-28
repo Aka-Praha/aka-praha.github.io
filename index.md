@@ -9,11 +9,11 @@ title: Domů
 {% assign all_posts = site.posts | sort: 'date' | reverse %}
 {% assign event_count = 0 %}
 {% for event in all_posts %}
-{% if event.categories contains 'event' and event_count < 3 %}
+{% if event.categories contains 'event' and event_count < 6 %}
 {% assign event_count = event_count | plus: 1 %}
   <a href="{{ event.url | relative_url }}" class="event-card-link">
     <div class="event-card">
-      <div class="event-image" style="background-image: url('{{ event.image }}');"></div>
+      <img src="{% if event.image %}{{ event.image }}{% else %}/logo.png{% endif %}" alt="{{ event.title }}" class="event-image{% unless event.image %} fallback-image{% endunless %}" loading="lazy">
       <div class="event-content">
         <h3 class="event-title">{{ event.title }}</h3>
         <p class="event-date">
