@@ -358,13 +358,8 @@ a {
 .content-wrapper {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 4rem 2rem;
-    background-color: rgb(245 245 245 / 90%);
-}
-
-.page-content {
-    margin-top: 80px;
     padding: 3rem 2rem;
+    background-color: rgb(245 245 245 / 90%);
 }
 
 
