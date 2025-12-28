@@ -18,12 +18,6 @@ plugins:
 paginate: 9
 paginate_path: "/akce/:num/"
 
-# Collections
-collections:
-  albums:
-    output: true
-    permalink: /galerie/:title/
-
 # Defaults
 defaults:
   - scope:
@@ -31,11 +25,6 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-  - scope:
-      path: ""
-      type: "albums"
-    values:
-      layout: "album"
 
 # Exclude from processing
 exclude:
