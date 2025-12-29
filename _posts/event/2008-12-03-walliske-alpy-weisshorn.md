@@ -5,7 +5,7 @@ title: "Walliské Alpy - Weisshorn"
 author: "Irena Horáčková"
 ---
 
-## Sobota 19.7.2008\tCESTA
+## Sobota 19.7.2008 CESTA
 
 Jedním z mých skromných horolezeckých milníku je Weisshorn ve švýcarských Walliskách. Uchvatná čtyřtisícovka, v mnoha průvodcích označovaná vedle příliš profláklého Matterhornu za nejkrásnější kopec v Evropě. Mám tam jeden pytel z loňska a další starý 4 roky, okořeněný letem v závěsu záchranářského vrtulníku. S kámošem, co se rozhodl proletět normálkou střemhlav. Jen zázrakem bez škody na životě.
 
@@ -15,13 +15,13 @@ Odjezd v pátek jsem nezvládla, vyrážíme v sobotu brzy ráno. Navzdory půvo
 
 Bunkry na Grimsel Passu, osamělý grilující Holaňďan na Furkapassu, pitoreskní hotel, kam Béda jednou pojede na svatební cestu, pomníčky motorkářům, co se drželi hesla No Risk No Fun. Přes Gletsch a Brig dál údolím mezi horami hrdou zemičkou, která se nerada druží s ostatními, protože ji k úžasnému HDP stačí krávy, kapesní nože, hodinky a bankovní transakce a pro pocit jistoty a bezpečí tu kromě bariéry z 4tisícových vrcholů má většina občanů legálně drženou střelnou zbraň a civilní letiště se mávnutím proutku mění ve vojenská. Ve Vispu jsme už za šera a za tmy pak v Sierre, kde se protisměrným překonáním z části uzavřené silnice dostáváme do údalí Zinalu. V samotném městečku na konci údolí jsme už po nočním klidu, a tak se bez delšího váhání ukládáme za auto, přejeme liškám dobrou noc a usínáme s dráždivou vidinou dobrodružství příštích dnů.
 
-## Neděle 20.7.2008\tCABANA TRACUIT
+## Neděle 20.7.2008 CABANA TRACUIT
 
 Zuby v potoce, snídaně na parkovišti, starý roubený domky s muškátama, krásný počasí a nad námi kopce a led. Zinal, 1675 m n.m. Do báglů přeskáče, na bágly navazujeme lyže, cepíny, lana, helmy, bundy, sušenky a vůbec všechno, co se dovnitř nevešlo. Je vedro a my šlapeme po stráních vzůru. Lyže se nám kynklají nad hlavami jako tykadla nějakým podivným broukům a kolem všechno kvete. Turisté nás míjející se dobře baví (čímž chci slušně vyjádřit, že na nás koukají jako na úplný kreténky), mám chuť ty dvě prkna pohodit někam do rododendronů. Naštěští mě od toho odradí skupinka Taliánů, kteří se zrovna vracejí ze shora a ujišťují nás o perfect snow condition, že prý moc litovali, že sebou lyže nemají, a že si to rozhodně užijeme. To doufám.
 
 Zrovna ve chvíli, kdy hlasitě poznamenávám cosi o domově důchodců (a nemyslím to zle, naopak bych si přála ve věku velké části horalů, které míjíme, nenechat si měnit plíny někde v LDN, ale pěkně běhat po horách jako oni), nás jedni z kolemjdoucích „důchodců“ v plném produktivním věku zdraví Ahoj. Tak my taky Ahoj a už jsou to Horákovi – Horní jsou rychlejší, protože pan Horní Horák nese věci paní Horní Horákové, zatímco Dolní Horákovi to mají rozděleno hezky rovnoprávně, jako my. Trochu nás znérvózní, že mají narozdíl od nás rezervaci a že do včera nebylo na chatě jediné volné místo. Takže radši Horákovi Horní Dolní předbíháme a šlapeme dál. Ve vyšších polohách se začíná kazit počasí, fouká, pak i prší. Cabana Tracuit se tyčí na skalním ostrohu na kraji ledovce na truc tak, že ji jeden vidí už z půli těch 1600m výškových, a přibližuje se jen velmi pomalu. Jak mi je zima, začínám se loudat, předbíhají nás Horákovi, nestíhám Bédu. Na chatu Cabana Tracuit (3256 m) přicházíme v pozdních odpoledních hodinách po skoro 6tihodinovém stoupání. Lágry jsou tu tři, podle kopců, a tak se ubytováváme v „Bishornu“. Večeře na nás nezbyla, bez problému si ale vystačíme se zelenou polévkou a něčím z našich zásob. Noc je dusná, v Bishornu se nás mačká soustu.
 
-## Pondělí 21.7.2008\tBISHORN
+## Pondělí 21.7.2008 BISHORN
 
 Bishorn (4153 m) jsme si vybrali jako aklimatizační snadný výstup a hlavně proto, abychom si z vrcholu prohlédli severku sousedního Weisshornu, našeho hlavního cíle. Z Cabany Tracuit vede na vrchol jednoduchý Severozápadní hřeben. Cabana Tracuit leží ve francouzky mluvící části jazykově nejednotného Švýcarska, a tak aby věděli, kam chcete, musíte říkat pěkně měkce „bíshór“, a ne vyzývavě „byšhorn“, jak by řekli o údolí vedle. V bíshórnu se vstává v pět. Snídaně je rychlá, pro ostatní organizovaná, pro nás spořivé Čecháčky vlastní, jen dokupujeme čaj za částku rovnající se cca aspoň jedné snídani. Venku už je světlo, a taky pěkná zima a vichr. Přes noc něco nasněžilo. Kousek ke kříži ještě musíme pěšky, ale pak už nasazujeme na nohy lyže, na lyže pásiky a na pásiky haršajzny a stoupáme po skialpinisticku co noha nohu mine, spojeni jedním lanem, třemi uzlíky a dobyvatelským pudem. Nejprve mírně stoupající traverz, to jde ještě hezky, ale jak jsme na hraně, vichr dosahuje velmi nepříjemné rychlosti a namrzlý svah nepříjemného sklonu, začíná to dost podkluzovat. Aby měli haršajzny vůbec šanci, musí patka zůstat dole, a lýtka úpí. V úsecích čelem proti větru to jde dost ztuha, ledový vítr mě tlačí k zemi a bolestivě šlehá do tváří, takže jsem vděčná za každou zatáčku, která nás nechá na chvíli stoupat s větrem v zádech. „Důchodci“ nám dávají na frak, jen Horákovi jsou ještě za námi, ale pak nabírají, už jsou vedle nás. Zdá se, že i oni nás předběhnou, jenže najednou frrr, Horákovi ani Horní ani Dolní nikde, zahučeli do trhliny? Asi to jen zabalili.
 
@@ -29,11 +29,11 @@ Konečně jsme v sedle, sundaváme lyže a vybíháme po sněhové převeji kous
 
 37 minut. Tak dlouho trvá sjezd i se všema obloučkama, přestávkama, smrkáním, pózováním, natáčením a mírným stoupáním zpět k chatě. Přesto těch 900 výškových metrů parádní sjezdovky přiměřeného sklonu a skvělého tvrdého sněhu určitě stálo za to. Za těch 6 hodin šlapání s lyžema na báglu, dalších 5 hodin dupání na pásikoch a opětovné snesení z lyží chaty do doliny, které nás ještě čeká. Lepší sjezd nepamatuju za celou letošní skialpovou sezónu. Na chatě lehce pojíme, pobalíme, vyfotíme kavče žlutozobé, navážeme lyže hezky na batohy a zase jako brouci s tykadlama běžíme dolů. Trvá mi ještě aspoň 500 metrů klesání, než se prohřeju tak, abych se odvážila sundat bundu. Přes skály a sutě zpátky na louky a do lesů a dolů do údolí. Nedostatečně trénované nohy se po dopoledním vláčení závaží začínají ozývat a dole už je skoro ani necítím. Vlastně cítím až moc. Závěrečnou rovinku po asfaltce do kempu v Zinalu se sotva vleču. Sprcha je příjemná, i když placená a ne zrovna teplá (Béda už měl menší stěstí, hodil tam drobný a nevytekla ani kapka). Lyže letí do kufru fabie, kde budou celý zbytek týdne, a my se těšíme na zítřejší restday.
 
-## Úterý 22.7.2008\tRESTDAY
+## Úterý 22.7.2008 RESTDAY
 
 Je restday, neboli den k zotavení horolezce či turisty po prožitých útrapách. Nohy bolí. Vstáváme spontánně po deváté, po pozvolné snídani procházka po vyparáděném Zinalu, palačinka v palačinkárně (a že má Béda dneska ty narozky, tak jsem mu ji z erárních peněz zaplatila), nákup sýra a chlebu v sámošce, konzumace sýra a chlebu v kempu, četba tisku a válení. Odpoledne se přesouváme po známe trase Sierre-Visp údolím, kde zrovna frčí čerstvé meruňky, až do Randy, kde se ubytováváme v příjemném kempu za vesnicí. Milá slečna na recepci nechce nic víc než Bédův pas. U stanů se suší lana, skelety a propocená horolezecká výstroj (kdo tu nemá alespoň jednoho slona na oblečení či batohu, je podezřelej!). Ve sprše teče teplá voda zdarma pořád. Měkký toaletní papír na čistých záchodcích nedochází. Zárukou dobré ceny je čestina znějící z každého třetího-čtvrtého stanu. My ten náš stavíme u kamene, co poslouží jako kuchyňský stůl, a ještě před večeří jdeme na výzvědy. Kus za Randou pozorujeme Cimiho kukátkem Severní stěnu a já už to musím říct, nechce se mi do ní. Na Weisshorn ale vylezu, to vím (skoro) jistě.
 
-## Středa 23.7.2008\tWEISSHORNHUTTE
+## Středa 23.7.2008 WEISSHORNHUTTE
 
 Dnes už sice zvoní budík, ale i tak se vším balením, navazováním všeho na batoh, ranní hygienou, dobrou snídaní, přeparkováním a placením opouštíme kemp až po 11h. Nechápu, jak půjdu nahoru, když mi dělají zásadní problém 4 schody na toalety. Ofic. čas výstupu na chatu je 4:30 a můžeme si vybrat, jestli půjdeme doleva, nebo doprava. Jdeme doleva - nejdřív přes precizně upravené golfové hřiště Matterhorn, kde Béda pokukuje toužebně po elegantních golfistkách v šik bermudách světle krémové barvy a závistivě po vozících s drahýma golfovýma holema. Pak už vzhůru travnatou strání a lesem po křížové cestě z roku 1921, umělecky nepříliš vyvedené, nicméně dojímající. Za 14. výjevem, kde už milého pana Ježíse sundali z kříže, je ještě malá kaplička s plastovými růžemi a to je konec, dál už je jen pár neobydlených salaší.
 
@@ -45,7 +45,7 @@ Béda přifuní za ¾ hodinky, pojíme něco sýru, klobásy a hnusného Tesco f
 
 Čas plyne nerušeně až do večeře. Tu máme velkopansky objednanou, a tak si to užíváme s ostatními v jídelně. Je tu asi 14 lezců v 3-4 skupinkách, 3 ženský včetně mě, všichni máme stejný cíl. Večeře je výborná, čtyřchodová, kvantitativně plně uspokojující – dokonce odmítáme přídavek, zakončená výtečným moučníkem tužší krémovité konzistence, který je chuťově něčím mezi jablečnou přesnídávkou, smetanovou zmrzlinou a krupicovou kaší. Po večeři dokončujeme přípravy na zítřek. Béda mě štve, protože mu jeho včera dosažených 27 let asi připadá už trochu moc, a tak odmítá vzít do batohu mapu, průvodce, druhé lano, pití či jiné život zachraňující propriety. Tak si to strkám do batohu sama, i když mi je taky tolik. Před spaním ještě zkouším volat Hrošíkovi, ale nefunguje to, no nic, snad se ještě uvidíme. Po osmé hodině se ještě za světla ukládáme do naducaných modrobíle pruhovaných peřin (Weisshornhutte je jediná chata co znám, kde nemají deky, ale opravdické peřiny) a zkoušíme spát.
 
-## Čtvrtek 24.7.2008\tWEISSHORN
+## Čtvrtek 24.7.2008 WEISSHORN
 
 Normálka neboli Východní hrana na Weisshorn taky není žádná dávačka. Respekt budí už jen těch skoro 1600 metrů převýšení a z vlastní zkušenosti moc dobře vím, že člověk nemůže dopředu tušit, zda ho v AD III potrápí lezení ploten v mačkách, nebo Tsunami sněhové převěje. O nutnosti slušného počasí není pochyb. To nám letos naštěstí přeje. Důležitost vůle a motivace zmiňovat nemusím, jak už bylo řečeno, je dostatečná.
 
@@ -69,19 +69,19 @@ Tak a mám toho už opravdu po krk! Dělej si, co chceš – že mi už přijde,
 
 Pan Luzius mi vaří mátový čaj, long day mu rozumím, to má teda pravdu, vlízt si můžu, do který postele chci (teď jsou prázdný všechny), friend přijde za chvilku a platit budeme zítra. Do modrobílé peřiny zapluju se stokrát větší chutí, než včera, a z polospánku slyším Bédovo „kurva“ – z čelovky se mu zrovna vysypaly baterie a rozkutálely se po podlaze lágru....
 
-## Pátek 25.7.2008\tRANDA
+## Pátek 25.7.2008 RANDA
 
 Probouzím se po deváté s pocitem rozlámaného těla, ukojeného ega a čisté hlavy. Velmi pozvolna balíme, platíme, snídáme brkaši s rybičkama. Po poledni se vrací dva borci, co stihli dobýt vrchol – všechna čest, a pár, co to vzdal. Ještě kola a horká čokoláda na rozloučenou a sestupujeme dolů. Na Jatzu usínám, takže dávám Bédovi náskok a zadělávám si na úžeh. Pak už zase louky, modříny, salaše, křížová cesta, golfové hřiště a jsem doma. Béda do sebe mezitím stihl kopnout dva pořádný panáky rumu s řidiči, co se opékají na židličkách na parkovišti před svým autobusem spokojeně a bez hnutí už asi týden. Ze všeho nedjřív letí dolů boty a hasíme žízeň flaškou ledového čaje ze sámošky na recepci. Stan stavíme vedle rodinky francouzských kočovníků o něco výš než minule. Doplňujeme ztracené kalorie svačinou, večeří a upadáme do snů. V noci pořádně prší – konečně – a za ten sundanej pytel jsem fakt ráda.
 
  
 
-## Sobota 26.7.2008\tRESTDAY II
+## Sobota 26.7.2008 RESTDAY II
 
 Po cca 12 hodinách spravedlivého spánku nezbývá než vstát. Už je zase hic. Flákáme se, pozorujeme dění v kempu – přesně řečeno někdo (já) dění, někdo (Béda) holky. Kdyby Cimi věděl, k čemu se hodí jeho kukátko, vůbec by nám ho nepůjčil. Ribana v rozevláté sukni, několika vrstvených svršcích, pod kterými se může skrývat ledacos, čelence a mokasínách se doučuje na reparát z matiky. Tašunka se ženou odjeli kočovným Renoltem na nákup a Tady sere pes neúnavně vybrnkává na kytaru smutné i veselé melodie. Němka od vedle si užívá krátké cyklovýlety i romantické večeře se dvěma chlápkama současně...nebo že by byl plešounek brácha toho prvního? Kočka dole zůstala sama, kluci jí odešli někam s lanama, snad se jí brzo vrátí, aby ji Béda nemusel utěšovat. Děcka plácaj badminton a Angláni pod námi smaží hamandeggs.
 
 Odpoledne se jdeme projít kolem golfového hřiště Matterohorn do Tasche na zmrzlinu. Béda se definitivně rozhodl, že začne hrát golf. Po večeři zase trochu krápe a opět brzo usínáme. Netušíme, co bude dál. Mě by trochu lákal Taschorn, ale ta správná motivace už tu není, a bez ní to nejde. Necháváme rozhodnutí na ráno.
 
-## Neděle 27.7.2008\tNÁVRAT
+## Neděle 27.7.2008 NÁVRAT
 
 Vstáváme pozdě a je tak nějak jasný, že další vrchol už nepadne. Trochu mě to mrzí, ale to jen proto, že bych se doma ráda vytahovala. Ve skutečnosti se mi do žádnýho dalšího martyria v ledu a skále ani trochu nechce, aspoň ne v následujícím týdnu. A Béda, ten je jasnej, ten už bude hrát tak akorát golf. Abychom úplně nezlenivěli, jdeme se trochu projít a namlsat lesních jahod do svahu nad kempem. Nad hranicí lesa se ještě chvíli kocháme pohledem na údolí Zermattu a už se těšíme, až se sem zase někdy dostanem.
 

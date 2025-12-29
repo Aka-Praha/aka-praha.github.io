@@ -18,9 +18,9 @@ Ubytko máme domluvené na louce Penzionu Na Klokočských skalách. Pro rodink
 
 Rádi bychom na neděli uspořádali soutěž v lezení:
 
-\t- Komínů
-\t- Spár
-\t- Širočin
+- Komínů
+- Spár
+- Širočin
 
 (snad se povede najít vhodný terén). Cílem soutěže bude co nejestetičtěji vylézt na věž danou technikou a přiblížit ji tak nováčkům. Zájemci o soutěž, hlaste se na mail Lence.
 

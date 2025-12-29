@@ -16,18 +16,18 @@ Aktivity, které se nabízejí:          běžky, sjezdovky v Polsku, 
 
 Cena:
 
-\t- 419 Kč/noc dospělák a velký dítě se snídaní,
-\t- 369 Kč/noc dítě 2 – 12 se snídaní,
-\t- 0 Kč/noc děti mladší než 2 roky,
-\t- Pro členy KČT sleva 50 Kč/(člověka x noc) – na tejdenní pobyt se asi vyplatí zřídit (rodinný) členství.
+- 419 Kč/noc dospělák a velký dítě se snídaní,
+- 369 Kč/noc dítě 2 – 12 se snídaní,
+- 0 Kč/noc děti mladší než 2 roky,
+- Pro členy KČT sleva 50 Kč/(člověka x noc) – na tejdenní pobyt se asi vyplatí zřídit (rodinný) členství.
 
 Kuchyňka tam není, hospoda jo.
 
 Doprava tam z Harrachova:
 
-\t- 8 km na běžkách
-\t- Nebo skútr se sáněma za 750 Kč (dva lidi na skútr + asi je ochotnej vzít lidi i na sáně, resp. táhnout zapřažence na lyžích)
-\t- Nebo skútr vyveze bágly a lidi tam vyjedou lanovkou ze Sklarský Poreby, která končí kousek nad Voseckou.
+- 8 km na běžkách
+- Nebo skútr se sáněma za 750 Kč (dva lidi na skútr + asi je ochotnej vzít lidi i na sáně, resp. táhnout zapřažence na lyžích)
+- Nebo skútr vyveze bágly a lidi tam vyjedou lanovkou ze Sklarský Poreby, která končí kousek nad Voseckou.
 
 Zájemci pište se sem (nerodinkáře prosím o přednostní obsazování dvanáctilůžkového lágru).
 
