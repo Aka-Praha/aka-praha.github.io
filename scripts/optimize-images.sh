@@ -37,6 +37,14 @@ while IFS= read -r -d '' file; do
 
     echo -n "[$total] $file -> "
 
+    # Přeskočit pokud .webp už existuje
+    if [ -f "$output" ]; then
+        echo "SKIP (webp existuje) - mazání originálu"
+        rm "$file"
+        ((converted++))
+        continue
+    fi
+
     # Konverze: zmenšení + WebP
     if convert "$file" -resize "${MAX_WIDTH}x>" -quality $QUALITY "$output" 2>/dev/null; then
         # Získej velikosti pro porovnání
