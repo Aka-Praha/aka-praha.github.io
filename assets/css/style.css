@@ -68,6 +68,11 @@ p {
     margin-bottom: 1rem;
 }
 
+ul, ol {
+    margin-left: 1.25rem;
+    margin-bottom: 1rem;
+}
+
 hr {
     margin: 1.5rem 0;
     border: none;
@@ -394,6 +399,15 @@ a {
     background-color: rgb(245 245 245 / 90%);
 }
 
+.content-wrapper a:not(.btn):not(.event-card-link):not(.pagination-btn):not(.pagination-number) {
+    color: #2563eb;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.content-wrapper a:not(.btn):not(.event-card-link):not(.pagination-btn):not(.pagination-number):hover {
+    color: #1d4ed8;
+}
 
 /* Section Styling */
 section {
@@ -727,6 +741,16 @@ section h2 {
 
 .article-body p {
     margin-bottom: 1rem;
+}
+
+.article-body a {
+    color: #2563eb;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.article-body a:hover {
+    color: #1d4ed8;
 }
 
 .article-footer {
