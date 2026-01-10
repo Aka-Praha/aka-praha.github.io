@@ -10,6 +10,18 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
+    // Mobile dropdown toggle
+    const dropdownToggle = document.querySelector('.nav-dropdown .dropdown-toggle');
+    if (dropdownToggle) {
+        dropdownToggle.addEventListener('click', function(e) {
+            // Only prevent default on mobile
+            if (window.innerWidth <= 768) {
+                e.preventDefault();
+                this.closest('.nav-dropdown').classList.toggle('active');
+            }
+        });
+    }
+
     // Smooth scroll for anchor links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
