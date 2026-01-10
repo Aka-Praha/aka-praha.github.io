@@ -204,6 +204,7 @@ a {
     visibility: hidden;
     transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s;
     z-index: 1001;
+    margin-left: 0;
 }
 
 /* Trojúhelníková šipka nahoře */
@@ -325,6 +326,7 @@ a {
 
     .nav-dropdown:hover .dropdown-menu {
         display: none;
+        transform: none;
     }
 
     .nav-dropdown.active .dropdown-menu {
