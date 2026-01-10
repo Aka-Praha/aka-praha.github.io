@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }} | {{ site.title }}</title>
     <meta name="description" content="{{ site.description }}">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="stylesheet" href="/assets/css/style.css?v={{ site.github.build_revision | default: site.time | date: '%s' }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
@@ -19,6 +19,6 @@
 
     {% include footer.html %}
 
-    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+    <script src="/assets/js/main.js?v={{ site.github.build_revision | default: site.time | date: '%s' }}"></script>
 </body>
 </html>
