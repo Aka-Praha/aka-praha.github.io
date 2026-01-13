@@ -4,7 +4,7 @@ permalink: /akce/s-novacky-boren/
 title: "S nováčky - Bořeň"
 date_begin: 2022-05-20
 date_end: 2022-05-22
-author: "Zuzana Kluková"
+author: "Zuzana Babuková"
 image: /images/2022-05/2019_05_25-AKA-Boren-DW-015.webp
 ---
 

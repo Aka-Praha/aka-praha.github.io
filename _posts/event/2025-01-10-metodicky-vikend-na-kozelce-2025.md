@@ -4,7 +4,7 @@ permalink: /akce/metodicky-vikend-na-kozelce-2025/
 title: "Metodický víkend na Kozelce 2025"
 date_begin: 2025-01-10
 date_end: 2025-01-12
-author: "Zuzana Kluková"
+author: "Zuzana Babuková"
 image: /images/2024-12/2023_03_19-AKA-Kozelka-DW-002_0.webp
 ---
 

@@ -4,7 +4,7 @@ permalink: /akce/s-novacky-srbsko/
 title: "S nováčky - Srbsko"
 date_begin: 2022-04-23
 date_end: 2022-04-24
-author: "Zuzana Kluková"
+author: "Zuzana Babuková"
 image: /images/2022-04/2019_04_13-AKA_Alkazar-DW-014.webp
 ---
 

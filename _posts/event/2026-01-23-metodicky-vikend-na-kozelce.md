@@ -4,7 +4,7 @@ permalink: /akce/metodicky-vikend-na-kozelce/
 title: "Metodický víkend na Kozelce 2026"
 date_begin: 2026-01-23
 date_end: 2026-01-25
-author: "Zuzana Kluková"
+author: "Zuzana Babuková"
 image: /images/2026-01/metodicky-vikend-kozelka.webp
 ---
 

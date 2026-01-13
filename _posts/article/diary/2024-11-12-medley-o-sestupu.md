@@ -3,7 +3,7 @@ categories: [content, article, diary]
 permalink: /clanky/denicek/medley-o-sestupu/
 title: "Medley o sestupu"
 date_created: 2024-11-12
-author: "Zuzana Kluková"
+author: "Zuzana Babuková"
 image: /images/2024-11/27_019.webp
 ---
 

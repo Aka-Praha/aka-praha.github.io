@@ -4,7 +4,7 @@ permalink: /akce/vikend-s-cekateli-ostrov-podzim-2021/
 title: "Víkend s čekateli - Ostrov (podzim 2021)"
 date_begin: 2021-10-08
 date_end: 2021-10-10
-author: "Zuzana Kluková"
+author: "Zuzana Babuková"
 image: /images/2021-11/2021_10_09-AKA-Ostrov-DW-039.webp
 ---
 

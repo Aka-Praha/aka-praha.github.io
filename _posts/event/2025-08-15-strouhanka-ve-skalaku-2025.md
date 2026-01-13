@@ -4,7 +4,7 @@ permalink: /akce/strouhanka-ve-skalaku-2025/
 title: "Strouhanka ve Skaláku 2025"
 date_begin: 2025-08-15
 date_end: 2025-08-17
-author: "Zuzana Kluková"
+author: "Zuzana Babuková"
 image: /images/2025-08/skalak.webp
 ---
 

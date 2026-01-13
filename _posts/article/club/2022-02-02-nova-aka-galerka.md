@@ -3,7 +3,7 @@ categories: [content, article, club]
 permalink: /clanky/klub/nova-aka-galerka/
 title: "Nová AKA galerka"
 date_created: 2022-02-02
-author: "Zuzana Kluková"
+author: "Zuzana Babuková"
 image: /images/2022-02/proweb_01.webp
 ---
 

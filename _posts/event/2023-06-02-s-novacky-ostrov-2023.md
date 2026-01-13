@@ -4,7 +4,7 @@ permalink: /akce/s-novacky-ostrov-2023/
 title: "S nováčky - Ostrov 2023"
 date_begin: 2023-06-02
 date_end: 2023-06-04
-author: "Zuzana Kluková"
+author: "Zuzana Babuková"
 image: /images/2023-05/2022_06_19-AKA-Tisa-DW-005.webp
 ---
 

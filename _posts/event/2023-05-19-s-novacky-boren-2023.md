@@ -4,7 +4,7 @@ permalink: /akce/s-novacky-boren-2023/
 title: "S nováčky - Bořeň 2023"
 date_begin: 2023-05-19
 date_end: 2023-05-21
-author: "Zuzana Kluková"
+author: "Zuzana Babuková"
 image: /images/2023-05/2022-05-21_boren_008.webp
 ---
 

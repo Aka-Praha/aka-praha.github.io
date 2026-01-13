@@ -4,7 +4,7 @@ permalink: /akce/s-novacky-ostrov-2025/
 title: "S nováčky - Ostrov 2025"
 date_begin: 2025-06-06
 date_end: 2025-06-08
-author: "Zuzana Kluková"
+author: "Zuzana Babuková"
 image: /images/2025-05/ostrov_2022_2.webp
 ---
 

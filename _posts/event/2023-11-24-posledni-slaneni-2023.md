@@ -4,7 +4,7 @@ permalink: /akce/posledni-slaneni-2023/
 title: "Poslední slanění 2023"
 date_begin: 2023-11-24
 date_end: 2023-11-26
-author: "Zuzana Kluková"
+author: "Zuzana Babuková"
 image: /images/2023-11/2022_11_26-AKA-Posledni_slaneni-DW-058.webp
 ---
 

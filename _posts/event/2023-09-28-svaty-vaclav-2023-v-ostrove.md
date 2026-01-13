@@ -4,7 +4,7 @@ permalink: /akce/svaty-vaclav-2023-v-ostrove/
 title: "Svatý Václav 2023 v Ostrově"
 date_begin: 2023-09-28
 date_end: 2023-10-01
-author: "Zuzana Kluková"
+author: "Zuzana Babuková"
 image: /images/2023-09/2022_06_18-AKA-Tisa-DW-008.webp
 ---
 

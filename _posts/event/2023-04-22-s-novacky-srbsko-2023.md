@@ -4,7 +4,7 @@ permalink: /akce/s-novacky-srbsko-2023/
 title: "S nováčky - Srbsko 2023"
 date_begin: 2023-04-22
 date_end: 2023-04-23
-author: "Zuzana Kluková"
+author: "Zuzana Babuková"
 image: /images/2023-04/2022-04-23_alkazar_014.webp
 ---
 

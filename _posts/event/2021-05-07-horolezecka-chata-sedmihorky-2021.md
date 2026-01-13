@@ -4,7 +4,7 @@ permalink: /akce/horolezecka-chata-sedmihorky-2021/
 title: "Horolezecká chata Sedmihorky 2021"
 date_begin: 2021-05-07
 date_end: 2021-05-09
-author: "Zuzana Kluková"
+author: "Zuzana Babuková"
 image: /images/2021-11/2021-05-08_suche-skaly_001.webp
 ---
 

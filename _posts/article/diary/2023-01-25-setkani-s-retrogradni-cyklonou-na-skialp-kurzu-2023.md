@@ -3,7 +3,7 @@ categories: [content, article, diary]
 permalink: /clanky/denicek/setkani-s-retrogradni-cyklonou-na-skialp-kurzu-2023/
 title: "Setkání s retrográdní cyklónou na skialp kurzu 2023"
 date_created: 2023-01-25
-author: "Zuzana Kluková"
+author: "Zuzana Babuková"
 image: /images/2023-01/nic.webp
 ---
 

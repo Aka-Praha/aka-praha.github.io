@@ -4,7 +4,7 @@ permalink: /akce/posledni-slaneni-2022/
 title: "Poslední slanění 2022"
 date_begin: 2022-11-25
 date_end: 2022-11-27
-author: "Zuzana Kluková"
+author: "Zuzana Babuková"
 image: /images/2022-11/2021_11_27-AKA-Posledni_slaneni-DW-016.webp
 ---
 

@@ -4,7 +4,7 @@ permalink: /akce/s-novacky-srbsko-2025/
 title: "S nováčky - Srbsko 2025"
 date_begin: 2025-04-12
 date_end: 2025-04-13
-author: "Zuzana Kluková"
+author: "Zuzana Babuková"
 image: /images/2025-04/2023_04_22-AKA-Srbsko-DW-030.webp
 ---
 

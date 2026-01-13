@@ -3,7 +3,7 @@ categories: [content, article, area]
 permalink: /clanky/oblasti/chorvatsko-omis/
 title: "Chorvatsko - Omiš"
 date_created: 2022-04-20
-author: "Zuzana Kluková"
+author: "Zuzana Babuková"
 image: /images/2022-04/2022-03-23_007.webp
 ---
 
