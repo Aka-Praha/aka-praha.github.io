@@ -15,5 +15,5 @@
 
 ## Ukázky (screenshoty)
 
-- ![Image 1](./assest/resizer.webp)
-- ![Image 2](./assest/tinypng.webp)
+- ![Image 1](./assets/resizer.webp)
+- ![Image 2](./assets/tinypng.webp)
