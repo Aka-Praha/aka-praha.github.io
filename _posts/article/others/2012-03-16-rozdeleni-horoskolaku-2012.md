@@ -1,0 +1,14 @@
+---
+categories: [content, article, others]
+permalink: /clanky/ostatni/rozdeleni-horoskolaku-2012/
+title: "Rozdělení horoškoláků 2012"
+date_created: 2012-03-16
+author: "Ondřej Horáček"
+---
+
+**Horoškolák** **Instruktor** **Stěna** **Drátník** **Bořeň** **Horní skály** [Pavel Špeta](/people/štépa) [Adam](/content/vaňkát)  Adam [Kulička](/content/kulveit) [Ondráš](/horacek) Adam [Radek Žák](/people/žák) [Adam](/content/vaňkát)  Adam [Kulička](/content/kulveit) [Ondráš](/horacek) Adam [Jan Švehla](/people/švehla) [Oskar](/content/lažanský) Tonda [Bača](/content/báť)? [Bača](/content/báť)   [Tomáš Kletečka](/people/kletečka) [Oskar](/content/lažanský) Tonda [Bača?](/content/báť) [Bača](/content/báť)   [Martin Linhart](/people/linhart) [Oskar](/content/lažanský) [Kulička](/content/kulveit)?   nejede   [Jana Michálková](/people/michálková) [Oskar](/content/lažanský) [Kulička](/content/kulveit)?   [Oskar](/content/lažanský)   [Romana Komárková](/people/komarková) [Matěj](/content/morava) [Matěj](/content/morava)   [Matěj](/content/morava)   [Matěj](/content/morava) nejede   [Věra Převrátilová](/people/převrátilová) [Matěj](/content/morava) [Matěj](/content/morava)   [Matěj](/content/morava)   [Matěj](/content/morava) nejede  [Michal Petýrek](/people/petýrek) (Kvído) [Eda](/content/kramoliš) [Milan Klášterka](/content/kláterka) [Milan Klášterka](/content/kláterka) [Eda](/content/kramoliš) nejede  [Daniel Sedláček](/people/sedláek) [Eda](/content/kramoliš) [Milan Klášterka](/content/kláterka) [Milan Klášterka](/content/kláterka) [Eda](/content/kramoliš) nejede  [Kateřina Krejčová](/people/krejčová) [Pepa](/content/líba) [Pepa](/content/líba) [Pepa](/content/líba) [Honza Plocek](/node/39)   [Klára Jakešová](/people/jakešová) [Pepa](/content/líba) [Pepa](/content/líba) [Pepa](/content/líba) [Honza Plocek](/node/39)   [Michal Kroupa](/people/kroupa) [Béda](/content/škarohlíd) [Bača](/content/báť) Pavel [Béda](/content/škarohlíd)   [Radek Podškubka](/people/podskuba) [Béda](/content/škarohlíd)   Pavel [Béda](/content/škarohlíd) nejede [Jitka Novotná](/people/novotná) [Honza Plocek](/node/39) [Irča](/content/váňová)   nejede   [Silva Vavroušová](/people/vavroušová) [Honza Plocek](/node/39) [Irča](/content/váňová)   asi taky nejede  
+ 
+
+Horoškoláci jsou ve dvojkách takto, instruktory jsme rozdělili s ohledem na čas a možnost se horoškolákům zavěnovat. Pro lezení na umělce nechť napíše instruktor horoškolákům maila nebo zavolá. Kdyby se horoškolákovi nikdo neozval do úterý 20.3., tak nechť zavolá nebo napíše Oskarovi (tento týden je totiž hodně z instruktorů v Tatrách). Kdyby někomu z instruktorů nevyhovoval termín nebo cokoli, tak napište maila na mě a na Oskara, máme relativně možnost to přehodit i na další neuvedené instruktory.
+
+Kontakty najdete v seznamu členů, telefony jsou viditelné jen po příhlášení. Fotky horoškoláků [zde](/content/fotky-horoškoláků).

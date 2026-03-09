@@ -1,0 +1,22 @@
+---
+categories: [content, article, others]
+permalink: /clanky/ostatni/pujcit-bez-rezervace-2-cast/
+title: "Půjčit bez rezervace 2.část"
+date_created: 2008-11-26
+author: "Irena Horáčková"
+---
+
+'; echo ''; echo ''; echo ''; echo" Druh Popis Celkové množství Z toho půjčeno Půjčit "; $veci = db_query("SELECT * FROM sklad WHERE kategorie=1 order by druh"); echo "**Letní materiál**"; while ($vec = db_fetch_object($veci)) { $vypujcky= db_query("SELECT * FROM vypujcky WHERE idVec=$vec->id AND termin_vraceni IS NULL"); $pujceno = 0; $dispozice = $vec->mnozstvi; while ($vypujcka = db_fetch_object($vypujcky)) { if ((($vypujcka->termin_zacatkutermin_koncetermin_zacatku>=$konec)&&($vypujcka->termin_konce>=$konec))){ } else{ $pujceno = $pujceno + $vypujcka->mnozstvi; $dispozice = $dispozice - $vypujcka->mnozstvi; } } echo ""; echo $vec->druh; echo ""; echo $vec->popis; echo ""; echo $vec->mnozstvi; echo ""; echo $pujceno; echo ""; echo 'id; echo '" size="1">'; for ($i=0; $i'; echo $i; } echo ''; } $veci = db_query("SELECT * FROM sklad WHERE kategorie=2 order by druh"); echo ""; echo "**Lavinový materiál**"; while ($vec = db_fetch_object($veci)) { $vypujcky= db_query("SELECT * FROM vypujcky WHERE idVec=$vec->id AND termin_vraceni IS NULL"); $pujceno = 0; $dispozice = $vec->mnozstvi; while ($vypujcka = db_fetch_object($vypujcky)) { if ((($vypujcka->termin_zacatkutermin_koncetermin_zacatku>=$konec)&&($vypujcka->termin_konce>=$konec))){ } else{ $pujceno = $pujceno + $vypujcka->mnozstvi; $dispozice = $dispozice - $vypujcka->mnozstvi; } } echo ""; echo $vec->druh; echo ""; echo $vec->popis; echo ""; echo $vec->mnozstvi; echo ""; echo $pujceno; echo ""; echo 'id; echo '" size="1">'; for ($i=0; $i'; echo $i; } echo ''; } $veci = db_query("SELECT * FROM sklad WHERE kategorie=3 order by druh"); echo ""; echo "**Zimní materiál lezecký**"; while ($vec = db_fetch_object($veci)) { $vypujcky= db_query("SELECT * FROM vypujcky WHERE idVec=$vec->id AND termin_vraceni IS NULL"); $pujceno = 0; $dispozice = $vec->mnozstvi; while ($vypujcka = db_fetch_object($vypujcky)) { if ((($vypujcka->termin_zacatkutermin_koncetermin_zacatku>=$konec)&&($vypujcka->termin_konce>=$konec))){ } else{ $pujceno = $pujceno + $vypujcka->mnozstvi; $dispozice = $dispozice - $vypujcka->mnozstvi; } } echo ""; echo $vec->druh; echo ""; echo $vec->popis; echo ""; echo $vec->mnozstvi; echo ""; echo $pujceno; echo ""; echo 'id; echo '" size="1">'; for ($i=0; $i'; echo $i; } echo ''; } $veci = db_query("SELECT * FROM sklad WHERE kategorie=4 order by druh"); echo ""; echo "**Skoby**"; while ($vec = db_fetch_object($veci)) { $vypujcky= db_query("SELECT * FROM vypujcky WHERE idVec=$vec->id AND termin_vraceni IS NULL"); $pujceno = 0; $dispozice = $vec->mnozstvi; while ($vypujcka = db_fetch_object($vypujcky)) { if ((($vypujcka->termin_zacatkutermin_koncetermin_zacatku>=$konec)&&($vypujcka->termin_konce>=$konec))){ } else{ $pujceno = $pujceno + $vypujcka->mnozstvi; $dispozice = $dispozice - $vypujcka->mnozstvi; } } echo ""; echo $vec->druh; echo ""; echo $vec->popis; echo ""; echo $vec->mnozstvi; echo ""; echo $pujceno; echo ""; echo 'id; echo '" size="1">'; for ($i=0; $i'; echo $i; } echo ''; } $veci = db_query("SELECT * FROM sklad WHERE kategorie=5 order by druh"); echo ""; echo "**Zimní materiál lezecký**"; while ($vec = db_fetch_object($veci)) { $vypujcky= db_query("SELECT * FROM vypujcky WHERE idVec=$vec->id AND termin_vraceni IS NULL"); $pujceno = 0; $dispozice = $vec->mnozstvi; while ($vypujcka = db_fetch_object($vypujcky)) { if ((($vypujcka->termin_zacatkutermin_koncetermin_zacatku>=$konec)&&($vypujcka->termin_konce>=$konec))){ } else{ $pujceno = $pujceno + $vypujcka->mnozstvi; $dispozice = $dispozice - $vypujcka->mnozstvi; } } echo ""; echo $vec->druh; echo ""; echo $vec->popis; echo ""; echo $vec->mnozstvi; echo ""; echo $pujceno; echo ""; echo 'id; echo '" size="1">'; for ($i=0; $i'; echo $i; } echo ''; } echo ''; echo ''; echo ""; echo "
+### Poznámka k výpůjčce:
+"; echo ''; } else{ echo 'CHYBA: Chybná syntaxe alespoň jednoho datumu. [Zpět](pujcit1_bez).**
+
+'; echo $zacatek.' '.$konec.'
+'; } } else{ echo 'CHYBA: alespoň jeden z termínů nebo uživatel je prázdný. [Zpět](pujcit1_bez).
+
+'; } ?> Další možnosti výpisů**
+- [Seznam možností](moznosti_sklad)
+- [Seznam skladu](seznam_skladu)
+- [Seznam rezervací](rezervace_sklad)
+- [Seznam nevrácených výpůjček](seznam_nevracenych)
+- [Seznam vrácených výpůjček](seznam_vracenych)
+- [Seznam mých restů](moje_resty)
