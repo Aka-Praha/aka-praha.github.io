@@ -698,7 +698,7 @@ section h2 {
 .article-featured-image {
     width: calc(100% + 60px);
     height: 400px;
-    object-fit: cover;
+    object-fit: contain;
     object-position: center;
     display: block;
     background-color: var(--light-color);
