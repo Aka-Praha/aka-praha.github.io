@@ -1,7 +1,7 @@
 ---
 categories: [content, event]
-permalink: /akce/s-novacky-boren-2025/
-title: "S nováčky - Bořeň 2025"
+permalink: /akce/s-novacky-boren-2026/
+title: "S nováčky - Bořeň 2026"
 date_begin: 2026-05-15
 date_end: 2026-05-17
 author: "Zuzana Babuková"
