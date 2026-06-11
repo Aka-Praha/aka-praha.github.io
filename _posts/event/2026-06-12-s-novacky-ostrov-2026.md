@@ -1,14 +1,14 @@
 ---
 categories: [content, event]
 permalink: /akce/s-novacky-ostrov-2026/
-title: "S nováčky - Ostrov 2026"
-date_begin: 2026-06-12
-date_end: 2026-06-14
+title: "S nováčky - Ostrov 2026 - změna termínu!"
+date_begin: 2026-06-19
+date_end: 2026-06-21
 author: "Zuzana Babuková"
 image: /images/2026-06/2026-06-12_ostrov.webp
 ---
 
-O víkendu **12. - 14. 6. 2026** lezeme s nováčky v Ostrově. V případě nepřízně počasí se akce přesune o týden později.
+O víkendu **19. - 21. 6. 2026** lezeme s nováčky v Ostrově. Termín byl kvůli počasí přesunut (původně bylo 12. - 14. 6.).
 
 **Spaní:** Kemp Pod Císařem - rezervujte si samostatně
 
