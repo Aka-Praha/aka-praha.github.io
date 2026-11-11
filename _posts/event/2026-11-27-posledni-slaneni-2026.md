@@ -14,7 +14,7 @@ image: /images/2026-11/2026-11-27-slano.webp
 
 **Spaní:** Jsou tam postele i s lůžkovinami, ale nemusí stačit pro všechny, tak je fajn přibalit do auta pro jistotu spacák s karimatkou.
 
-**Jídlo:** Částečně se snad bude řešit hromadně. Rozhodně nebudou chybět **pivo**, **víno **a** čaje **(víno a čaje v množství dle proběhlého hlasování).
+**Jídlo:** Částečně se snad bude řešit hromadně. Rozhodně nebudou chybět **pivo**, **víno** a **čaje** (víno a čaje v množství dle proběhlého hlasování).
 
 **Program:** Procházka se slaněním, shrnutí celého roku, vyhlášení výstupů roku, oficiální přijetí úspěšných horoškoláků, fotosoutěž, bazar, wokshopy a mnoho dalšího
 
