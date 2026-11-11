@@ -5,7 +5,7 @@ title: "Poslední slanění 2026"
 date_begin: 2026-11-26
 date_end: 2026-11-29
 author: "Sovička a Lucinečka"
-image: /images/2026-11/2026-11-27-slano.webp
+image: /images/2026-11/2026-11-27_slano.webp
 ---
 
 Čeká nás oficální završení lezecké sezóny 2026 a slavnostní přijímání nových členů!
